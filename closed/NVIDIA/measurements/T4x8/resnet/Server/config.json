@@ -1,0 +1,22 @@
+{
+    "benchmark": "resnet",
+    "config_name": "T4x8_resnet_Server",
+    "resnet": {
+        "active_sms": 100,
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 26,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 2,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 41500,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "scenario": "Server",
+    "system_id": "T4x8"
+}

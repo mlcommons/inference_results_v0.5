@@ -1,0 +1,67 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : LWIS_Server
+Scenario : Multi Stream
+Mode     : Performance
+Samples per query : 6320
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Intervals between each IssueQuery:  "qps" : 20, "ms" : 50
+50.00 percentile : 1
+90.00 percentile : 1
+95.00 percentile : 1
+97.00 percentile : 1
+99.00 percentile : 1
+99.90 percentile : 1
+
+Per-query latency:  "target_ns" : 50000000, "target_ms" : 50
+50.00 percentile latency (ns)   : 45085586
+90.00 percentile latency (ns)   : 46092266
+95.00 percentile latency (ns)   : 46342310
+97.00 percentile latency (ns)   : 46487219
+99.00 percentile latency (ns)   : 46724643
+99.90 percentile latency (ns)   : 46918600
+
+Per-sample latency:
+Min latency (ns)                : 5860193
+Max latency (ns)                : 48333154
+Mean latency (ns)               : 25174141
+50.00 percentile latency (ns)   : 25220009
+90.00 percentile latency (ns)   : 41194857
+95.00 percentile latency (ns)   : 43140270
+97.00 percentile latency (ns)   : 43849335
+99.00 percentile latency (ns)   : 44967938
+99.90 percentile latency (ns)   : 46197121
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 6320
+target_qps : 20
+target_latency (ns): 50000000
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 24000
+max_query_count : 0
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 123
+accuracy_log_probability : 0.01
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 1024
+
+8 warnings encountered. See detailed log.
+
+No errors encountered during test.

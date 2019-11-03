@@ -1,0 +1,6 @@
+Verifying performance.
+WARNING: 1 ERROR reported in reference results
+WARNING: 1 ERROR reported in test results
+reference score = 223017
+test score = 222848
+TEST PASS

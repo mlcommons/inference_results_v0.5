@@ -1,0 +1,52 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : sut
+Scenario : Server
+Mode     : Performance
+Scheduled samples per second : 15979.48
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Completed samples per second    : 15976.57
+
+Min latency (ns)                : 8064322
+Max latency (ns)                : 37571757
+Mean latency (ns)               : 9150223
+50.00 percentile latency (ns)   : 9006532
+90.00 percentile latency (ns)   : 9606094
+95.00 percentile latency (ns)   : 9865100
+97.00 percentile latency (ns)   : 10223285
+99.00 percentile latency (ns)   : 12985092
+99.90 percentile latency (ns)   : 22985291
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 16000
+target_latency (ns): 15000000
+max_async_queries : 0
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 960000
+max_query_count : 0
+qsl_rng_seed : 195
+sample_index_rng_seed : 235
+schedule_rng_seed : 634
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 3072
+
+No warnings encountered during test.
+
+No errors encountered during test.

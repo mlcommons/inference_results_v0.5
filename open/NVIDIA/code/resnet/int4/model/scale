@@ -1,0 +1,4 @@
+Scale
+compute_mode=s32f32f32
+out_scale=f32,1:1000
+!model/npdata/scale.out_scale

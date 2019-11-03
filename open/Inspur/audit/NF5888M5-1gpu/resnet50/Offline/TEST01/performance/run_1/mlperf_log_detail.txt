@@ -1,0 +1,453 @@
+"pid": 2143, "tid": 2143, "ts": 4389ns : LoadgenVersionInfo:
+"pid": 2143, "tid": 2143, "ts": 4389ns : version : .5a1 @ 5684c11e39
+"pid": 2143, "tid": 2143, "ts": 4389ns : build_date_local : 2019-10-25T03:26:28.068802
+"pid": 2143, "tid": 2143, "ts": 4389ns : build_date_utc   : 2019-10-25T03:26:28.068808
+"pid": 2143, "tid": 2143, "ts": 4389ns : git_commit_date  : 2019-10-01T08:16:04-07:00
+"pid": 2143, "tid": 2143, "ts": 4389ns : git_log :
+
+5684c11e3987b614aae830390fa0e92f56b7e800 Update the broken txt url link (#456)
+55c0ea4e772634107f3e67a6d0da61e6a2ca390d https://github.com/mlperf/inference/issues/450 logging per-sample info regardless of scenario (#454)
+d31c18fbd9854a4f1c489ca1bc4cd818e48f2bc5 Adding a flag to accuracy-coco script which fixes issue with preprocessing that removes 48 empty images (#453)
+1d0e06e54a7d763cf228bdfd8b1e987976e4222f Implement LogSettings::enable_trace (#466)
+d9c4b77ed961c20bdff2b2a4c7d0904a91408882 Merge pull request #467 from guschmue/gs/config-fix
+62eddd5fa123c0ed7f230868cf7e6d08f49f697c there was a dot missing when parsing items from config file
+5c4c571583ebf9703daeadd5a5f90f6bd0253852  Offline scenario PerformanceOnly mode should generate 1 instead of 2 queries (#461)
+6019b1b6154f6fe399519743cd59394554d80d26 Update README.md
+2e9a1f7c164ec715a6cbd014eea805d69b4b14a4 Merge pull request #427 from nvmbreughe/master
+ace74c303888e575826d2a8be8460608d156efae Merge pull request #406 from guschmue/gs/fix-no-results
+52699022d32271a00c7ec840acb77180a8c5d061 Split on any whitespace in val_map.txt, not just tab. (#458)
+5a4803e37b990c0f294c8a7caa6029fb6f201573 On MacOS/LLVM thread_ids are not auto-convertible to uint64_t and have to be converted manually (#439)
+94e7f492ff936e02a626c49918fd8b17d076fe7e Merge pull request #449 from guschmue/gs/fix-docker
+2dd8318b3f7a6ffea49d88716b96cb3172e66834 fix output path in docker image
+4df4601374cfc2c2c6d25b8aef08585614a8f5cd Merge pull request #432 from guschmue/gs/fix-target-qps
+c3128640fd6d52c631b5639df39172ec1565400d remove comment
+
+"pid": 2143, "tid": 2143, "ts": 4389ns : git_status :
+
+ D ../../.gitignore
+ D ../../.gitmodules
+ D ../../.gn
+ D ../../BUILD.gn
+ D ../../CONTRIBUTING.md
+ D ../../DEPS
+ D ../../LICENSE.md
+ D ../../Makefile
+ D ../../README.md
+ D ../../build
+ D ../../build_overrides/build.gni
+ D ../../calibration/COCO/coco_cal_images_list.txt
+ D ../../calibration/ImageNet/README.md
+ D ../../calibration/ImageNet/cal_image_list_option_1.txt
+ D ../../calibration/ImageNet/cal_image_list_option_2.txt
+ D "../../calibration/doc/example writeup.adoc"
+ D ../../calibration/translation/calibration_data.en
+ D ../../calibration/translation/calibration_data.tok.bpe.en
+ M ../.clang-format
+ M ../BUILD.gn
+ M ../CMakeLists.txt
+ M ../README.md
+ M ../README_BUILD.md
+ M ../README_FAQ.md
+ M ../bindings/c_api.cc
+ M ../bindings/c_api.h
+ M ../bindings/python_api.cc
+ M ../demos/BUILD.gn
+ M ../demos/py_demo_multi_stream.py
+ M ../demos/py_demo_multi_stream_free.py
+ M ../demos/py_demo_offline.py
+ M ../demos/py_demo_server.py
+ M ../demos/py_demo_single_stream.py
+ M ../depot_tools/fetch_configs/mlperf_loadgen.py
+ M ../docs/src/BUILD.gn
+ M ../docs/src/README.md
+ M ../docs/src/doxygen.cfg
+ M ../docs/src/doxygen_footer.html
+ M ../docs/src/doxygen_header.html
+ M ../docs/src/doxygen_html_generator.py
+ M ../docs/src/doxygen_layout.xml
+ M ../docs/src/doxygen_stylesheet.css
+ M ../docs/src/mlperf_logo_horizontal_color.svg
+ M ../loadgen.cc
+ M ../loadgen.h
+ M ../loadgen_integration_diagram.svg
+ M ../logging.cc
+ M ../logging.h
+ M ../query_sample.h
+ M ../query_sample_library.h
+ M ../setup.py
+ M ../system_under_test.h
+ M ../test_settings.h
+ M ../test_settings_internal.cc
+ M ../test_settings_internal.h
+ M ../tests/BUILD.gn
+ M ../tests/README.md
+ M ../tests/basic.cc
+ M ../tests/loadgen_test.h
+ M ../tests/loadgen_test_main.cc
+ M ../tests/perftests_null_sut.cc
+ M ../tests/perftests_null_sut.py
+ M ../utils.cc
+ M ../utils.h
+ M ../version.cc
+ M ../version.h
+ M ../version_generator.py
+ D ../../loadgen_pymodule_setup_lib.py
+ D ../../loadgen_pymodule_setup_src.py
+ D ../../others/cloud/language_modeling/Dockerfile
+ D ../../others/cloud/language_modeling/README.md
+ D ../../others/cloud/language_modeling/benchmark.py
+ D ../../others/cloud/language_modeling/requirements.txt
+ D ../../others/cloud/language_modeling/vocab.txt
+ D ../../others/cloud/sentiment_analysis/README.md
+ D ../../others/cloud/sentiment_analysis/converting_scripts/convert_numpy_to_torch.py
+ D ../../others/cloud/sentiment_analysis/converting_scripts/convert_parmas_to_np.py
+ D ../../others/cloud/sentiment_analysis/download_imdb.sh
+ D ../../others/cloud/sentiment_analysis/download_models_mxnet.sh
+ D ../../others/cloud/sentiment_analysis/download_models_pyt.sh
+ D ../../others/cloud/sentiment_analysis/mxnet/Dockerfile
+ D ../../others/cloud/sentiment_analysis/mxnet/data.py
+ D ../../others/cloud/sentiment_analysis/mxnet/eval.py
+ D ../../others/cloud/sentiment_analysis/mxnet/models/__init__.py
+ D ../../others/cloud/sentiment_analysis/mxnet/models/crossentropy.py
+ D ../../others/cloud/sentiment_analysis/mxnet/models/model_cnn.py
+ D ../../others/cloud/sentiment_analysis/mxnet/requirements.txt
+ D ../../others/cloud/sentiment_analysis/pytorch/Dockerfile
+ D ../../others/cloud/sentiment_analysis/pytorch/data.py
+ D ../../others/cloud/sentiment_analysis/pytorch/eval.py
+ D ../../others/cloud/sentiment_analysis/pytorch/models/__init__.py
+ D ../../others/cloud/sentiment_analysis/pytorch/models/model_cnn.py
+ D ../../others/cloud/sentiment_analysis/pytorch/requirements.txt
+ D ../../others/cloud/single_stage_detector/.dockerignore
+ D ../../others/cloud/single_stage_detector/Dockerfile
+ D ../../others/cloud/single_stage_detector/Dockerfile_cuda
+ D ../../others/cloud/single_stage_detector/ReadMe.md
+ D ../../others/cloud/single_stage_detector/download_dataset.sh
+ D ../../others/cloud/single_stage_detector/download_model.sh
+ D ../../others/cloud/single_stage_detector/pytorch/README.md
+ D ../../others/cloud/single_stage_detector/pytorch/base_model.py
+ D ../../others/cloud/single_stage_detector/pytorch/coco.py
+ D ../../others/cloud/single_stage_detector/pytorch/infer.py
+ D ../../others/cloud/single_stage_detector/pytorch/run_and_time.sh
+ D ../../others/cloud/single_stage_detector/pytorch/ssd300.py
+ D ../../others/cloud/single_stage_detector/pytorch/ssd_r34.py
+ D ../../others/cloud/single_stage_detector/pytorch/utils.py
+ D ../../others/cloud/single_stage_detector/requirements.txt
+ D ../../others/cloud/single_stage_detector/tensorflow/README.md
+ D ../../others/cloud/single_stage_detector/tensorflow/dataset_config/coco_labelmap.txt
+ D ../../others/cloud/single_stage_detector/tensorflow/dataset_config/mscoco_label_map.pbtxt
+ D ../../others/cloud/single_stage_detector/tensorflow/dataset_config/val2017_image_list.txt
+ D ../../others/cloud/single_stage_detector/tensorflow/download_dataset.sh
+ D ../../others/cloud/single_stage_detector/tensorflow/download_model.sh
+ D ../../others/cloud/single_stage_detector/tensorflow/eval_tf.py
+ D ../../others/cloud/single_stage_detector/tensorflow/requirements.txt
+ D ../../others/cloud/single_stage_detector/tensorflow/utils_tf.py
+ D ../../others/cloud/speech_recognition/pytorch/CONTRIBUTORS.md
+ D ../../others/cloud/speech_recognition/pytorch/README.md
+ D ../../others/cloud/speech_recognition/pytorch/__init__.py
+ D ../../others/cloud/speech_recognition/pytorch/dataset/.gitignore
+ D ../../others/cloud/speech_recognition/pytorch/dataset/__init__.py
+ D ../../others/cloud/speech_recognition/pytorch/dataset/bucketing_sampler.py
+ D ../../others/cloud/speech_recognition/pytorch/dataset/data-LibriSpeech-ref-cksum.out
+ D ../../others/cloud/speech_recognition/pytorch/dataset/data_loader.py
+ D ../../others/cloud/speech_recognition/pytorch/dataset/download_dataset.sh
+ D ../../others/cloud/speech_recognition/pytorch/dataset/labels.json
+ D ../../others/cloud/speech_recognition/pytorch/dataset/librispeech.py
+ D ../../others/cloud/speech_recognition/pytorch/dataset/utils.py
+ D ../../others/cloud/speech_recognition/pytorch/docker/Dockerfile
+ D ../../others/cloud/speech_recognition/pytorch/docker/base.gpu
+ D ../../others/cloud/speech_recognition/pytorch/docker/build_docker.sh
+ D ../../others/cloud/speech_recognition/pytorch/docker/install_docker.sh
+ D ../../others/cloud/speech_recognition/pytorch/docker/run_dev.sh
+ D ../../others/cloud/speech_recognition/pytorch/inference/README.md
+ D ../../others/cloud/speech_recognition/pytorch/inference/inference.py
+ D ../../others/cloud/speech_recognition/pytorch/inference/plot_inference_results.py
+ D ../../others/cloud/speech_recognition/pytorch/inference/run_inference.sh
+ D ../../others/cloud/speech_recognition/pytorch/inference/setup.sh
+ D ../../others/cloud/speech_recognition/pytorch/model/.gitignore
+ D ../../others/cloud/speech_recognition/pytorch/model/__init__.py
+ D ../../others/cloud/speech_recognition/pytorch/model/convert_onnx.py
+ D ../../others/cloud/speech_recognition/pytorch/model/decoder.py
+ D ../../others/cloud/speech_recognition/pytorch/model/eval_model.py
+ D ../../others/cloud/speech_recognition/pytorch/model/model.py
+ D ../../others/cloud/speech_recognition/pytorch/model/params.py
+ D ../../others/cloud/speech_recognition/pytorch/model/utils.py
+ D ../../others/cloud/translation/gnmt/pytorch/README.md
+ D ../../others/cloud/translation/gnmt/pytorch/download_trained_model.sh
+ D ../../others/cloud/translation/gnmt/pytorch/get_code.sh
+ D ../../others/cloud/translation/gnmt/pytorch/requirements.txt
+ D ../../others/cloud/translation/gnmt/pytorch/translate.py
+ D ../../others/edge/INSTALL_UBUNTU_NUC.md
+ D ../../others/edge/face_identification/sphereface20/tflite/README.md
+ D ../../others/edge/face_identification/sphereface20/tflite/dataset/download_lfw.sh
+ D ../../others/edge/face_identification/sphereface20/tflite/dataset/select_testset.py
+ D ../../others/edge/face_identification/sphereface20/tflite/inference_sphereface.sh
+ D ../../others/edge/face_identification/sphereface20/tflite/inference_tflite.py
+ D ../../others/edge/face_identification/sphereface20/tflite/model/sphereface_float.tflite
+ D ../../others/edge/face_identification/sphereface20/tflite/postprocess/eval.py
+ D ../../others/edge/face_identification/sphereface20/tflite/prepare_env.sh
+ D ../../others/edge/face_identification/sphereface20/tflite/preprocess/mtcnn_preprocess_align.py
+ D ../../others/edge/face_identification/sphereface20/tflite/results/.gitignore
+ D ../../others/edge/object_classification/shufflenet/caffe2/README.md
+ D ../../others/edge/object_classification/shufflenet/caffe2/run.sh
+ D ../../others/edge/object_detection/ssd_mobilenet/pytorch/README.md
+ D ../../others/edge/object_detection/ssd_mobilenet/pytorch/anchor_generator.py
+ D ../../others/edge/object_detection/ssd_mobilenet/pytorch/convert_tf_weights.py
+ D ../../others/edge/object_detection/ssd_mobilenet/pytorch/ssd_mobilenet_v1.py
+ D ../../others/edge/object_detection/ssd_mobilenet/pytorch/test_on_coco.py
+ D ../../others/edge/object_detection/ssd_mobilenet/pytorch/utils.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/README.md
+ D ../../others/edge/object_segmentation/maskrcnn2go/code/blob_utils.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/code/box_utils.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/code/eval_seg_cpu.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/code/infer_model_pb_utils.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/code/json_dataset.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/code/json_dataset_evaluator.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/code/model_utils.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/code/test_engine.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/code/utils2.py
+ D ../../others/edge/object_segmentation/maskrcnn2go/model/fp32/model.pb
+ D ../../others/edge/object_segmentation/maskrcnn2go/model/fp32/model.pbtxt
+ D ../../others/edge/object_segmentation/maskrcnn2go/model/fp32/model_def.svg
+ D ../../others/edge/object_segmentation/maskrcnn2go/model/fp32/model_init.pb
+ D ../../others/edge/object_segmentation/maskrcnn2go/run.sh
+ D ../../others/edge/object_segmentation/maskrcnn2go/run_eval.sh
+ D ../../others/edge/speech_recognition/pytorch/.gitignore
+ D ../../others/edge/speech_recognition/pytorch/Dockerfile
+ D ../../others/edge/speech_recognition/pytorch/LICENSE
+ D ../../others/edge/speech_recognition/pytorch/Makefile
+ D ../../others/edge/speech_recognition/pytorch/README.md
+ D ../../others/edge/speech_recognition/pytorch/requirements.txt
+ D ../../others/edge/speech_recognition/pytorch/setup.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/__init__.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/data/__init__.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/data/alphabet.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/data/datasets/__init__.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/data/datasets/librispeech.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/data/datasets/utils.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/data/loader.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/data/preprocess.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/decoder/__init__.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/decoder/base.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/decoder/beam.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/decoder/greedy.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/global_state.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/logging/__init__.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/logging/log_level_action.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/logging/mixin.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/loss/__init__.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/loss/ctc_loss.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/loss/eval.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/models/__init__.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/models/deepspeech.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/models/deepspeech2.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/models/model.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/networks/__init__.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/networks/deepspeech.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/networks/deepspeech2.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/networks/utils.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/run.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/utils/__init__.py
+ D ../../others/edge/speech_recognition/pytorch/src/deepspeech/utils/singleton.py
+ D ../../others/edge/translation/gnmt/tensorflow/README.md
+ D ../../third_party/BUILD.gn
+ D ../../third_party/gn
+ D ../../third_party/ninja
+ D ../../v0.5/classification_and_detection/.dockerignore
+ D ../../v0.5/classification_and_detection/.gitignore
+ D ../../v0.5/classification_and_detection/Dockerfile.cpu
+ D ../../v0.5/classification_and_detection/Dockerfile.gpu
+ D ../../v0.5/classification_and_detection/GettingStarted.ipynb
+ D ../../v0.5/classification_and_detection/README.md
+ D ../../v0.5/classification_and_detection/VERSION_NUMBER
+ D ../../v0.5/classification_and_detection/optional_harness_ck/classification/README.md
+ D ../../v0.5/classification_and_detection/optional_harness_ck/classification/onnx/README.md
+ D ../../v0.5/classification_and_detection/optional_harness_ck/classification/tf-cpp/README.md
+ D ../../v0.5/classification_and_detection/optional_harness_ck/classification/tf-py/README.md
+ D ../../v0.5/classification_and_detection/optional_harness_ck/classification/tflite/README.md
+ D ../../v0.5/classification_and_detection/optional_harness_ck/detection/README.md
+ D ../../v0.5/classification_and_detection/optional_harness_ck/detection/tf-py/README.md
+ D ../../v0.5/classification_and_detection/optional_harness_ck/detection/tflite/README.md
+ D ../../v0.5/classification_and_detection/python/__init__.py
+ D ../../v0.5/classification_and_detection/python/backend.py
+ D ../../v0.5/classification_and_detection/python/backend_null.py
+ D ../../v0.5/classification_and_detection/python/backend_onnxruntime.py
+ D ../../v0.5/classification_and_detection/python/backend_pytorch.py
+ D ../../v0.5/classification_and_detection/python/backend_pytorch_native.py
+ D ../../v0.5/classification_and_detection/python/backend_tf.py
+ D ../../v0.5/classification_and_detection/python/backend_tflite.py
+ D ../../v0.5/classification_and_detection/python/coco.py
+ D ../../v0.5/classification_and_detection/python/dataset.py
+ D ../../v0.5/classification_and_detection/python/imagenet.py
+ D ../../v0.5/classification_and_detection/python/main.py
+ D ../../v0.5/classification_and_detection/python/models/anchor_generator.py
+ D ../../v0.5/classification_and_detection/python/models/base_model_r34.py
+ D ../../v0.5/classification_and_detection/python/models/convert_tf_weights.py
+ D ../../v0.5/classification_and_detection/python/models/ssd_mobilenet_v1.py
+ D ../../v0.5/classification_and_detection/python/models/ssd_r34.py
+ D ../../v0.5/classification_and_detection/python/models/utils.py
+ D ../../v0.5/classification_and_detection/python/pycoco.py
+ D ../../v0.5/classification_and_detection/python/version.py
+ D ../../v0.5/classification_and_detection/run_and_time.sh
+ D ../../v0.5/classification_and_detection/run_common.sh
+ D ../../v0.5/classification_and_detection/run_helper.sh
+ D ../../v0.5/classification_and_detection/run_local.sh
+ D ../../v0.5/classification_and_detection/setup.py
+ D ../../v0.5/classification_and_detection/tools/accuracy-coco.py
+ D ../../v0.5/classification_and_detection/tools/accuracy-imagenet.py
+ D ../../v0.5/classification_and_detection/tools/ci-run.sh
+ D ../../v0.5/classification_and_detection/tools/coco-analyze.py
+ D ../../v0.5/classification_and_detection/tools/convert-to-onnx.sh
+ D ../../v0.5/classification_and_detection/tools/lglog2csv.py
+ D ../../v0.5/classification_and_detection/tools/make_fake_imagenet.sh
+ D ../../v0.5/classification_and_detection/tools/mobilenet-to-onnx.sh
+ D ../../v0.5/classification_and_detection/tools/pylintrc
+ D ../../v0.5/classification_and_detection/tools/resnet50-to-onnx.sh
+ D ../../v0.5/classification_and_detection/tools/resnet50-to-tflite.sh
+ D ../../v0.5/classification_and_detection/tools/resnet_save.py
+ D ../../v0.5/classification_and_detection/tools/ssd-mobilenet-to-onnx.sh
+ D ../../v0.5/mlperf.conf
+ D ../../v0.5/tools/upscale_coco/README.md
+ D ../../v0.5/tools/upscale_coco/coco.py
+ D ../../v0.5/tools/upscale_coco/upscale.sh
+ D ../../v0.5/tools/upscale_coco/upscale_coco.py
+ D ../../v0.5/translation/gnmt/tensorflow/README.md
+ D ../../v0.5/translation/gnmt/tensorflow/download_dataset.sh
+ D ../../v0.5/translation/gnmt/tensorflow/download_trained_model.sh
+ D ../../v0.5/translation/gnmt/tensorflow/generic_loadgen.py
+ D ../../v0.5/translation/gnmt/tensorflow/loadgen_gnmt.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/__init__.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/attention_model.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/gnmt_model.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/inference.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/inference_test.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/model.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/model_helper.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/model_test.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/nmt.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/nmt_test.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/scripts/__init__.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/scripts/bleu.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/scripts/rouge.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/standard_hparams/wmt16_gnmt_4_layer.json
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/train.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/__init__.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/common_test_utils.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/evaluation_utils.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/evaluation_utils_test.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/iterator_utils.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/iterator_utils_test.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/misc_utils.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/misc_utils_test.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/nmt_utils.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/standard_hparams_utils.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/vocab_utils.py
+ D ../../v0.5/translation/gnmt/tensorflow/nmt/utils/vocab_utils_test.py
+ D ../../v0.5/translation/gnmt/tensorflow/preprocess_input.sh
+ D ../../v0.5/translation/gnmt/tensorflow/process_accuracy.py
+ D ../../v0.5/translation/gnmt/tensorflow/run_task.py
+ D ../../v0.5/translation/gnmt/tensorflow/train_gnmt.txt
+ D ../../v0.5/translation/gnmt/tensorflow/verify_dataset.sh
+
+"pid": 2143, "tid": 2143, "ts": 4389ns : ERROR : Loadgen built with uncommitted changes!
+"pid": 2143, "tid": 2143, "ts": 4389ns : SHA1 of files :
+
+b3e678e3299747f3a463c47eb1b01a3804c3e841 /.clang-format
+2155467e9fe3179164caf252a8dc69b881762cfb /BUILD.gn
+6e666f37bd3f10a72036ccf73e53df640678814a /CMakeLists.txt
+a9c7d9144fe8f05a7e96400f1f41f74b8f7adf9b /README.md
+bc1f582c44b120bd6ff708a5e8e770325b159494 /README_BUILD.md
+2249085b345393ed1f08f0075dd4dfcd862da491 /README_FAQ.md
+8df972ae247b6f626dc4ae64e0e46ae617c4ff7c /bindings/c_api.cc
+3263f0dc7e7c3061335ca1225220f963fc8b320c /bindings/c_api.h
+74dab551d868722861a6c7d0c80622b46c4299d5 /bindings/python_api.cc
+3c792bf70aaf8393e1692c007c255c02126cb81b /demos/BUILD.gn
+1626b62c106fcbf51a457995d234807f617429e4 /demos/py_demo_multi_stream.py
+14ede8bbb7ebf12bc2e53b36540b87151254bb48 /demos/py_demo_multi_stream_free.py
+3c183d28e1966dd71d72087ca0cdf1b35ffa7faf /demos/py_demo_offline.py
+d8ee6e0bd8b063da54195b9d852f451aaf805675 /demos/py_demo_server.py
+308b808726c9e038927699b3db039b49b79b4c9e /demos/py_demo_single_stream.py
+f2f4746f4a49b814d5540b37656786dad0a2da2e /loadgen.cc
+b8abdbecbedb4dab83246a72b5775e1bfbc3f66a /loadgen.h
+45139782eae1dc9ea1a9a26e173ef8b7abe25e3d /loadgen_integration_diagram.svg
+7df38b0aa658996da3656ef914e1c7f187ebb655 /logging.cc
+7cb07c7f1d58c4f991e62a6bef60e5792c3987c7 /logging.h
+e06136e6eb1eba12e1d7587b15d0b9fac2cdb82c /query_sample.h
+5be8b966e1b0aff13c17b4dc8e0929292134dc7d /query_sample_library.h
+e66ea5b82b54f3c76097ca5c6dbae4bc642cfc1b /setup.py
+4bbb7cbeb32d088d784e236feb2eb4f4217791af /system_under_test.h
+7485b69604e1165e958393bd8f0e7049a83fa394 /test_settings.h
+de418e3b79632f94ea39f3d9daee248628cf00f1 /test_settings_internal.cc
+8f0baa77f8f467b4e3c1d0e817ecb7ae692d9dcb /test_settings_internal.h
+5316efe63d886f3cf7a639b3d45bee90c51a017a /utils.cc
+a42e0e5d569103f412f5577aee94f4740fb57fe4 /utils.h
+bd9a74b4acead783d20a1eeb16a3b2038dfa5de6 /version.cc
+b1f9fdf1c87ccbda9f5febcb7e55cffec8191b50 /version.h
+52a7d52fdf095cf6bc8e28f9e5f01c17820c6522 /version_generator.py
+
+"pid": 2143, "tid": 2143, "ts": 11701ns : Date + time of test: 2019-10-30T01:44:50Z
+"pid": 2143, "tid": 2143, "ts": 11701ns : System Under Test (SUT) name: cScheduleSUT
+"pid": 2143, "tid": 2143, "ts": 11701ns : Query Sample Library (QSL) name: cScheduleQSL
+"pid": 2143, "tid": 2143, "ts": 11701ns : QSL total size: 2000
+"pid": 2143, "tid": 2143, "ts": 11701ns : QSL performance size*: 2000
+"pid": 2143, "tid": 2143, "ts": 11701ns : *TestSettings (performance_sample_count_override) can override
+"pid": 2143, "tid": 2143, "ts": 11701ns : *Refer to Effective Settings for actual value
+"pid": 2143, "tid": 2143, "ts": 24504ns : Found Audit Config file (audit.config). Overriding TestSettings from audit.config file.
+"pid": 2143, "tid": 2143, "ts": 70995ns : 
+"pid": 2143, "tid": 2143, "ts": 70995ns : Effective Settings:
+"pid": 2143, "tid": 2143, "ts": 70995ns : Scenario : Offline
+"pid": 2143, "tid": 2143, "ts": 70995ns : Test mode : Performance
+"pid": 2143, "tid": 2143, "ts": 70995ns : samples_per_query : 2640000
+"pid": 2143, "tid": 2143, "ts": 70995ns : target_qps : 40000
+"pid": 2143, "tid": 2143, "ts": 70995ns : target_latency (ns): 0
+"pid": 2143, "tid": 2143, "ts": 70995ns : target_latency_percentile : 0
+"pid": 2143, "tid": 2143, "ts": 70995ns : max_async_queries : 1
+"pid": 2143, "tid": 2143, "ts": 70995ns : target_duration (ms): 0
+"pid": 2143, "tid": 2143, "ts": 70995ns : min_duration (ms): 60000
+"pid": 2143, "tid": 2143, "ts": 70995ns : max_duration (ms): 0
+"pid": 2143, "tid": 2143, "ts": 70995ns : min_query_count : 1
+"pid": 2143, "tid": 2143, "ts": 70995ns : max_query_count : 0
+"pid": 2143, "tid": 2143, "ts": 70995ns : min_sample_count : 2640000
+"pid": 2143, "tid": 2143, "ts": 70995ns : qsl_rng_seed : 3133965575612453542
+"pid": 2143, "tid": 2143, "ts": 70995ns : sample_index_rng_seed : 665484352860916858
+"pid": 2143, "tid": 2143, "ts": 70995ns : schedule_rng_seed : 3622009729038561421
+"pid": 2143, "tid": 2143, "ts": 70995ns : accuracy_log_rng_seed : 456
+"pid": 2143, "tid": 2143, "ts": 70995ns : accuracy_log_probability : 0.1
+"pid": 2143, "tid": 2143, "ts": 70995ns : print_timestamps : false
+"pid": 2143, "tid": 2143, "ts": 70995ns : performance_issue_unique : false
+"pid": 2143, "tid": 2143, "ts": 70995ns : performance_issue_same : false
+"pid": 2143, "tid": 2143, "ts": 70995ns : performance_issue_same_index : 0
+"pid": 2143, "tid": 2143, "ts": 70995ns : performance_sample_count : 2000
+"pid": 2143, "tid": 2143, "ts": 71415ns : 
+"pid": 2143, "tid": 2143, "ts": 71415ns : Requested Settings:
+"pid": 2143, "tid": 2143, "ts": 71415ns : Scenario : Offline
+"pid": 2143, "tid": 2143, "ts": 71415ns : Test mode : Performance
+"pid": 2143, "tid": 2143, "ts": 71415ns : offline_expected_qps : 40000
+"pid": 2143, "tid": 2143, "ts": 71415ns : min_duration_ms : 60000
+"pid": 2143, "tid": 2143, "ts": 71415ns : max_duration_ms : 0
+"pid": 2143, "tid": 2143, "ts": 71415ns : min_query_count : 1
+"pid": 2143, "tid": 2143, "ts": 71415ns : max_query_count : 0
+"pid": 2143, "tid": 2143, "ts": 71415ns : qsl_rng_seed : 3133965575612453542
+"pid": 2143, "tid": 2143, "ts": 71415ns : sample_index_rng_seed : 665484352860916858
+"pid": 2143, "tid": 2143, "ts": 71415ns : schedule_rng_seed : 3622009729038561421
+"pid": 2143, "tid": 2143, "ts": 71415ns : accuracy_log_rng_seed : 456
+"pid": 2143, "tid": 2143, "ts": 71415ns : accuracy_log_probability : 0.1
+"pid": 2143, "tid": 2143, "ts": 71415ns : print_timestamps : false
+"pid": 2143, "tid": 2143, "ts": 71415ns : performance_issue_unique : false
+"pid": 2143, "tid": 2143, "ts": 71415ns : performance_issue_same : false
+"pid": 2143, "tid": 2143, "ts": 71415ns : performance_issue_same_index : 0
+"pid": 2143, "tid": 2143, "ts": 71415ns : performance_sample_count_override : 0
+"pid": 2143, "tid": 2143, "ts": 71415ns : 
+"pid": 2143, "tid": 2143, "ts": 78258ns : Starting performance mode:
+"pid": 2143, "tid": 2143, "ts": 121574ns : Loading QSL : "set" : "[961,348,364,445,952,1234,1400,1539,1108,115,1687,471,52,1935,216,240,420,1857,505,1887,117,790,143,959,1601,1994,717,665,1775,323,683,777,1147,1907,736,580,1811,1694,906,744,1986,1893,1609,573,697,1817,885,1796,1525,1059,520,789,1384,1717,857,36,758,421,945,1533,964,541,874,1534,1610,455,847,1566,1697,1659,1157,1462,1093,1899,816,865,486,1353,698,1940,355,1981,1616,1871,1306,427,1688,1000,1768,1034,1997,1869,1445,1274,1403,975,826,1266,599,587,1053,1090,1419,449,1513,533,617,462,128,484,1399,978,1988,478,1063,1945,799,1983,836,1734,44,661,1256,1847,1209,1912,1816,118,1430,671,1597,1141,1308,1543,467,42,627,1715,1850,1836,316,330,853,237,47,483,1321,279,966,806,1541,187,268,592,1039,325,1716,1432,748,1415,722,788,22,1880,1950,101,1793,972,179,46,633,417,1010,1752,1674,822,883,191,1958,18,193,1977,56,1788,1490,351,710,1138,1116,1113,1742,739,381,1401,1128,1913,1329,339,1560,831,89,925,1537,1162,1038,1351,911,1980,965,768,1202,596,11,1378,1381,1953,494,264,1241,983,365,1285,1588,1518,1627,803,443,1484,5,489,99,1,1832,1402,180,1148,100,1660,757,1626,1878,1040,728,1118,897,792,112,222,1045,1373,236,696,447,1295,1558,1761,1217,571,538,1725,1326,1812,1998,1562,1468,1879,732,515,1804,96,1396,1098,725,1896,1975,506,1265,1232,276,1854,3,537,1344,1068,1122,1229,394,1318,1570,875,1966,253,1398,1175,1498,1103,204,1929,1744,1973,387,1364,818,463,995,812,309,1421,955,556,241,588,1493,1592,1233,1888,529,692,1264,891,1416,1862,868,1855,600,1393,1633,405,426,1596,273,1349,397,33,1371,706,1667,1485,1809,542,662,1540,122,791,1865,1247,1166,1151,277,680,607,1813,1009,302,1845,1735,1052,562,1428,1480,1328,62,682,551,1492,4,1723,1753,147,1331,1474,1069,304,1047,1509,1085,928,391,1206,677,767,1289,960,245,414,700,459,1016,801,653,357,974,814,1369,1785,1346,1872,593,765,877,176,121,572,949,828,341,1319,890,1852,1330,1772,1021,1449,1011,1168,1374,498,1629,407,1696,643,1450,1070,1394,754,383,1861,1821,527,1606,1969,1205,113,1949,907,199,1112,1567,382,15,1391,1094,745,1928,111,257,1561,1309,659,1121,134,1110,621,492,1375,1279,267,1992,1015,1701,476,1527,1684,866,106,239,578,438,48,1352,1376,762,1544,746,1682,124,215,1392,1957,838,956,1800,163,1363,368,1828,559,1044,55,349,167,1408,1496,622,851,1853,460,184,392,522,1181,1194,208,1901,409,160,41,1677,1224,1223,1220,1084,1802,1272,181,434,641,465,755,198,820,815,620,1161,1727,1680,1510,1488,510,1519,2,1180,352,1164,1964,1532,1661,932,1002,1833,1077,678,21,1638,1987,1777,1299,1142,1407,173,938,664,315,1763,750,1748,939,412,1417,618,1243,133,366,1884,994,1056,334,644,1434,843,13,1246,1074,1438,369,674,1314,589,1848,1773,1963,131,287,1441,1650,1585,1466,1500,1133,1939,721,235,672,1710,1418,707,817,1647,1889,244,496,547,881,581,1452,75,1600,404,148,1023,1790,898,987,300,390,1720,1066,1547,819,749,1187,1221,1236,1170,189,1576,912,764,1228,1524,73,1340,858,262,1032,1506,738,1119,809,944,479,32,1332,1815,1695,946,1563,1150,1276,359,1267,1140,540,1003,151,337,563,1230,1823,1320,1598,1425,929,19,1835,645,896,624,178,104,654,1019,1974,1048,947,850,567,311,775,579,251,691,1608,1457,1022,1192,322,1700,1698,968,338,1952,1491,1448,329,1671,1584,1548,76,1531,1941,1559,1824,1497,626,1676,1169,1522,864,1649,172,1210,813,584,625,28,1999,280,74,948,793,441,609,1212,182,1193,1906,557,873,796,988,1443,1064,165,1844,872,993,915,1625,882,451,29,1153,1174,1565,1125,1886,1831,829,1699,1029,634,1538,985,1556,145,419,1092,1014,649,201,166,835,523,98,130,612,893,1459,1115,1345,871,1924,283,1904,1760,605,590,1933,388,1632,395,1749,1049,319,958,1386,1437,1231,1129,1173,833,1819,658,202,402,1764,1911,1611,119,1410,1614,1357,1792,1431,249,1830,1368,1213,1067,729,10,782,810,751,1152,1088,1191,91,1605,1683,168,1350,1708,1582,1135,842,1979,525,517,693,360,16,328,561,980,431,1681,1190,275,497,1692,629,597,1554,1604,1005,1385,1107,439,317,832,1799,1746,1204,1222,504,194,207,1163,1810,917,1060,548,488,927,923,737,105,718,723,660,1617,1158,203,786,1529,910,86,1263,724,1195,555,1176,855,1759,704,1422,1801,1728,839,998,336,140,39,886,1842,981,34,1938,209,363,1307,1897,976,185,887,1339,1172,784,558,1447,996,374,406,569,27,82,238,1439,1252,1729,1186,1755,85,120,1242,759,585,92,345,1908,1672,630,1311,935,487,1296,461,7,583,293,371,611,1590,1726,1301,1275,1927,670,292,256,70,1961,543,1515,1312,713,1397,1104,1628,512,217,1183,1665,79,705,1414,535,320,1765,1882,1568,269,904,628,1946,1778,901,295,1731,1304,1057,1117,1025,477,94,1413,1583,400,1781,1293,1464,1355,894,1779,1106,594,761,1076,335,1557,1423,686,1137,1663,1782,446,1004,1249,1545,1641,1372,1333,606,794,648,1337,1017,967,1036,824,1294,614,1776,88,730,453,301,740,1536,1849,226,861,1389,1789,1037,1487,84,1185,499,1280,433,1990,1268,808,848,213,646,1918,1012,1188,1511,1079,1483,1642,1825,1807,841,482,1390,59,1769,169,1455,1719,1648,934,469,458,248,1985,900,350,1370,1042,1622,448,454,613,297,1634,25,1787,491,695,303,1324,318,93,136,807,1348,943,1874,157,1730,913,1248,888,1167,376,6,1343,1521,261,1550,1412,1740,137,1426,1654,23,278,1693,1618,798,1737,1631,642,174,1982,1922,1520,313,1822,1477,1091,69,950,675,1269,500,1080,651,289,1298,1903,1972,1313,1442,1216,1739,1546,1690,1856,107,1581,926,564,452,1095,1322,1780,401,344,632,743,1165,1281,1837,1089,1713,1894,1154,1995,466,346,1406,1105,805,1653,669,1126,531,1114,811,386,218,1595,1580,126,464,856,14,991,1405,1621,709,1255,1870,212,188,1818,1424,679,425,1131,1820,753,507,1109,1380,1594,1075,1767,1637,1724,1277,1552,109,1934,474,1743,1197,393,708,1944,480,1919,1797,603,1460,1283,470,67,186,66,1495,206,652,384,756,1359,1615,1055,1013,175,1655,511,1433,1591,797,783,1239,1124,1429,1335,132,428,347,1868,1657,1947,921,1316,1578,142,1201,999,971,884,1007,398,1250,1361,1427,844,418,566,1774,1083,1814,1144,1993,942,326,1177,1758,712,415,895,1666,1078,1762,969,61,536,227,1892,1931,127,1705,1921,1679,81,616,367,1099,192,1054,485,343,413,1486,129,954,1214,1636,635,1478,1603,396,747,878,503,716,1930,1461,1244,230,1751,231,306,286,532,1341,1937,1840,1499,930,676,481,920,1026,1910,760,1569,247,375,1211,1786,152,986,880,1841,1867,1881,1058,228,1288,575,1475,823,860,1505,423,1245,663,1942,1714,1366,1876,776,1646,673,1258,1325,1454,524,321,123,38,591,1360,1050,795,260,554,444,1864,403,197,35,690,1338,1292,1624,1388,876,953,60,90,1184,1436,1356,1347,1257,1706,379,1612,1504,1465,1440,1678,667,827,1574,177,331,528,1526,1658,210,1916,1971,290,214,26,1061,1136,1668,1959,1251,1741,410,879,570,45,731,1300,1803,1143,1342,1954,918,1315,429,1925,312,456,1507,1262,493,57,1018,220,804,1639,769,619,1530,1640,440,1645,1006,687,1750,288,411,270,1208,1127,1278,772,144,741,1826,1476,155,640,837,637,1572,908,219,867,1883,1467,1051,919,766,720,490,1030,1218,495,1253,1479,1791,1607,1905,863,1579,501,274,970,1502,1976,1890,735,787,631,1514,380,1528,1989,1898,1354,1747,982,1834,1920,1656,378,774,702,271,636,1900,681,72,12,450,139,1237,430,1577,752,1008,519,110,539,1027,1282,701,1875,399,1435,362,1702,1962,1271,1960,1891,1207,1156,1035,892,80,1336,997,1444,1873,1203,1334,442,1917,598,422,1469,265,560,1219,694,250,514,655,361,1553,733,475,1199,1771,43,389,1551,508,1130,1362,284,170,941,1968,1838,1259,205,1317,992,1709,1718,233,1756,1096,984,957,153,1602,1664,1404,518,102,1599,802,1858,294,373,989,258,1575,1587,87,1072,1652,1482,574,1291,242,1031,1722,1305,385,266,714,1139,1712,1662,296,1024,610,1310,1808,1736,582,1132,780,1943,1227,1383,639,1501,854,162,770,125,1859,546,903,1670,285,30,576,252,1643,973,1365,1290,638,1923,916,516,545,353,1189,1087,1754,1721,1111,108,936,1542,1463,1996,1323,1689,1902,354,408,657,565,1453,685,862,1102,1711,1472,71,1086,299,909,1926,1691,1302,834,1895,135,601,263,1936,1675,727,530,1225,259,1549,432,1473,1071,77,785,544,1200,116,1783,1915,1028,298,1101,234,1508,1100,1033,1046,1395,1984,1970,1178,1270,1182,1494,20,1327,65,778,78,586,254,1651,1827,246,473,1978,1914,64,830,255,58,154,821,1573,310,1471,95,31,931,1382,1766,416,1707,340,703,1387,333,1555,83,1523,1446,0,962,1669,211,924,200,1001,1685,1571,372,1284,1470,1805,281,1770,138,307,608,49,1613,324,158,1260,1235,370,1704,97,1065,1635,1286,1839,914,342,308,719,1795,1297,852,1630,781,990,1877,190,1745,699,24,437,1686,771,1516,1120,1846,1420,243,1489,1623,232,509,550,615,1073,1261,1377,604,647,849,1829,68,1948,688,742,156,846,526,291,889,779,1146,1503,1866,1159,8,1798,577,141,933,1843,424,1303,103,595,159,1155,1367,1287,1535,1967,1619,435,37,327,358,1456,825,859,734,1041,146,17,1593,1589,224,149,63,979,1196,553,1238,656,1955,1062,40,164,602,356,1991,1703,521,1409,1517,1149,171,53,1909,1620,1171,1738,1123,229,668,1863,684,305,977,1512,1160,436,183,513,225,1794,1081,1226,1564,196,9,940,114,1240,50,715,1379,1757,689,1020,726,963,650,1198,1733,54,1860,1358,1458,1082,223,1586,552,502,773,1097,1806,1644,332,472,1885,1956,1851,1732,711,549,282,195,899,221,568,1451,1481,1273,905,937,1179,1134,1932,1215,377,468,763,150,1673,1784,1254,840,314,845,1043,800,870,869,161,666,272,1145,902,51,457,951,534,1411,922,1951,623,1965]"
+"pid": 2143, "tid": 2143, "ts": 1351388465ns : GeneratedQueries: "queries" : 1, "samples per query" : 2640000, "duration" : 25000
+"pid": 2143, "tid": 2143, "ts": 1518800979ns : ERROR : Ending early: Ran out of generated queries to issue before the minimum query count and test duration were reached.
+"pid": 2143, "tid": 2143, "ts": 1518800979ns : Please update the relevant expected latency or target qps in the TestSettings so they are more accurate.
+"pid": 2143, "tid": 2143, "ts": 275864896799ns : Log Contention Counters:
+"pid": 2143, "tid": 2143, "ts": 275864896799ns : 0 : swap_request_slots_retry_count
+"pid": 2143, "tid": 2143, "ts": 275864896799ns : 0 : swap_request_slots_retry_retry_count
+"pid": 2143, "tid": 2143, "ts": 275864896799ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 2143, "tid": 2143, "ts": 275864896799ns : 0 : start_reading_entries_retry_count
+"pid": 2143, "tid": 2143, "ts": 275864896799ns : 0 : tls_total_log_cas_fail_count
+"pid": 2143, "tid": 2143, "ts": 275864896799ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 2143, "tid": 2143, "ts": 275864902101ns : POWER_BEGIN: "mode" : Performance, "time" : 10-30-2019 01:44:51.917
+"pid": 2143, "tid": 2143, "ts": 275864902101ns : POWER_END: "mode" : Performance, "time" : 10-30-2019 01:49:26.404

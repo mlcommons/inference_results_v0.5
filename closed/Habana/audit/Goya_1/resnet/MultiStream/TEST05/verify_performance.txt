@@ -1,0 +1,4 @@
+Verifying performance.
+reference score = 700
+test score = 700
+TEST PASS

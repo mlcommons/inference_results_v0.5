@@ -1,0 +1,37 @@
+{
+    "division": "open",
+    "submitter": "NVIDIA",
+    "status": "available",
+    "system_name": "NVIDIA Jetson AGX Xavier",
+
+    "number_of_nodes": "1",
+    "host_processor_model_name": "NVIDIA Carmel (ARMv8.2)",
+    "host_processors_per_node": "1",
+    "host_processor_core_count": "8",
+    "host_processor_frequency": "2265.5 MHz",
+    "host_processor_caches": "8MB L2 (2MB per dual cluster)/4 MB L3 (shared)",
+    "host_memory_configuration": "",     
+    "host_memory_capacity": "16 GB",
+    "host_storage_capacity": "32 GB",
+    "host_storage_type": "eMMC 5.1",
+    "host_processor_interconnect": "",
+    "host_networking": "",
+    "host_networking_topology": "",
+
+    "accelerators_per_node": "1",
+    "accelerator_model_name": "NVIDIA Xavier",
+    "accelerator_frequency": "",
+    "accelerator_host_interconnect": "",
+    "accelerator_interconnect": "",
+    "accelerator_interconnect_topology": "",
+    "accelerator_memory_capacity": "Shared with host",
+    "accelerator_memory_configuration": "SRAM",
+    "accelerator_on-chip_memories": "1MB (128KB/SM) L1 + 512KB L2 + 4MB (DLA)",
+    "cooling": "",
+    "hw_notes": "",
+
+    "framework": "JetPack 4.3 DP, TensorRT 6.0, cuDNN 7.6.3, CUDA 10.0, cub 1.8.0",
+    "operating_system": "Ubuntu 18.04.3",
+    "other_software_stack": "pycuda 2019.1, pytorch 1.1, torchvision 0.2.2.post3",
+    "sw_notes": ""
+}

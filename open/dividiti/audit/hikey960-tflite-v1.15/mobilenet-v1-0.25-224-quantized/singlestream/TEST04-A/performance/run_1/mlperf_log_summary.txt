@@ -1,0 +1,54 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : TFLite_SUT
+Scenario : Single Stream
+Mode     : Performance
+90th percentile latency (ns) : 5446411
+Result is : INVALID
+  Min duration satisfied : NO
+  Min queries satisfied : Yes
+Recommendations:
+ * Decrease the expected latency so the loadgen pre-generates more queries.
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 207.01
+QPS w/o loadgen overhead        : 207.52
+
+Min latency (ns)                : 3925562
+Max latency (ns)                : 57780810
+Mean latency (ns)               : 4818875
+50.00 percentile latency (ns)   : 4281815
+90.00 percentile latency (ns)   : 5446411
+95.00 percentile latency (ns)   : 5639642
+97.00 percentile latency (ns)   : 6508401
+99.00 percentile latency (ns)   : 15215783
+99.90 percentile latency (ns)   : 53182325
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 1000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 10000
+max_duration (ms): 0
+min_query_count : 100
+max_query_count : 0
+qsl_rng_seed : 0
+sample_index_rng_seed : 0
+schedule_rng_seed : 0
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : true
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 1024
+
+No warnings encountered during test.
+
+1 ERROR encountered. See detailed log.

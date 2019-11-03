@@ -1,0 +1,56 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : PySUT
+Scenario : Single Stream
+Mode     : Performance
+90th percentile latency (ns) : 7216138
+Result is : INVALID
+  Min duration satisfied : NO
+  Min queries satisfied : NO
+Recommendations:
+ * Decrease the expected latency so the loadgen pre-generates more queries.
+ * The test exited early, before enough queries were issued.
+   See the detailed log for why this may have occurred.
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 146.52
+QPS w/o loadgen overhead        : 146.78
+
+Min latency (ns)                : 6291914
+Max latency (ns)                : 8643747
+Mean latency (ns)               : 6813137
+50.00 percentile latency (ns)   : 6740884
+90.00 percentile latency (ns)   : 7216138
+95.00 percentile latency (ns)   : 7426324
+97.00 percentile latency (ns)   : 7539122
+99.00 percentile latency (ns)   : 7695036
+99.90 percentile latency (ns)   : 8263854
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 100
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 50000
+max_query_count : 50000
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : true
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 1024
+
+No warnings encountered during test.
+
+1 ERROR encountered. See detailed log.

@@ -1,0 +1,134 @@
+"pid": 16959, "tid": 16959, "ts": 15677ns : LoadgenVersionInfo:
+"pid": 16959, "tid": 16959, "ts": 15677ns : version : .5a1 @ 413dbabcb3
+"pid": 16959, "tid": 16959, "ts": 15677ns : build_date_local : 2019-11-01T14:42:58.217202
+"pid": 16959, "tid": 16959, "ts": 15677ns : build_date_utc   : 2019-11-01T09:12:58.217214
+"pid": 16959, "tid": 16959, "ts": 15677ns : git_commit_date  : 2019-10-09T11:02:56-07:00
+"pid": 16959, "tid": 16959, "ts": 15677ns : git_log :
+
+413dbabcb30dc2ee1fe42e7b8090b37e8144617d Merge pull request #489 from guschmue/gs/seeds_to_config
+168255031dd893fdc1fe94c63c950d0c07478bb3 fix for 490 (#496)
+c807d3025c7f796fd8b0d429a7bf196e0e3609f4 dot missing in ssd-resnet34 line
+71940a7a4c39ab3e099d93bdcf60763fbb52587a Merge pull request #473 from guschmue/gs/submission
+157173e8fefe9faca9266a2f69c6b4549e76680e fix sample_index_rng_seed
+d3814314be893a3a7e14230292ea00a603a365db add performance_sample_count_override and seeds to config
+ba7baa0f68f37b6b693ea64961024cdd0fb11009 add the official names to perf sample count
+2d3ba0b95a641a22b7ab7b52771e792c01b2f88f fix perf sample count for gnmt
+7bc9a1f07048e09061f6c611e5ec95f367e0762c check performance_sample_count
+bdc8d66d92417772031b54ea40c0c97a22dd0dac add filter for submitter
+4384c31ab6485132554b5f7a4cea066093319f55 more checkers for submitters and division
+448a89831f56e16da20f476b49d80db3662ef2af address review feedback
+d4b930cefe17861188c356597582c69277e5dc6b Merge branch 'master' into gs/submission
+61220457dec221ed1984c62bd9d382698bd71bc6 loadgen: re-apply fix for msvc (#459)
+ab19825ca48a9f6f2faa208cf1d5135598f1d8c6 check for ERROR in detailed logs
+5684c11e3987b614aae830390fa0e92f56b7e800 Update the broken txt url link (#456)
+
+"pid": 16959, "tid": 16959, "ts": 15677ns : git_status :
+
+
+
+"pid": 16959, "tid": 16959, "ts": 15677ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+a3355ff8f163cabbf26adb86d3aa0e5da72900c7 /BUILD.gn
+25ddf9bbe1429de0d036f073497c1e90cb419519 /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+fa2add871dc7440cbda1f8c7a69e96eb6499951a /bindings/c_api.cc
+8fdaa27778cf3ee2eb85d5b7040e8ddfcab68108 /bindings/c_api.h
+9c778599614f2a42cb95ad662213cde5fcf791ec /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+19242fc8e0f9e3eaf8bec9964ba33d760eeade96 /loadgen.cc
+5526ae8ce9547a95f10e1ac465056bfba2fccb47 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+a69511f0c916eb2100b7f665605ff6ffdf0546be /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+922acb63aa734d36e3fa34d87ff0f361052e0c51 /query_sample_library.h
+369f4320e027fc276d2519021696c7d1027b7320 /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+ad3fa5b4e0395e77cd5e00ebae2d0a0eb538969d /test_settings.h
+56a654a4bd7e5f5faef94189c21ddcbfba3f7008 /test_settings_internal.cc
+1c15731be5abc26a6c90356720146862da7c22b4 /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+
+"pid": 16959, "tid": 16959, "ts": 66927ns : Date + time of test: 2019-08-06T10:28:17Z
+"pid": 16959, "tid": 16959, "ts": 66927ns : System Under Test (SUT) name: 
+"pid": 16959, "tid": 16959, "ts": 66927ns : Query Sample Library (QSL) name: Query Sample library test
+"pid": 16959, "tid": 16959, "ts": 66927ns : QSL total size: 1024
+"pid": 16959, "tid": 16959, "ts": 66927ns : QSL performance size*: 1024
+"pid": 16959, "tid": 16959, "ts": 66927ns : *TestSettings (performance_sample_count_override) can override
+"pid": 16959, "tid": 16959, "ts": 66927ns : *Refer to Effective Settings for actual value
+"pid": 16959, "tid": 16959, "ts": 76302ns : Found Audit Config file (audit.config). Overriding TestSettings from audit.config file.
+"pid": 16959, "tid": 16959, "ts": 169218ns : 
+"pid": 16959, "tid": 16959, "ts": 169218ns : Effective Settings:
+"pid": 16959, "tid": 16959, "ts": 169218ns : Scenario : Multi Stream
+"pid": 16959, "tid": 16959, "ts": 169218ns : Test mode : Performance
+"pid": 16959, "tid": 16959, "ts": 169218ns : samples_per_query : 25
+"pid": 16959, "tid": 16959, "ts": 169218ns : target_qps : 20
+"pid": 16959, "tid": 16959, "ts": 169218ns : target_latency (ns): 50000000
+"pid": 16959, "tid": 16959, "ts": 169218ns : target_latency_percentile : 0.9
+"pid": 16959, "tid": 16959, "ts": 169218ns : max_async_queries : 1
+"pid": 16959, "tid": 16959, "ts": 169218ns : target_duration (ms): 10000
+"pid": 16959, "tid": 16959, "ts": 169218ns : min_duration (ms): 10000
+"pid": 16959, "tid": 16959, "ts": 169218ns : max_duration (ms): 0
+"pid": 16959, "tid": 16959, "ts": 169218ns : min_query_count : 2654
+"pid": 16959, "tid": 16959, "ts": 169218ns : max_query_count : 0
+"pid": 16959, "tid": 16959, "ts": 169218ns : min_sample_count : 66350
+"pid": 16959, "tid": 16959, "ts": 169218ns : qsl_rng_seed : 0
+"pid": 16959, "tid": 16959, "ts": 169218ns : sample_index_rng_seed : 0
+"pid": 16959, "tid": 16959, "ts": 169218ns : schedule_rng_seed : 0
+"pid": 16959, "tid": 16959, "ts": 169218ns : accuracy_log_rng_seed : 0
+"pid": 16959, "tid": 16959, "ts": 169218ns : accuracy_log_probability : 0
+"pid": 16959, "tid": 16959, "ts": 169218ns : print_timestamps : false
+"pid": 16959, "tid": 16959, "ts": 169218ns : performance_issue_unique : false
+"pid": 16959, "tid": 16959, "ts": 169218ns : performance_issue_same : true
+"pid": 16959, "tid": 16959, "ts": 169218ns : performance_issue_same_index : 3
+"pid": 16959, "tid": 16959, "ts": 169218ns : performance_sample_count : 1024
+"pid": 16959, "tid": 16959, "ts": 170416ns : 
+"pid": 16959, "tid": 16959, "ts": 170416ns : Requested Settings:
+"pid": 16959, "tid": 16959, "ts": 170416ns : Scenario : Multi Stream
+"pid": 16959, "tid": 16959, "ts": 170416ns : Test mode : Performance
+"pid": 16959, "tid": 16959, "ts": 170416ns : multi_stream_target_qps : 20
+"pid": 16959, "tid": 16959, "ts": 170416ns : multi_stream_target_latency_ns : 100000000
+"pid": 16959, "tid": 16959, "ts": 170416ns : multi_stream_target_latency_percentile : 0.9
+"pid": 16959, "tid": 16959, "ts": 170416ns : multi_stream_samples_per_query : 25
+"pid": 16959, "tid": 16959, "ts": 170416ns : multi_stream_max_async_queries : 1
+"pid": 16959, "tid": 16959, "ts": 170416ns : min_duration_ms : 10000
+"pid": 16959, "tid": 16959, "ts": 170416ns : max_duration_ms : 0
+"pid": 16959, "tid": 16959, "ts": 170416ns : min_query_count : 2654
+"pid": 16959, "tid": 16959, "ts": 170416ns : max_query_count : 0
+"pid": 16959, "tid": 16959, "ts": 170416ns : qsl_rng_seed : 0
+"pid": 16959, "tid": 16959, "ts": 170416ns : sample_index_rng_seed : 0
+"pid": 16959, "tid": 16959, "ts": 170416ns : schedule_rng_seed : 0
+"pid": 16959, "tid": 16959, "ts": 170416ns : accuracy_log_rng_seed : 0
+"pid": 16959, "tid": 16959, "ts": 170416ns : accuracy_log_probability : 0
+"pid": 16959, "tid": 16959, "ts": 170416ns : print_timestamps : false
+"pid": 16959, "tid": 16959, "ts": 170416ns : performance_issue_unique : false
+"pid": 16959, "tid": 16959, "ts": 170416ns : performance_issue_same : true
+"pid": 16959, "tid": 16959, "ts": 170416ns : performance_issue_same_index : 3
+"pid": 16959, "tid": 16959, "ts": 170416ns : performance_sample_count_override : 0
+"pid": 16959, "tid": 16959, "ts": 170416ns : 
+"pid": 16959, "tid": 16959, "ts": 182448ns : Starting performance mode:
+"pid": 16959, "tid": 16959, "ts": 222239ns : Loading QSL : "set" : "[684,560,631,195,839,768,713,366,17,732,287,765,816,612,84,487,616,413,332,724,506,572,109,197,624,874,703,564,873,101,807,947,147,1009,789,744,883,468,486,889,139,218,797,840,26,192,956,470,336,1010,315,748,691,597,53,769,300,208,733,569,519,943,245,91,866,193,194,999,121,970,620,559,828,346,409,463,693,119,520,622,968,338,403,1020,141,376,46,206,867,60,172,182,988,491,705,660,1004,730,63,302,424,875,149,742,235,973,286,953,251,55,337,902,831,1022,15,80,676,422,699,288,795,59,217,320,97,381,1007,817,420,945,991,518,103,687,502,48,89,649,508,694,523,164,841,273,521,243,720,881,271,743,39,299,361,715,565,937,23,215,863,3,938,247,205,174,934,472,246,199,350,297,976,446,73,727,545,359,70,665,767,465,460,818,952,698,278,411,455,483,516,57,42,601,642,441,374,131,978,457,31,81,798,662,823,899,9,357,355,317,233,673,327,656,30,886,442,722,979,167,544,688,507,746,918,375,815,266,500,779,666,436,33,397,343,582,363,69,452,618,262,306,1011,475,958,534,104,946,955,974,803,281,261,88,464,391,948,116,893,925,32,747,799,478,257,570,438,8,212,846,224,201,232,568,1002,667,813,704,241,700,339,176,324,369,50,928,188,321,745,577,485,543,370,737,428,482,423,504,664,588,674,646,37,477,4,626,812,419,335,596,454,189,531,651,821,827,383,672,872,639,941,410,661,35,28,985,738,982,600,290,185,762,294,505,291,145,832,268,177,877,547,86,915,162,448,220,950,258,161,538,289,211,38,444,439,513,501,939,811,351,371,209,107,481,643,34,834,137,45,52,111,307,965,1018,129,890,630,511,583,43,517,314,248,729,296,969,127,604,759,677,951,826,898,377,718,36,447,489,186,58,561,379,20,602,702,360,417,87,910,16,158,110,393,983,304,469,40,305,721,760,960,323,573,774,227,830,835,308,190,929,435,566,806,579,367,71,240,967,404,549,675,260,995,295,896,708,888,864,785,416,384,264,449,679,312,581,250,259,356,591,461,685,904,878,221,395,712,330,143,180,135,541,716,606,459,254,426,10,380,277,734,389,587,1000,2,959,876,77,267,576,562,92,833,480,421,525,609,949,924,670,66,940,593,848,903,922,908,690,345,1023,1005,126,153,238,74,856,740,14,589,735,957,163,894,348,325,124,458,615,276,1013,179,18,156,975,100,637,269,427,440,515,865,633,546,714,787,159,433,265,252,353,310,293,318,771,322,157,484,669,467,891,542,778,430,123,977,784,132,739,659,681,125,837,794,804,65,207,118,6,219,120,231,763,301,368,117,927,25,169,492,825,753,229,801,935,333,741,984,879,711,987,920,432,402,242,981,800,575,537,706,234,550,1014,22,692,647,850,857,347,1008,871,203,640,849,1021,775,27,607,407,434,1016,479,548,275,709,344,94,490,936,610,0,93,809,41,319,166,75,636,851,594,844,364,228,847,1001,571,563,216,819,136,648,810,820,527,453,474,390,710,792,1003,824,680,558,972,187,962,788,761,352,613,148,175,102,1012,754,72,61,198,12,425,431,401,805,280,603,617,623,11,980,574,551,782,83,146,909,285,731,884,230,808,497,966,942,658,590,780,181,19,173,429,437,885,625,655,160,932,67,62,400,200,311,178,963,853,1015,498,595,535,907,533,529,554,605,671,134,56,415,764,916,445,29,140,683,629,557,270,611,555,906,263,494,326,621,862,405,696,598,773,880,882,473,365,282,274,255,657,279,236,645,223,897,796,868,793,5,584,1019,150,998,76,887,836,829,944,495,776,635,451,334,855,406,256,895,719,634,462,608,790,663,870,964,689,514,144,652,354,214,476,47,21,386,707,398,418,184,272,226,114,638,900,191,653,770,90,749,106,791,373,777,329,392,328,586,758,133,781,750,362,526,165,1,298,128,614,552,632,303,154,49,202,971,869,155,772,388,24,917,372,540,843,926,695,859,641,385,751,309,766,697,152,488,509,668,592,628,213,989,313,599,349,79,283,686,249,142,986,783,414,994,530,108,113,225,923,105,580,990,814,627,399,933,997,171,845,723,130,757,7,553,996,239,54,394,717,340,378,99,931,861,528,701,522,51,1017,98,854,556,456,499,532,64,842,85,170,183,736,466,654,450,914,786,168,901,496,954,387,443,567,822,512,725,331,905,382,412,222,44,756,678,503,396,852,919,112,138,292,726,993,752,644,619,755,578,682,284,524,341,471,510,539,95,912,115,860,493,728,358,237,408,536,204,13,1006,151,68,342,892,858,992,930,78,82,122,911,196,96,802,961,210,316,921,253,585,913,838,244,650,684,560,631,195,839,768,713,366,17,732,287,765,816,612,84,487,616,413,332,724,506,572,109,197]"
+"pid": 16959, "tid": 16959, "ts": 312291ns : GeneratedQueries: "queries" : 41, "samples per query" : 25, "duration" : 2050000000
+"pid": 16959, "tid": 16959, "ts": 2095746770ns : ERROR : Ending early: Ran out of generated queries to issue before the minimum query count and test duration were reached.
+"pid": 16959, "tid": 16959, "ts": 2095746770ns : Please update the relevant expected latency or target qps in the TestSettings so they are more accurate.
+"pid": 16959, "tid": 16959, "ts": 2105509218ns : Log Contention Counters:
+"pid": 16959, "tid": 16959, "ts": 2105509218ns : 0 : swap_request_slots_retry_count
+"pid": 16959, "tid": 16959, "ts": 2105509218ns : 0 : swap_request_slots_retry_retry_count
+"pid": 16959, "tid": 16959, "ts": 2105509218ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 16959, "tid": 16959, "ts": 2105509218ns : 0 : start_reading_entries_retry_count
+"pid": 16959, "tid": 16959, "ts": 2105509218ns : 0 : tls_total_log_cas_fail_count
+"pid": 16959, "tid": 16959, "ts": 2105509218ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 16959, "tid": 16959, "ts": 2105512238ns : POWER_BEGIN: "mode" : Performance, "time" : 08-06-2019 10:28:17.372
+"pid": 16959, "tid": 16959, "ts": 2105512238ns : POWER_END: "mode" : Performance, "time" : 08-06-2019 10:28:19.468

@@ -1,0 +1,22 @@
+{
+    "TestScenario.SingleStream": {
+        "count": 50000,
+        "good_items": 0,
+        "mean": 0.006810687185880002,
+        "percentiles": {
+            "50.0": 0.0066464725,
+            "80.0": 0.007146183,
+            "90.0": 0.0073629479,
+            "95.0": 0.0075421223,
+            "99.0": 0.0079096682,
+            "99.9": 0.009043213356000099
+        },
+        "qps": 146.5064037614512,
+        "took": 341.28201031684875,
+        "total_items": 50000
+    },
+    "cmdline": "Namespace(accuracy=False, backend='hailo', cache=0, config='../mlperf.conf', count=50000, data_format=None, dataset='imagenet_mobilenet', dataset_list='mlperf.dat', dataset_path='imagenet_val/', find_peak_performance=False, inputs=None, max_batchsize=32, max_latency=None, model='mobilenet', model_name='mobilenet', output='ms_p1', outputs=None, profile='hailo', qps=None, samples_per_query=None, scenario='SingleStream', threads=1, time=None)",
+    "runtime": "hailo",
+    "time": 1572627029,
+    "version": "2.4.1"
+}

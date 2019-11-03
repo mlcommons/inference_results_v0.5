@@ -1,0 +1,7 @@
+{
+    "input_data_types": "UTF-8", 
+    "retraining": "N", 
+    "starting_weights_filename": "ende_gnmt_model_4_layer/translate.ckpt.data-00000-of-00001", 
+    "weight_data_types": "int8,fp16", 
+    "weight_transformations": "quantization, affine fusion"
+}

@@ -1,0 +1,24 @@
+{
+    "benchmark": "ssd-small",
+    "config_name": "Xavier_ssd-small_MultiStream",
+    "scenario": "MultiStream",
+    "ssd-small": {
+        "concurrent_multi_stream_samples_per_query": 102,
+        "dla_batch_size": 11,
+        "dla_copy_streams": 4,
+        "dla_core": 0,
+        "dla_inference_streams": 1,
+        "dla_multi_stream_samples_per_query": 11,
+        "gpu_batch_size": 80,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 2,
+        "gpu_multi_stream_samples_per_query": 80,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDMobileNet/int8_chw4",
+        "use_graphs": false
+    },
+    "system_id": "Xavier"
+}

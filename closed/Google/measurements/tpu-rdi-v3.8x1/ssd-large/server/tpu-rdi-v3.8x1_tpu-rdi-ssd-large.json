@@ -1,0 +1,7 @@
+{
+  "input_data_types": "bfloat16",
+  "retraining": "None",
+  "starting_weights_filename": "https://zenodo.org/record/3345892/files/tf_ssd_resnet34_22.1.zip",
+  "weight_data_types": "bfloat16",
+  "weight_transformations": "Transpose the weight of the first convolution layer"
+}

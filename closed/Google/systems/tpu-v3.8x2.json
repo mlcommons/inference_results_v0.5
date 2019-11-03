@@ -1,0 +1,22 @@
+{
+  "submitter": "Google",
+  "division": "closed",
+  "status": "available",
+  "system_name": "tpu-v3.8",
+  "number_of_nodes": 1,
+  "host_processors_per_node": 2,
+  "host_processor_model_name": "Intel Skylake",
+  "host_processor_core_count": 24,
+  "host_memory_capacity": "360 GB",
+  "host_storage_type": "SSD",
+  "host_storage_capacity": "200 GB + 50 GB",
+  "accelerators_per_node": 16,
+  "accelerator_model_name": "tpu-v3.8",
+  "accelerator_memory_configuration": "HBM",
+  "accelerator_memory_capacity": "16 GB per accelerator",
+  "framework": "tf-nightly==1.15.0-dev20190730",
+  "other_software_stack": "TPU version 1.15.dev20190821",
+  "operating_system": "Ubuntu 18.04",
+  "hw_notes": "'Number_of_nodes' is the number of user programmable nodes. Each GCP TPU v3-8 has a non-user programmable 'tensorflow host' node which provides direct network and storage access to the TPU."
+
+}

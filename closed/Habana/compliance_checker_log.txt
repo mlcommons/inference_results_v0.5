@@ -1,0 +1,18 @@
+WARNING:main:closed/Habana/results/Goya_1/ssd-large/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/Habana/results/Goya_1/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/Habana/results/Goya_1/ssd-large/Server OK
+INFO:main:closed/Habana/results/Goya_1/ssd-large/SingleStream OK
+INFO:main:closed/Habana/results/Goya_1/ssd-large/Offline OK
+INFO:main:closed/Habana/results/Goya_1/ssd-large/MultiStream OK
+INFO:main:closed/Habana/results/Goya_1/resnet/SingleStream OK
+INFO:main:closed/Habana/results/Goya_1/resnet/Offline OK
+INFO:main:closed/Habana/results/Goya_1/resnet/MultiStream OK
+INFO:main:closed/Habana/systems/Goya_1.json OK
+INFO:main:closed/Habana/measurements/Goya_1/ssd-large/Server OK
+INFO:main:closed/Habana/measurements/Goya_1/ssd-large/SingleStream OK
+INFO:main:closed/Habana/measurements/Goya_1/ssd-large/Offline OK
+INFO:main:closed/Habana/measurements/Goya_1/ssd-large/MultiStream OK
+INFO:main:closed/Habana/measurements/Goya_1/resnet/SingleStream OK
+INFO:main:closed/Habana/measurements/Goya_1/resnet/Offline OK
+INFO:main:closed/Habana/measurements/Goya_1/resnet/MultiStream OK
+INFO:main:SUMMARY: submission looks OK

@@ -1,0 +1,2 @@
+git clone https://source.codeaurora.org/quic/mlperfqc/snpe-mlperf-net-run
+e96a2f2bbfc0dd28267608c9e6063845b1ca9d3e

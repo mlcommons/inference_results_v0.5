@@ -1,0 +1,16 @@
+INFO:main:Results closed/DellEMC/results/DELLEMC_R740xd6248_openvino-linux/ssd-small/Offline 3744.24
+INFO:main:Results closed/DellEMC/results/DELLEMC_R740xd6248_openvino-linux/ssd-small/SingleStream 1543701.0
+INFO:main:Results closed/DellEMC/results/DELLEMC_R740xd8276_openvino-linux/ssd-small/Offline 4266.46
+INFO:main:Results closed/DellEMC/results/DELLEMC_R740xd8276_openvino-linux/ssd-small/SingleStream 1686651.0
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/gnmt/Offline 1417.62
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/gnmt/Server 828.57
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/mobilenet/Offline 71214.5
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/mobilenet/Server 67124.18
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/resnet/Offline 22438.0
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/resnet/Server 20742.83
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/ssd-large/Offline 546.69
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/ssd-large/Server 485.23
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/ssd-small/Offline 30407.9
+INFO:main:Results closed/DellEMC/results/R740_T4x4_tensorrt/ssd-small/Server 28293.31
+INFO:main:Results=14, NoResults=0
+ERROR:main:SUMMARY: submission has errors

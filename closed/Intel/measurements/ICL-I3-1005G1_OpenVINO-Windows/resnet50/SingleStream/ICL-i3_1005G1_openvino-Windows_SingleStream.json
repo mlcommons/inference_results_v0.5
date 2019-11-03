@@ -1,0 +1,7 @@
+{
+  "input_data_types": "We transform the fp32 input data to int8 data.",
+  "retraining": "We don’t retrain the model weight.",
+  "starting_weights_filename": "The original weight filename: https://zenodo.org/record/2535873/files/resnet50_v1.pb and the transformed int8 IR file",
+  "weight_data_types": "We transform the original fp32 weight to int8 weight.",
+  "weight_transformations": "We transform the weight from fp32 datatype in PB file to int8 datatype in OpenVINO IR file."
+}

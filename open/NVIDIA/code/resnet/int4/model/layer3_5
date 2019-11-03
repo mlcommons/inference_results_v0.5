@@ -1,0 +1,3 @@
+BottleneckQuantized
+stride=1
+downsample_layer=True

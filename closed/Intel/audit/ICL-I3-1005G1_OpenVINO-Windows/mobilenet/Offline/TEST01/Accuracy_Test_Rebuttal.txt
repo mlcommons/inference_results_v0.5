@@ -1,0 +1,27 @@
+======================================================================================================
+            Comments on Failed Accuracy Tests (mobilenet and resnet offline) in TEST01
+======================================================================================================
+
+
+The offline scenario for the classification workloads are run on multi-device mode (CPU + GPU) using OpenVINO. 
+
+Key summary and comments on the multi-device mode in openvino:
+
+1. In multi-device mode, OpenVINO Inference Engine (IE) manages the matching of devices and idle inference requests issued by loadgen.
+With the multi-device mode managed in this manner by the IE, different accuracy runs of inference on the same image may execute on either the GPU or CPU as determined by the IE. 
+
+2. In terms of model precision used in multi-device mode, GPU inference primarily uses FP16 precision, while CPU inference uses INT8 precision. 
+OpenVINO requires a single model file as input in multi-device mode. For this reason we use an INT8 model calibrated from an FP16 model so that both INT8 and FP16 weights are available.
+Because of this precision difference, output of an inference request may be slightly different whether it is executed on GPU or CPU.
+
+Due to the nature of scheduling of input requests by IE (as described in step 1) and inference request output depends on the target device (described in step 2), the accuracy log may be slightly different depends on where the inference request for a given image is executed.
+Because of this reason the accuracy logs are different from each run. However, the resulting accuracy from each run is very close to 71.6%, when run multiple times.
+
+We have validated that running accuracy modes with INT8 models in the multi-device mode meets the accuracy targets (accuracy json files generated in different runs for mobilenet are located in the supplementary folder):
+
+ Run |          Report
+---------------------------------------
+ 1   | accuracy=71.566%, good=35783, total=50000
+ 2   | accuracy=71.602%, good=35801, total=50000
+ 3   | accuracy=71.626%, good=35813, total=50000
+

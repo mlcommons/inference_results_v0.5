@@ -1,0 +1,5 @@
+absl-py
+pyyaml==5.1.2
+click
+tensorflow-estimator==1.14.0
+whl/tf_nightly-1.14.0-cp36-cp36m-linux_x86_64.whl

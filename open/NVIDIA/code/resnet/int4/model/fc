@@ -1,0 +1,8 @@
+Linear
+compute_mode=u7s8s32
+in_features=2048
+out_features=1000
+bias=s32,1:1000
+!model/npdata/fc.bias
+weight=s8,2:1000 2048
+!model/npdata/fc.weight

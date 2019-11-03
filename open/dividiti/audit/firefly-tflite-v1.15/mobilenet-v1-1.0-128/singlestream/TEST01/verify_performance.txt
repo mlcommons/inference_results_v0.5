@@ -1,0 +1,4 @@
+Verifying performance.
+reference score = 57347086
+test score = 66699487
+TEST FAIL: Test score invalid

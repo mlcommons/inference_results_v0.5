@@ -1,0 +1,52 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : FuriosaAI
+Scenario : Single Stream
+Mode     : Performance
+90th percentile latency (ns) : 11608802
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 89.13
+QPS w/o loadgen overhead        : 89.16
+
+Min latency (ns)                : 10724121
+Max latency (ns)                : 12048890
+Mean latency (ns)               : 11216185
+50.00 percentile latency (ns)   : 11233495
+90.00 percentile latency (ns)   : 11608802
+95.00 percentile latency (ns)   : 11633874
+97.00 percentile latency (ns)   : 11643997
+99.00 percentile latency (ns)   : 11659655
+99.90 percentile latency (ns)   : 11684349
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 1000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 5500
+max_query_count : 5500
+qsl_rng_seed : 195
+sample_index_rng_seed : 235
+schedule_rng_seed : 634
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 5000
+
+No warnings encountered during test.
+
+No errors encountered during test.

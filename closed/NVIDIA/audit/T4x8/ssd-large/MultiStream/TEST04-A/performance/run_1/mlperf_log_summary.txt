@@ -1,0 +1,71 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : LWIS_Server
+Scenario : Multi Stream
+Mode     : Performance
+Samples per query : 56
+Result is : INVALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : NO
+  Min queries satisfied : NO
+Recommendations:
+ * MultiStream should always meet the minimum duration. Please file a bug.
+ * The test exited early, before enough queries were issued.
+   See the detailed log for why this may have occurred.
+
+================================================
+Additional Stats
+================================================
+Intervals between each IssueQuery:  "qps" : 15, "ms" : 66.6667
+50.00 percentile : 1
+90.00 percentile : 1
+95.00 percentile : 1
+97.00 percentile : 1
+99.00 percentile : 1
+99.90 percentile : 1
+
+Per-query latency:  "target_ns" : 66666666, "target_ms" : 66.6667
+50.00 percentile latency (ns)   : 53111229
+90.00 percentile latency (ns)   : 53111229
+95.00 percentile latency (ns)   : 53111229
+97.00 percentile latency (ns)   : 53111229
+99.00 percentile latency (ns)   : 53111229
+99.90 percentile latency (ns)   : 53111229
+
+Per-sample latency:
+Min latency (ns)                : 7096116
+Max latency (ns)                : 53111229
+Mean latency (ns)               : 27754021
+50.00 percentile latency (ns)   : 28790843
+90.00 percentile latency (ns)   : 46094698
+95.00 percentile latency (ns)   : 51281816
+97.00 percentile latency (ns)   : 51651033
+99.00 percentile latency (ns)   : 53109606
+99.90 percentile latency (ns)   : 53111229
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 56
+target_qps : 15
+target_latency (ns): 66666666
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 270336
+max_query_count : 0
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : true
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 64
+
+No warnings encountered during test.
+
+1 ERROR encountered. See detailed log.

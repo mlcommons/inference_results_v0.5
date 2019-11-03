@@ -1,0 +1,17 @@
+{
+    "benchmark": "mobilenet",
+    "config_name": "TitanRTXx4_mobilenet_MultiStream",
+    "mobilenet": {
+        "explicit_precision": true,
+        "gpu_batch_size": 64,
+        "gpu_multi_stream_samples_per_query": 8704,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/MobileNet/int8_chw4",
+        "use_graphs": true
+    },
+    "scenario": "MultiStream",
+    "system_id": "TitanRTXx4"
+}

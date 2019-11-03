@@ -1,0 +1,23 @@
+{
+    "TestScenario.SingleStream": {
+        "accuracy": 70.438,
+        "count": 50000,
+        "good_items": 35219,
+        "mean": 0.0004691265344619751,
+        "percentiles": {
+            "50.0": 0.00046372413635253906,
+            "80.0": 0.0007374286651611328,
+            "90.0": 0.0008299350738525391,
+            "95.0": 0.0008769035339355469,
+            "99.0": 0.0009593963623046875,
+            "99.9": 0.0013608951568603589
+        },
+        "qps": 110013.4923316134,
+        "took": 0.45448970794677734,
+        "total_items": 50000
+    },
+    "cmdline": "Namespace(accuracy=True, backend='snpe', cache=0, config='../../external/mlperf_inference/v0.5/mlperf.conf', count=50000, data_format=None, dataset='imagenet_mobilenet_snpe', dataset_list=None, dataset_path='/local/mnt/workspace/ml/CK-TOOLS/dataset-imagenet-ilsvrc2012-val', find_peak_performance=False, inputs=['input:0'], max_batchsize=8, max_latency=0.0005, model='/local/mnt/workspace/ml/models/mobilenet_v1_1.0_224.dlc', model_name='mobilenet', model_type='classifier', output='mlperf-submission/closed/mlperf-org/results/snpe-dsp/mobilenet/SingleStream/accuracy', outputs=['MobilenetV1/Predictions/Reshape_1:0'], profile='mobilenet-snpe', qps=1, runtime='dsp', samples_per_query=1, scenario='SingleStream', threads=2, time=None)",
+    "runtime": "snpe",
+    "time": 1571032689,
+    "version": "1.14.0/v1.14.0-rc1-22-gaf24dc9"
+}

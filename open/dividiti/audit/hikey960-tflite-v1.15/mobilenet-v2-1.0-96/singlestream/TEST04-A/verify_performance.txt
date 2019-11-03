@@ -1,0 +1,5 @@
+Verifying performance.
+TEST04-A score = 32717647
+TEST04-B score = 43255814
+TEST PASS
+Note: TEST04-B is significantly slower than TEST04-A

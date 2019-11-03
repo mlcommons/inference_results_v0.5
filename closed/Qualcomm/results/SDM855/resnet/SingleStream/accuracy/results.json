@@ -1,0 +1,23 @@
+{
+    "TestScenario.SingleStream": {
+        "accuracy": 76.044,
+        "count": 50000,
+        "good_items": 38022,
+        "mean": 0.00046261162281036375,
+        "percentiles": {
+            "50.0": 0.0004584789276123047,
+            "80.0": 0.0007276535034179688,
+            "90.0": 0.0008199214935302734,
+            "95.0": 0.000865936279296875,
+            "99.0": 0.0009319782257080078,
+            "99.9": 0.0011475112438202005
+        },
+        "qps": 112668.51371614213,
+        "took": 0.44377970695495605,
+        "total_items": 50000
+    },
+    "cmdline": "Namespace(accuracy=True, backend='snpe', cache=0, config='../../external/mlperf_inference/v0.5/mlperf.conf', count=50000, data_format=None, dataset='imagenet_resnet50_snpe', dataset_list=None, dataset_path='/local/mnt/workspace/ml/CK-TOOLS/dataset-imagenet-ilsvrc2012-val', find_peak_performance=False, inputs=['input_tensor'], max_batchsize=8, max_latency=0.0005, model='/local/mnt/workspace/ml/models/resnet50_v1.dlc', model_name='resnet50', model_type='classifier', output='mlperf-submission/closed/mlperf-org/results/snpe-dsp/resnet/SingleStream/accuracy', outputs=['softmax_tensor:0'], profile='resnet50-snpe', qps=1, runtime='dsp', samples_per_query=1, scenario='SingleStream', threads=2, time=None)",
+    "runtime": "snpe",
+    "time": 1571034663,
+    "version": "1.14.0/v1.14.0-rc1-22-gaf24dc9"
+}

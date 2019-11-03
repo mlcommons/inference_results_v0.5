@@ -1,0 +1,2 @@
+rm -rf /dev/shem/*; echo 100 > /sys/devices/system/cpu/intel_pstate/min_perf_pct; sync; echo 1 > /proc/sys/vm/compact_memory; echo 3 > /proc/sys/vm/drop_caches
+Release_OMP/ov_mlperf --scenario Server --mode Accuracy --mlperf_conf_filename "mlperf.conf" --user_conf_filename "scripts/ssdmobilenet_user.conf" --total_sample_count 5000 --data_path "/root/CK-TOOLS/dataset-coco-2017-val/" --dataset coco --model_path models/ssd-mobilenet/ssd-mobilenet_int8.xml --model_name ssd-mobilenet --nstreams 14 --nireq 112 --nthreads 112 --batch_size 1 --device cpu --nwarmup_iters 0

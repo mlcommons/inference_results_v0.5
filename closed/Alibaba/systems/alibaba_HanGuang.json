@@ -1,0 +1,20 @@
+{
+    "submitter": "Alibaba",
+    "division": "closed",
+    "status": "preview",
+    "system_name": "alibaba_HanGuang",
+    "number_of_nodes": 1,
+    "host_processors_per_node": 2,
+    "host_processor_model_name": "Intel Skylake",
+    "host_processor_core_count": 24,
+    "host_memory_capacity": "512GB",
+    "host_storage_type": "SSD",
+    "host_storage_capacity": "12TB",
+    "accelerators_per_node": 1,
+    "accelerator_model_name": "HanGuang 800",
+    "accelerator_memory_configuration": "n/a",
+    "accelerator_memory_capacity": 0,
+    "framework": "TensorFlow 1.13.1 6612da89516247503f03ef76e974b51a434fb52e",
+    "other_software_stack": "HanGuangAI 1.0.3, python 3.5.2",
+    "operating_system": "Ubuntu 16.04.5 LTS"
+}

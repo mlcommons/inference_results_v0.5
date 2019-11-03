@@ -1,0 +1,88 @@
+name: "mlperf_inference_schedule"
+input: "init"
+node {
+  name: "init"
+  type: "Init"
+  top: "init"
+  init_param {
+    queue_depth: 10000
+    batch_size: 512
+  }
+}
+node {
+  name: "image"
+  type: "Image"
+  bottom: "init"
+  top: "image"
+  image_param {
+    total_count: 2000
+    loadable_set_size: 2000
+  }
+}
+node {
+  name: "batch_merge"
+  type: "BatchMerge"
+  bottom: "image"
+  top: "batch_merge"
+  batch_merge_param {
+    thread_num: 1
+    queue_depth: 1000
+    batch_size: 1
+    merge_time_threshold_ns: 1000000
+  }
+}
+node {
+  name: "batch_split"
+  type: "BatchSplit"
+  bottom: "batch_merge"
+  top: "batch_split"
+  batch_split_param {
+    thread_num: 1
+    queue_depth: 100000
+    batch_size: 512
+  }
+}
+node {
+  name: "gpu_schedule"
+  type: "GpuSchedule"
+  bottom: "batch_split"
+  top: "gpu_schedule"
+  gpu_schedule_param {
+    thread_num: 1
+    queue_depth: 1000
+    batch_size: 512
+  }
+}
+node {
+  name: "memory_copy"
+  type: "MemoryCopy"
+  bottom: "gpu_schedule"
+  top: "memory_copy"
+  memory_copy_param {
+    thread_num: 2
+    queue_depth: 2
+    batch_size: 512
+  }
+}
+node {
+  name: "inference"
+  type: "Inference"
+  bottom: "memory_copy"
+  top: "inference"
+  inference_param {
+    queue_depth: 2
+    batch_size: 512
+    gpu_engine_num: 2
+  }
+}
+node {
+  name: "post_process"
+  type: "PostProcess"
+  bottom: "inference"
+  top: "post_process"
+  post_process_param {
+    thread_num: 8
+    queue_depth: 1000
+    batch_size: 512
+  }
+}

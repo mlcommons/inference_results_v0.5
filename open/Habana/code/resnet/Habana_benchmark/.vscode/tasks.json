@@ -1,0 +1,110 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "BUILD Debug",
+            "type": "shell",
+            "command": "make",
+            "options": {
+                "cwd": "${env:MLPERF_BUILD_DIR}/Debug/"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "REBUILD Debug",
+            "type": "shell",
+            "command": "make -B",
+            "options": {
+                "cwd": "${env:MLPERF_BUILD_DIR}/Debug/"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CLEAN Debug",
+            "type": "shell",
+            "command": "make clean",
+            "options": {
+                "cwd": "${env:MLPERF_BUILD_DIR}/Debug/"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "BUILD Release",
+            "type": "shell",
+            "command": "make",
+            "options": {
+                "cwd": "${env:MLPERF_BUILD_DIR}/Release/"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "REBUILD Release",
+            "type": "shell",
+            "command": "make -B",
+            "options": {
+                "cwd": "${env:MLPERF_BUILD_DIR}/Release/"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CLEAN Release",
+            "type": "shell",
+            "command": "make clean",
+            "options": {
+                "cwd": "${env:MLPERF_BUILD_DIR}/Release/"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run HABANA_benchmark_app Release - CMD",
+            "type": "process",
+            "command": "./HABANA_benchmark_app",
+            "options": {
+                "cwd": "${workspaceRoot}/benchmark_app/app/Release/"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

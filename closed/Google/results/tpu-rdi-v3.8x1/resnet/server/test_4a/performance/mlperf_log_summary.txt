@@ -1,0 +1,56 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : sut
+Scenario : Server
+Mode     : Performance
+Scheduled samples per second : 21421.10
+Result is : INVALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : NO
+  Min queries satisfied : NO
+Recommendations:
+ * Increase the target QPS so the loadgen pre-generates more queries.
+ * The test exited early, before enough queries were issued.
+   See the detailed log for why this may have occurred.
+
+================================================
+Additional Stats
+================================================
+Completed samples per second    : 20478.93
+
+Min latency (ns)                : 6578324
+Max latency (ns)                : 9179650
+Mean latency (ns)               : 7300177
+50.00 percentile latency (ns)   : 7260876
+90.00 percentile latency (ns)   : 7805857
+95.00 percentile latency (ns)   : 7982850
+97.00 percentile latency (ns)   : 8112121
+99.00 percentile latency (ns)   : 8387555
+99.90 percentile latency (ns)   : 8708016
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 21000
+target_latency (ns): 15000000
+max_async_queries : 0
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1260000
+max_query_count : 0
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : true
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 3072
+
+No warnings encountered during test.
+
+No errors encountered during test.

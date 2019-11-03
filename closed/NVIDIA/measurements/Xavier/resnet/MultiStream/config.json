@@ -1,0 +1,24 @@
+{
+    "benchmark": "resnet",
+    "config_name": "Xavier_resnet_MultiStream",
+    "resnet": {
+        "concurrent_multi_stream_samples_per_query": 100,
+        "dla_batch_size": 15,
+        "dla_copy_streams": 4,
+        "dla_core": 0,
+        "dla_inference_streams": 4,
+        "dla_multi_stream_samples_per_query": 15,
+        "gpu_batch_size": 70,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 4,
+        "gpu_multi_stream_samples_per_query": 70,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "scenario": "MultiStream",
+    "system_id": "Xavier"
+}

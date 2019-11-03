@@ -1,0 +1,7 @@
+{
+  "input_data_types": "bfloat16",
+  "retraining": "None",
+  "starting_weights_filename": "https://zenodo.org/record/2530924/files/gnmt_model.zip",
+  "weight_data_types": "bfloat16",
+  "weight_transformations": "Transpose the final projection layer"
+}

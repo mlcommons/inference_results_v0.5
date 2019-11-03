@@ -1,0 +1,4 @@
+Verifying performance.
+TEST04-A score = 100
+TEST04-B score = 100
+TEST PASS

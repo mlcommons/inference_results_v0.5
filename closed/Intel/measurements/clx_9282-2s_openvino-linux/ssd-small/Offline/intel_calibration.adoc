@@ -1,0 +1,14 @@
+1. For the MLPerf 0.5 submission, pick the ssd-mobilenet from Habana ("ssd-mobilenet 300x300 symmetrically quantized finetuned"), referenced at https://github.com/mlperf/inference/tree/master/v0.5/classification_and_detection.
+2. Download https://zenodo.org/record/3401714/files/ssd_mobilenet_v1_quant_ft_no_zero_point_frozen_inference_graph.pb
+3. To convert the model, just call the [Model Optimizer](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html). There are certain specifics for [converting The TensorFlow Object Detection API models](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_prepare_model_convert_model_tf_specific_Convert_Object_Detection_API_Models.html). For example, the original pipeline.config is needed. For the symmetrically quantized it is actually the same as for another Habana's model  ("ssd-mobilenet 300x300 quantized finetuned").
+
+4. Conversion command-line is as follows:
+
+  $ python3  <OPENVINO_INSTALL_DIR/deployment_tools/model_optimizer/>mo.py
+  --input_model <path_to_model/>ssd_mobilenet_v1_quant_ft_no_zero_point_frozen_inference_graph.pb
+  --input_shape [1,300,300,3]
+  --reverse_input_channels
+  --tensorflow_use_custom_operations_config <OPENVINO_INSTALL_DIR/deployment_tools/model_optimizer/>extensions/front/tf/ssd_v2_support.json
+  --tensorflow_object_detection_api_pipeline_config <path_to_model/>pipeline.config
+
+5. This outputs the model in Intermediate Representation (IR) format ( *.xml and *.bin file). 

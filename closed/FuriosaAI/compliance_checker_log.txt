@@ -1,0 +1,29 @@
+WARNING:main:closed/FuriosaAI/results/furiosa-multi-fpga/mobilenet/Offline/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/FuriosaAI/results/furiosa-multi-fpga/mobilenet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/FuriosaAI/results/furiosa-multi-fpga/mobilenet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/FuriosaAI/results/furiosa-multi-fpga/ssd-small/Offline/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/FuriosaAI/results/furiosa-multi-fpga/ssd-small/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/FuriosaAI/results/furiosa-multi-fpga/ssd-small/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/FuriosaAI/results/furiosa-single-fpga/mobilenet/SingleStream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/FuriosaAI/results/furiosa-single-fpga/mobilenet/SingleStream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/FuriosaAI/results/furiosa-single-fpga/ssd-small/SingleStream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/FuriosaAI/results/furiosa-single-fpga/ssd-small/SingleStream/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/FuriosaAI/results/furiosa-multi-fpga/mobilenet/Offline OK
+INFO:main:closed/FuriosaAI/results/furiosa-multi-fpga/ssd-small/Offline OK
+INFO:main:closed/FuriosaAI/results/furiosa-single-fpga/mobilenet/SingleStream OK
+INFO:main:closed/FuriosaAI/results/furiosa-single-fpga/ssd-small/SingleStream OK
+INFO:main:closed/FuriosaAI/results/furiosa-multi-fpga/mobilenet/Offline OK
+INFO:main:closed/FuriosaAI/results/furiosa-multi-fpga/ssd-small/Offline OK
+INFO:main:closed/FuriosaAI/results/furiosa-single-fpga/mobilenet/SingleStream OK
+INFO:main:closed/FuriosaAI/results/furiosa-single-fpga/ssd-small/SingleStream OK
+INFO:main:closed/FuriosaAI/results/furiosa-multi-fpga/mobilenet/Offline OK
+INFO:main:closed/FuriosaAI/results/furiosa-multi-fpga/ssd-small/Offline OK
+INFO:main:closed/FuriosaAI/results/furiosa-single-fpga/mobilenet/SingleStream OK
+INFO:main:closed/FuriosaAI/results/furiosa-single-fpga/ssd-small/SingleStream OK
+INFO:main:closed/FuriosaAI/systems/furiosa-multi-fpga.json OK
+INFO:main:closed/FuriosaAI/systems/furiosa-single-fpga.json OK
+INFO:main:closed/FuriosaAI/measurements/furiosa-multi-fpga/mobilenet/Offline OK
+INFO:main:closed/FuriosaAI/measurements/furiosa-multi-fpga/ssd-small/Offline OK
+INFO:main:closed/FuriosaAI/measurements/furiosa-single-fpga/mobilenet/SingleStream OK
+INFO:main:closed/FuriosaAI/measurements/furiosa-single-fpga/ssd-small/SingleStream OK
+INFO:main:SUMMARY: submission looks OK

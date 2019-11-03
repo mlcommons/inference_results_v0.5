@@ -1,0 +1,28 @@
+= HanGuangAI Post-Training Quantization
+Aaron Zhong <aaron.zhong@alibaba-inc.com>
+
+HanGuangAI employs symmetric quantization for both activations and weights. Per channel quantization is used for weigths while per tensor is used for activations.
+
+== HgQuant and HgDequant
+
+HgQuant and HgDequant op insertion is performed at the start of the quantization process. 
+
+A HgQuant op scales the float typed tensor, or channel by channel of the specific tensor, into value range of int8 type and then performs rounding toward infinity and clipping if post rounding value is still out of int8 value range.
+
+A HgDequant op converts the int8 typed tensor to float, and scale it, entirely or channel by channel, with specific scales, to make it back to the proper value range. A HgDequant op shall be associated with one or more HgQuant op so as to get the proper inversion scale generated against its associates.
+
+HanGuangAI will analyze the original model graph and find the proper location for these two ops to be inserted.
+
+== Calibration
+
+Calibration is performed after HgQuant and HgDequant insertion is completed. HgDequant ops are temporarily stowed, though info of their association is still kept. HgQuant ops are replaced with HgMinMax op, which is used to scan input values and determine the minimum and maximum of them. The maximal absolute of minimum and maximum is calculated and divided into 127, which is the bound of symmetric quantized int8 type, to generate the scale for HgQuant op.
+
+== Quantization
+
+During this process, HgMinMax ops are removed, HgQuant and HgDequant ops are restored, and the scale information is bypassed from HgMinMax to the associated HgQuant op. Scale value of HgDequant op is also generated after all its associated HgQuant ops know their scales. 
+
+== Compilation
+
+The post quantization graph is then sent to HanGuangAI in-house compiler for compilation. 
+The compiler will search inside the post quantization graph to find segments entirely supported by HanGuangAI and consolidate the segment into a HqEngine op. The final graph after consolidation is written out for future inference.
+

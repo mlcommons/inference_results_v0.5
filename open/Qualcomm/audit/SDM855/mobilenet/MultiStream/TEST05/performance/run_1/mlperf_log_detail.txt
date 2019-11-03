@@ -1,0 +1,133 @@
+"pid": 11248, "tid": 11248, "ts": 17917ns : LoadgenVersionInfo:
+"pid": 11248, "tid": 11248, "ts": 17917ns : version : .5a1 @ 413dbabcb3
+"pid": 11248, "tid": 11248, "ts": 17917ns : build_date_local : 2019-11-01T14:42:58.217202
+"pid": 11248, "tid": 11248, "ts": 17917ns : build_date_utc   : 2019-11-01T09:12:58.217214
+"pid": 11248, "tid": 11248, "ts": 17917ns : git_commit_date  : 2019-10-09T11:02:56-07:00
+"pid": 11248, "tid": 11248, "ts": 17917ns : git_log :
+
+413dbabcb30dc2ee1fe42e7b8090b37e8144617d Merge pull request #489 from guschmue/gs/seeds_to_config
+168255031dd893fdc1fe94c63c950d0c07478bb3 fix for 490 (#496)
+c807d3025c7f796fd8b0d429a7bf196e0e3609f4 dot missing in ssd-resnet34 line
+71940a7a4c39ab3e099d93bdcf60763fbb52587a Merge pull request #473 from guschmue/gs/submission
+157173e8fefe9faca9266a2f69c6b4549e76680e fix sample_index_rng_seed
+d3814314be893a3a7e14230292ea00a603a365db add performance_sample_count_override and seeds to config
+ba7baa0f68f37b6b693ea64961024cdd0fb11009 add the official names to perf sample count
+2d3ba0b95a641a22b7ab7b52771e792c01b2f88f fix perf sample count for gnmt
+7bc9a1f07048e09061f6c611e5ec95f367e0762c check performance_sample_count
+bdc8d66d92417772031b54ea40c0c97a22dd0dac add filter for submitter
+4384c31ab6485132554b5f7a4cea066093319f55 more checkers for submitters and division
+448a89831f56e16da20f476b49d80db3662ef2af address review feedback
+d4b930cefe17861188c356597582c69277e5dc6b Merge branch 'master' into gs/submission
+61220457dec221ed1984c62bd9d382698bd71bc6 loadgen: re-apply fix for msvc (#459)
+ab19825ca48a9f6f2faa208cf1d5135598f1d8c6 check for ERROR in detailed logs
+5684c11e3987b614aae830390fa0e92f56b7e800 Update the broken txt url link (#456)
+
+"pid": 11248, "tid": 11248, "ts": 17917ns : git_status :
+
+
+
+"pid": 11248, "tid": 11248, "ts": 17917ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+a3355ff8f163cabbf26adb86d3aa0e5da72900c7 /BUILD.gn
+25ddf9bbe1429de0d036f073497c1e90cb419519 /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+fa2add871dc7440cbda1f8c7a69e96eb6499951a /bindings/c_api.cc
+8fdaa27778cf3ee2eb85d5b7040e8ddfcab68108 /bindings/c_api.h
+9c778599614f2a42cb95ad662213cde5fcf791ec /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+19242fc8e0f9e3eaf8bec9964ba33d760eeade96 /loadgen.cc
+5526ae8ce9547a95f10e1ac465056bfba2fccb47 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+a69511f0c916eb2100b7f665605ff6ffdf0546be /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+922acb63aa734d36e3fa34d87ff0f361052e0c51 /query_sample_library.h
+369f4320e027fc276d2519021696c7d1027b7320 /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+ad3fa5b4e0395e77cd5e00ebae2d0a0eb538969d /test_settings.h
+56a654a4bd7e5f5faef94189c21ddcbfba3f7008 /test_settings_internal.cc
+1c15731be5abc26a6c90356720146862da7c22b4 /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+
+"pid": 11248, "tid": 11248, "ts": 72240ns : Date + time of test: 2019-08-06T10:21:06Z
+"pid": 11248, "tid": 11248, "ts": 72240ns : System Under Test (SUT) name: 
+"pid": 11248, "tid": 11248, "ts": 72240ns : Query Sample Library (QSL) name: Query Sample library test
+"pid": 11248, "tid": 11248, "ts": 72240ns : QSL total size: 1024
+"pid": 11248, "tid": 11248, "ts": 72240ns : QSL performance size*: 1024
+"pid": 11248, "tid": 11248, "ts": 72240ns : *TestSettings (performance_sample_count_override) can override
+"pid": 11248, "tid": 11248, "ts": 72240ns : *Refer to Effective Settings for actual value
+"pid": 11248, "tid": 11248, "ts": 84063ns : Found Audit Config file (audit.config). Overriding TestSettings from audit.config file.
+"pid": 11248, "tid": 11248, "ts": 185208ns : 
+"pid": 11248, "tid": 11248, "ts": 185208ns : Effective Settings:
+"pid": 11248, "tid": 11248, "ts": 185208ns : Scenario : Multi Stream
+"pid": 11248, "tid": 11248, "ts": 185208ns : Test mode : Performance
+"pid": 11248, "tid": 11248, "ts": 185208ns : samples_per_query : 25
+"pid": 11248, "tid": 11248, "ts": 185208ns : target_qps : 20
+"pid": 11248, "tid": 11248, "ts": 185208ns : target_latency (ns): 50000000
+"pid": 11248, "tid": 11248, "ts": 185208ns : target_latency_percentile : 0.9
+"pid": 11248, "tid": 11248, "ts": 185208ns : max_async_queries : 1
+"pid": 11248, "tid": 11248, "ts": 185208ns : target_duration (ms): 10000
+"pid": 11248, "tid": 11248, "ts": 185208ns : min_duration (ms): 10000
+"pid": 11248, "tid": 11248, "ts": 185208ns : max_duration (ms): 0
+"pid": 11248, "tid": 11248, "ts": 185208ns : min_query_count : 2654
+"pid": 11248, "tid": 11248, "ts": 185208ns : max_query_count : 0
+"pid": 11248, "tid": 11248, "ts": 185208ns : min_sample_count : 66350
+"pid": 11248, "tid": 11248, "ts": 185208ns : qsl_rng_seed : 195
+"pid": 11248, "tid": 11248, "ts": 185208ns : sample_index_rng_seed : 235
+"pid": 11248, "tid": 11248, "ts": 185208ns : schedule_rng_seed : 634
+"pid": 11248, "tid": 11248, "ts": 185208ns : accuracy_log_rng_seed : 0
+"pid": 11248, "tid": 11248, "ts": 185208ns : accuracy_log_probability : 0
+"pid": 11248, "tid": 11248, "ts": 185208ns : print_timestamps : false
+"pid": 11248, "tid": 11248, "ts": 185208ns : performance_issue_unique : false
+"pid": 11248, "tid": 11248, "ts": 185208ns : performance_issue_same : false
+"pid": 11248, "tid": 11248, "ts": 185208ns : performance_issue_same_index : 0
+"pid": 11248, "tid": 11248, "ts": 185208ns : performance_sample_count : 1024
+"pid": 11248, "tid": 11248, "ts": 186406ns : 
+"pid": 11248, "tid": 11248, "ts": 186406ns : Requested Settings:
+"pid": 11248, "tid": 11248, "ts": 186406ns : Scenario : Multi Stream
+"pid": 11248, "tid": 11248, "ts": 186406ns : Test mode : Performance
+"pid": 11248, "tid": 11248, "ts": 186406ns : multi_stream_target_qps : 20
+"pid": 11248, "tid": 11248, "ts": 186406ns : multi_stream_target_latency_ns : 100000000
+"pid": 11248, "tid": 11248, "ts": 186406ns : multi_stream_target_latency_percentile : 0.9
+"pid": 11248, "tid": 11248, "ts": 186406ns : multi_stream_samples_per_query : 25
+"pid": 11248, "tid": 11248, "ts": 186406ns : multi_stream_max_async_queries : 1
+"pid": 11248, "tid": 11248, "ts": 186406ns : min_duration_ms : 10000
+"pid": 11248, "tid": 11248, "ts": 186406ns : max_duration_ms : 0
+"pid": 11248, "tid": 11248, "ts": 186406ns : min_query_count : 2654
+"pid": 11248, "tid": 11248, "ts": 186406ns : max_query_count : 0
+"pid": 11248, "tid": 11248, "ts": 186406ns : qsl_rng_seed : 195
+"pid": 11248, "tid": 11248, "ts": 186406ns : sample_index_rng_seed : 235
+"pid": 11248, "tid": 11248, "ts": 186406ns : schedule_rng_seed : 634
+"pid": 11248, "tid": 11248, "ts": 186406ns : accuracy_log_rng_seed : 0
+"pid": 11248, "tid": 11248, "ts": 186406ns : accuracy_log_probability : 0
+"pid": 11248, "tid": 11248, "ts": 186406ns : print_timestamps : false
+"pid": 11248, "tid": 11248, "ts": 186406ns : performance_issue_unique : false
+"pid": 11248, "tid": 11248, "ts": 186406ns : performance_issue_same : false
+"pid": 11248, "tid": 11248, "ts": 186406ns : performance_issue_same_index : 0
+"pid": 11248, "tid": 11248, "ts": 186406ns : performance_sample_count_override : 0
+"pid": 11248, "tid": 11248, "ts": 186406ns : 
+"pid": 11248, "tid": 11248, "ts": 198594ns : Starting performance mode:
+"pid": 11248, "tid": 11248, "ts": 239011ns : Loading QSL : "set" : "[969,292,155,152,449,336,792,28,69,313,805,478,381,949,721,243,929,987,160,790,239,705,742,147,763,611,704,825,403,419,662,482,153,388,410,840,115,786,804,315,293,423,411,40,224,392,754,195,62,233,686,458,893,164,916,708,895,943,434,978,436,845,820,909,442,472,748,520,527,575,210,131,56,586,569,213,829,156,19,832,157,546,838,487,872,954,240,192,101,127,692,368,718,139,1000,452,433,238,290,770,391,728,538,797,163,526,480,217,467,760,887,384,98,905,283,767,48,629,835,515,642,577,622,427,846,356,780,802,584,741,910,71,650,912,924,359,967,823,610,1019,25,450,64,615,685,485,889,371,789,146,892,322,731,995,1015,404,787,618,453,194,407,529,758,107,596,544,469,318,159,951,886,246,401,647,543,430,715,77,380,668,351,309,936,138,521,984,915,753,556,549,398,696,861,303,179,58,530,399,33,335,270,720,385,928,784,475,326,383,75,963,940,274,818,672,125,104,443,868,635,1010,719,331,374,416,555,279,794,1003,573,202,612,244,732,431,13,807,1004,455,730,200,236,503,765,999,426,132,798,713,321,412,362,180,341,988,218,536,592,241,534,7,173,21,975,234,955,566,914,105,772,353,576,280,827,693,937,533,885,878,645,541,355,211,402,547,737,8,16,201,595,734,350,479,476,1021,319,548,881,831,639,11,128,367,968,408,183,269,347,522,591,271,638,109,150,513,364,34,636,413,654,84,161,420,207,429,373,766,743,843,739,882,945,869,879,42,562,553,824,836,45,796,50,316,702,187,393,74,511,1023,448,989,783,993,564,245,582,554,0,690,12,103,366,815,73,851,854,761,587,923,464,942,304,87,440,454,998,977,974,922,167,456,32,606,190,643,294,231,817,219,230,855,866,551,229,223,188,96,537,1012,276,985,841,169,745,317,345,39,903,711,228,415,712,979,1001,941,557,177,170,788,695,1007,172,334,130,377,675,61,363,653,435,716,539,390,70,729,357,214,54,932,828,126,465,470,36,23,501,552,312,917,826,369,904,300,735,14,249,698,542,263,102,847,558,683,898,171,108,330,600,492,795,141,333,227,965,182,106,626,593,834,628,777,821,386,89,860,463,208,657,1018,853,446,500,133,859,248,428,678,118,502,706,348,397,1,378,528,568,619,499,184,875,209,740,812,727,852,468,52,137,111,703,1022,457,92,670,684,372,971,994,176,406,325,422,421,709,809,877,960,830,83,1008,664,424,278,608,505,346,178,682,79,235,43,933,144,871,20,120,926,252,68,166,666,900,305,129,41,776,677,266,116,532,759,620,1020,358,291,617,902,119,387,738,63,344,212,382,962,165,659,625,976,112,504,970,46,631,613,88,560,477,86,701,661,961,525,958,59,609,658,197,298,588,996,148,919,459,514,91,296,376,580,260,764,489,680,990,361,221,72,259,37,267,799,323,26,746,145,339,755,665,972,389,337,1016,473,216,255,864,876,360,646,370,583,24,574,117,206,667,927,518,687,349,934,1011,944,811,806,819,379,850,142,286,29,762,44,247,99,447,324,49,997,689,567,744,1009,814,952,418,946,956,57,185,598,849,707,785,778,1014,863,444,607,124,890,97,991,253,310,35,250,10,497,135,679,493,510,264,471,2,930,896,327,17,894,400,18,844,579,67,507,669,375,750,289,822,697,899,462,599,856,640,865,616,561,621,907,9,757,624,340,352,451,674,925,140,466,53,277,921,858,225,1006,328,870,801,964,791,1002,874,656,268,973,1005,891,559,394,782,306,15,186,938,524,632,5,121,901,438,756,287,918,644,572,494,254,681,65,571,85,751,725,113,779,614,136,437,414,22,439,134,395,733,78,168,491,251,307,605,883,215,311,752,959,992,633,332,699,982,320,663,700,80,288,768,986,94,496,154,983,314,948,282,848,723,749,275,813,143,297,837,781,793,506,935,957,461,498,808,95,862,122,329,123,258,953,565,648,425,55,604,601,343,27,222,981,839,158,82,272,873,257,6,688,594,563,285,627,262,724,939,509,198,833,816,51,181,908,488,100,196,867,655,545,517,396,295,365,717,47,460,149,481,578,747,417,623,162,232,531,81,602,284,237,630,774,676,220,947,550,342,966,90,911,508,769,265,110,38,634,714,205,4,151,649,637,857,722,800,590,308,652,842,519,1017,242,597,281,913,60,810,641,589,581,535,736,694,523,773,93,673,405,261,299,897,30,884,931,273,486,880,484,193,570,409,726,3,191,710,603,1013,175,906,256,512,204,301,980,775,585,920,432,671,691,174,114,354,660,803,495,76,888,771,338,441,483,474,199,651,445,226,950,516,189,203,31,540,66,302,490,969,292,155,152,449,336,792,28,69,313,805,478,381,949,721,243,929,987,160,790,239,705,742,147]"
+"pid": 11248, "tid": 11248, "ts": 5665104ns : GeneratedQueries: "queries" : 2654, "samples per query" : 25, "duration" : 132700000000
+"pid": 11248, "tid": 11248, "ts": 132752768960ns : Ending naturally: Minimum query count and test duration met.
+"pid": 11248, "tid": 11248, "ts": 132756149064ns : Log Contention Counters:
+"pid": 11248, "tid": 11248, "ts": 132756149064ns : 0 : swap_request_slots_retry_count
+"pid": 11248, "tid": 11248, "ts": 132756149064ns : 0 : swap_request_slots_retry_retry_count
+"pid": 11248, "tid": 11248, "ts": 132756149064ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 11248, "tid": 11248, "ts": 132756149064ns : 0 : start_reading_entries_retry_count
+"pid": 11248, "tid": 11248, "ts": 132756149064ns : 0 : tls_total_log_cas_fail_count
+"pid": 11248, "tid": 11248, "ts": 132756149064ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 11248, "tid": 11248, "ts": 132756153074ns : POWER_BEGIN: "mode" : Performance, "time" : 08-06-2019 10:21:06.582
+"pid": 11248, "tid": 11248, "ts": 132756153074ns : POWER_END: "mode" : Performance, "time" : 08-06-2019 10:23:19.329

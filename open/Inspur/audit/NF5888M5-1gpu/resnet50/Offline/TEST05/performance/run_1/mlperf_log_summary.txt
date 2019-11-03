@@ -1,0 +1,49 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : cScheduleSUT
+Scenario : Offline
+Mode     : Performance
+Samples per second: 9301.2
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 247426356
+Max latency (ns)                : 283834324275
+Mean latency (ns)               : 141218624627
+50.00 percentile latency (ns)   : 140667389887
+90.00 percentile latency (ns)   : 254913046683
+95.00 percentile latency (ns)   : 269885649306
+97.00 percentile latency (ns)   : 275592085109
+99.00 percentile latency (ns)   : 281045489564
+99.90 percentile latency (ns)   : 283580948163
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 2640000
+target_qps : 40000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 195
+sample_index_rng_seed : 235
+schedule_rng_seed : 634
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 2000
+
+No warnings encountered during test.
+
+2 ERRORS encountered. See detailed log.

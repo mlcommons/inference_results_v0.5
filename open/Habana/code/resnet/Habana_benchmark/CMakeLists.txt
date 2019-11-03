@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.5.1)
+project(Habana_benchmark)
+
+set(CMAKE_CXX_STANDARD 11)
+#set(SANITIZER_FLAGS -fno-omit-frame-pointer -fsanitize=address -fsanitize=null -fsanitize=bounds -fsanitize=vla-bound -fsanitize=leak)
+set(SANITIZER_FLAGS -fno-omit-frame-pointer -fsanitize=null -fsanitize=bounds -fsanitize=vla-bound)
+option(ENABLE_SANITIZER "description" OFF)
+message("1. SANITIZE_ENABLE = " ${ENABLE_SANITIZER})
+add_compile_options(-v -mmmx -msse -msse2 -msse3 -mssse3 -msse4 -msse4a -msse4.1 -msse4.2 -mavx -mavx2 -fopenmp)
+if(EXISTS "${CMAKE_CURRENT_LIST_DIR}/runner/CMakeLists.txt")
+add_subdirectory(runner)
+endif()
+add_subdirectory(benchmark_app)

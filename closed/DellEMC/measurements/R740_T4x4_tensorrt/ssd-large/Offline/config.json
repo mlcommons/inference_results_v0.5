@@ -1,0 +1,18 @@
+{
+    "benchmark": "ssd-large",
+    "config_name": "T4x4_ssd-large_Offline",
+    "scenario": "Offline",
+    "ssd-large": {
+        "gpu_batch_size": 12,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 540,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "system_id": "T4x4"
+}

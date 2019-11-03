@@ -1,0 +1,13 @@
+Conv2d
+compute_mode=u4s4s32
+in_channels=512
+out_channels=128
+kernel_size=2:1 1
+stride=2:1 1
+padding=2:0 0
+dilation=2:1 1
+groups=1
+bias=s16,1:128
+!model/npdata/layer2_2_conv1.bias
+weight=s4,4:128 512 1 1
+!model/npdata/layer2_2_conv1.weight

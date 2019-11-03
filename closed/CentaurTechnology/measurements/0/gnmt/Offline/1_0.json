@@ -1,0 +1,1 @@
+{"input_data_types": "bfloat16", "retraining": "none", "starting_weights_filename": "https://zenodo.org/record/2530924/files/gnmt_model.zip", "weight_data_types": "bfloat16", "weight_transformations": "trunaction/rounding from fp32 to bfloat16"}

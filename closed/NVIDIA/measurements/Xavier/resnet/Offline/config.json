@@ -1,0 +1,24 @@
+{
+    "benchmark": "resnet",
+    "config_name": "Xavier_resnet_Offline",
+    "resnet": {
+        "concurrent_offline_expected_qps": 2181,
+        "dla_batch_size": 32,
+        "dla_copy_streams": 4,
+        "dla_core": 0,
+        "dla_inference_streams": 1,
+        "dla_offline_expected_qps": 396,
+        "gpu_batch_size": 64,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 1478.33,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "scenario": "Offline",
+    "system_id": "Xavier"
+}

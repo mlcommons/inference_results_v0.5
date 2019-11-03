@@ -1,0 +1,7 @@
+{
+  "input_data_types": "fp32",
+  "weight_data_types": "fp32",
+  "retraining": "no",
+  "starting_weights_filename": "http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03.tar.gz",
+  "weight_transformations": "None (TensorFlow)"
+}

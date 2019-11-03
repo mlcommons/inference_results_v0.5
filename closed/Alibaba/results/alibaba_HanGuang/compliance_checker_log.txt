@@ -1,0 +1,11 @@
+WARNING:main:closed/Alibaba/results/alibaba_HanGuang/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/Alibaba/results/alibaba_HanGuang/resnet/Offline OK
+INFO:main:closed/Alibaba/results/alibaba_HanGuang/resnet/MultiStream OK
+INFO:main:closed/Alibaba/results/alibaba_HanGuang/resnet/SingleStream OK
+INFO:main:closed/Alibaba/results/alibaba_HanGuang/resnet/Server OK
+INFO:main:closed/Alibaba/systems/alibaba_HanGuang.json OK
+INFO:main:closed/Alibaba/measurements/alibaba_HanGuang/resnet/Offline OK
+INFO:main:closed/Alibaba/measurements/alibaba_HanGuang/resnet/MultiStream OK
+INFO:main:closed/Alibaba/measurements/alibaba_HanGuang/resnet/SingleStream OK
+INFO:main:closed/Alibaba/measurements/alibaba_HanGuang/resnet/Server OK
+INFO:main:SUMMARY: submission looks OK

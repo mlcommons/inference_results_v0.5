@@ -1,0 +1,130 @@
+"pid": 21247, "tid": 21247, "ts": 61667ns : LoadgenVersionInfo:
+"pid": 21247, "tid": 21247, "ts": 61667ns : version : .5a1 @ 413dbabcb3
+"pid": 21247, "tid": 21247, "ts": 61667ns : build_date_local : 2019-10-17T14:42:36.578299
+"pid": 21247, "tid": 21247, "ts": 61667ns : build_date_utc   : 2019-10-17T09:12:36.578307
+"pid": 21247, "tid": 21247, "ts": 61667ns : git_commit_date  : 2019-10-09T11:02:56-07:00
+"pid": 21247, "tid": 21247, "ts": 61667ns : git_log :
+
+413dbabcb30dc2ee1fe42e7b8090b37e8144617d Merge pull request #489 from guschmue/gs/seeds_to_config
+168255031dd893fdc1fe94c63c950d0c07478bb3 fix for 490 (#496)
+c807d3025c7f796fd8b0d429a7bf196e0e3609f4 dot missing in ssd-resnet34 line
+71940a7a4c39ab3e099d93bdcf60763fbb52587a Merge pull request #473 from guschmue/gs/submission
+157173e8fefe9faca9266a2f69c6b4549e76680e fix sample_index_rng_seed
+d3814314be893a3a7e14230292ea00a603a365db add performance_sample_count_override and seeds to config
+ba7baa0f68f37b6b693ea64961024cdd0fb11009 add the official names to perf sample count
+2d3ba0b95a641a22b7ab7b52771e792c01b2f88f fix perf sample count for gnmt
+7bc9a1f07048e09061f6c611e5ec95f367e0762c check performance_sample_count
+bdc8d66d92417772031b54ea40c0c97a22dd0dac add filter for submitter
+4384c31ab6485132554b5f7a4cea066093319f55 more checkers for submitters and division
+448a89831f56e16da20f476b49d80db3662ef2af address review feedback
+d4b930cefe17861188c356597582c69277e5dc6b Merge branch 'master' into gs/submission
+61220457dec221ed1984c62bd9d382698bd71bc6 loadgen: re-apply fix for msvc (#459)
+ab19825ca48a9f6f2faa208cf1d5135598f1d8c6 check for ERROR in detailed logs
+5684c11e3987b614aae830390fa0e92f56b7e800 Update the broken txt url link (#456)
+
+"pid": 21247, "tid": 21247, "ts": 61667ns : git_status :
+
+
+
+"pid": 21247, "tid": 21247, "ts": 61667ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+a3355ff8f163cabbf26adb86d3aa0e5da72900c7 /BUILD.gn
+25ddf9bbe1429de0d036f073497c1e90cb419519 /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+fa2add871dc7440cbda1f8c7a69e96eb6499951a /bindings/c_api.cc
+8fdaa27778cf3ee2eb85d5b7040e8ddfcab68108 /bindings/c_api.h
+9c778599614f2a42cb95ad662213cde5fcf791ec /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+19242fc8e0f9e3eaf8bec9964ba33d760eeade96 /loadgen.cc
+5526ae8ce9547a95f10e1ac465056bfba2fccb47 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+a69511f0c916eb2100b7f665605ff6ffdf0546be /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+922acb63aa734d36e3fa34d87ff0f361052e0c51 /query_sample_library.h
+369f4320e027fc276d2519021696c7d1027b7320 /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+ad3fa5b4e0395e77cd5e00ebae2d0a0eb538969d /test_settings.h
+56a654a4bd7e5f5faef94189c21ddcbfba3f7008 /test_settings_internal.cc
+1c15731be5abc26a6c90356720146862da7c22b4 /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+
+"pid": 21247, "tid": 21247, "ts": 269167ns : Date + time of test: 2019-08-10T03:29:07Z
+"pid": 21247, "tid": 21247, "ts": 269167ns : System Under Test (SUT) name: 
+"pid": 21247, "tid": 21247, "ts": 269167ns : Query Sample Library (QSL) name: Query Sample library test
+"pid": 21247, "tid": 21247, "ts": 269167ns : QSL total size: 24
+"pid": 21247, "tid": 21247, "ts": 269167ns : QSL performance size*: 24
+"pid": 21247, "tid": 21247, "ts": 269167ns : *TestSettings (performance_sample_count_override) can override
+"pid": 21247, "tid": 21247, "ts": 269167ns : *Refer to Effective Settings for actual value
+"pid": 21247, "tid": 21247, "ts": 318490ns : Found Audit Config file (audit.config). Overriding TestSettings from audit.config file.
+"pid": 21247, "tid": 21247, "ts": 1152031ns : 
+"pid": 21247, "tid": 21247, "ts": 1152031ns : Effective Settings:
+"pid": 21247, "tid": 21247, "ts": 1152031ns : Scenario : Single Stream
+"pid": 21247, "tid": 21247, "ts": 1152031ns : Test mode : Performance
+"pid": 21247, "tid": 21247, "ts": 1152031ns : samples_per_query : 1
+"pid": 21247, "tid": 21247, "ts": 1152031ns : target_qps : 2000
+"pid": 21247, "tid": 21247, "ts": 1152031ns : target_latency (ns): 0
+"pid": 21247, "tid": 21247, "ts": 1152031ns : target_latency_percentile : 0.9
+"pid": 21247, "tid": 21247, "ts": 1152031ns : max_async_queries : 1
+"pid": 21247, "tid": 21247, "ts": 1152031ns : target_duration (ms): 10000
+"pid": 21247, "tid": 21247, "ts": 1152031ns : min_duration (ms): 10000
+"pid": 21247, "tid": 21247, "ts": 1152031ns : max_duration (ms): 0
+"pid": 21247, "tid": 21247, "ts": 1152031ns : min_query_count : 100
+"pid": 21247, "tid": 21247, "ts": 1152031ns : max_query_count : 0
+"pid": 21247, "tid": 21247, "ts": 1152031ns : min_sample_count : 100
+"pid": 21247, "tid": 21247, "ts": 1152031ns : qsl_rng_seed : 195
+"pid": 21247, "tid": 21247, "ts": 1152031ns : sample_index_rng_seed : 235
+"pid": 21247, "tid": 21247, "ts": 1152031ns : schedule_rng_seed : 634
+"pid": 21247, "tid": 21247, "ts": 1152031ns : accuracy_log_rng_seed : 0
+"pid": 21247, "tid": 21247, "ts": 1152031ns : accuracy_log_probability : 0
+"pid": 21247, "tid": 21247, "ts": 1152031ns : print_timestamps : false
+"pid": 21247, "tid": 21247, "ts": 1152031ns : performance_issue_unique : false
+"pid": 21247, "tid": 21247, "ts": 1152031ns : performance_issue_same : false
+"pid": 21247, "tid": 21247, "ts": 1152031ns : performance_issue_same_index : 0
+"pid": 21247, "tid": 21247, "ts": 1152031ns : performance_sample_count : 24
+"pid": 21247, "tid": 21247, "ts": 1159167ns : 
+"pid": 21247, "tid": 21247, "ts": 1159167ns : Requested Settings:
+"pid": 21247, "tid": 21247, "ts": 1159167ns : Scenario : Single Stream
+"pid": 21247, "tid": 21247, "ts": 1159167ns : Test mode : Performance
+"pid": 21247, "tid": 21247, "ts": 1159167ns : single_stream_expected_latency_ns : 500000
+"pid": 21247, "tid": 21247, "ts": 1159167ns : single_stream_target_latency_percentile : 0.9
+"pid": 21247, "tid": 21247, "ts": 1159167ns : min_duration_ms : 10000
+"pid": 21247, "tid": 21247, "ts": 1159167ns : max_duration_ms : 0
+"pid": 21247, "tid": 21247, "ts": 1159167ns : min_query_count : 100
+"pid": 21247, "tid": 21247, "ts": 1159167ns : max_query_count : 0
+"pid": 21247, "tid": 21247, "ts": 1159167ns : qsl_rng_seed : 195
+"pid": 21247, "tid": 21247, "ts": 1159167ns : sample_index_rng_seed : 235
+"pid": 21247, "tid": 21247, "ts": 1159167ns : schedule_rng_seed : 634
+"pid": 21247, "tid": 21247, "ts": 1159167ns : accuracy_log_rng_seed : 0
+"pid": 21247, "tid": 21247, "ts": 1159167ns : accuracy_log_probability : 0
+"pid": 21247, "tid": 21247, "ts": 1159167ns : print_timestamps : false
+"pid": 21247, "tid": 21247, "ts": 1159167ns : performance_issue_unique : false
+"pid": 21247, "tid": 21247, "ts": 1159167ns : performance_issue_same : false
+"pid": 21247, "tid": 21247, "ts": 1159167ns : performance_issue_same_index : 0
+"pid": 21247, "tid": 21247, "ts": 1159167ns : performance_sample_count_override : 0
+"pid": 21247, "tid": 21247, "ts": 1159167ns : 
+"pid": 21247, "tid": 21247, "ts": 1173177ns : Starting performance mode:
+"pid": 21247, "tid": 21247, "ts": 1240625ns : Loading QSL : "set" : "[9,4,23,14,22,21,2,15,11,13,8,5,7,0,17,10,1,6,18,16,12,20,3,19]"
+"pid": 21247, "tid": 21247, "ts": 65321667ns : GeneratedQueries: "queries" : 40001, "samples per query" : 1, "duration" : 20000500000
+"pid": 21247, "tid": 21247, "ts": 10083866298ns : Ending naturally: Minimum query count and test duration met.
+"pid": 21247, "tid": 21247, "ts": 10086445153ns : Log Contention Counters:
+"pid": 21247, "tid": 21247, "ts": 10086445153ns : 0 : swap_request_slots_retry_count
+"pid": 21247, "tid": 21247, "ts": 10086445153ns : 0 : swap_request_slots_retry_retry_count
+"pid": 21247, "tid": 21247, "ts": 10086445153ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 21247, "tid": 21247, "ts": 10086445153ns : 0 : start_reading_entries_retry_count
+"pid": 21247, "tid": 21247, "ts": 10086445153ns : 0 : tls_total_log_cas_fail_count
+"pid": 21247, "tid": 21247, "ts": 10086445153ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 21247, "tid": 21247, "ts": 10086454840ns : POWER_BEGIN: "mode" : Performance, "time" : 08-10-2019 03:29:07.655
+"pid": 21247, "tid": 21247, "ts": 10086454840ns : POWER_END: "mode" : Performance, "time" : 08-10-2019 03:29:17.673

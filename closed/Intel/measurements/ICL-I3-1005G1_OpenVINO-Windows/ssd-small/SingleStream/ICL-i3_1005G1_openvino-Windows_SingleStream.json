@@ -1,0 +1,7 @@
+{
+    "input_data_types": "No change.",
+    "retraining": "We don’t retrain the model weight.",
+    "starting_weights_filename": "The original weight filename: https://zenodo.org/record/3401714/files/ssd_mobilenet_v1_quant_ft_no_zero_point_frozen_inference_graph.pb",
+    "weight_data_types": "No change.",
+    "weight_transformations": "We transfer the weight from int8 datatype in tensorflow file to int8 datatype in OpenVino IR file."
+}

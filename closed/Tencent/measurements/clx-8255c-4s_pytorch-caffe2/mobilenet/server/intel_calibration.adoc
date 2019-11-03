@@ -1,0 +1,17 @@
+Intel pytotch Post-Training Quantization
+-----------------------------------
+
+Intel pytorch post-training quantization tool will select proper scale parameters for transfering FP32 data format to INT8 data. Now the quantization tool supports symmetric quantization to fit the real distribution of fp32 weights and activation to int8. It also supports the asymmetric quantization method to transform the winograd conv transform matrix to int8. 
+
+Weights
+~~~~~~~
+We have supported per-output-channel-wise weights quantization mode for users by selecting absolute maximum value in each output channel array in weight tensor. Now per-output-channel-wise quantization method for weights supports Convolution/FC operators as weights have certain distribution range. We get an output-channel dimention absmax array for one weight tensor, then we get the max_value of weight datatype (255 for U8, 128 for S8). Finally, the weight_scale = (absmax array) / (max_value of datatype). The zero_point is decided by the weight datatype, which equals to 0 and 128 respectively for U8 and S8 datatype.
+
+Activations
+~~~~~~~~~~~
+As activations are dynamic and the precise distribution of activations are impossible to get, we use a small size of dataset (usually named as calibration dataset) to represent the real distribution of activations aproximately. The mothod we use to reflect the distribution of whole dataset is like absmax method: for a total activation tensor, we select the max_value of the chosen small inputs to represent the range of the real activations. We get a one dimention absmax_value for a total activation tensor of the full calibration dataset. Then we get the max_value of activation datatype (255 for U8, 128 for S8). Finally, the activation_scale = (absmax_value) / (max_value of datatype). The zero_point is decided by the weight datatype, which equals to 0 and 128 respectively for U8 and S8 datatype. Our activation quantization method now supports Conv/Relu/Sum/Add/MaxPool/AveragePool/FC operators.
+
+Winograd activation transformed matrix
+~~~~~~~~~~~
+For winograd conv, the activation tensor should be converted to the transformed matrix for computation (https://arxiv.org/pdf/1509.09308.pdf). The quantization tool supports asymmetric quantization for the transformed matrix. For each activation, we compute its transformed matrix. We get the max_value and min_value of the total transformed matrix for the full calibration dataset, and also get the max_value of transformed matrix datatype. So for the transformed matrix, the quantization scale = (max_value - min_value + 1e-5) / (max_value of datatype), the zero_point = -round((min_value * max_value of datatype) / (max_value - min_value + 1e-5)). The quantization method only supports the winograd Convolution operators.
+

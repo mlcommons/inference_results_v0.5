@@ -1,0 +1,37 @@
+{
+    "submitter": "Hailo",
+    "division": "closed",
+    "status": "preview",
+    "system_name": "Hailo8",
+    
+    "number_of_nodes": "2",
+    "host_processor_model_name": "Intel(R) Core(TM) i7-7820HQ CPU @ 2.90GHz",
+    "host_processors_per_node": "4",
+    "host_processor_core_count": "8",
+    "host_processor_frequency": "2.90GHz",
+    "host_processor_caches": "-",
+    "host_memory_configuration": "-",
+    "host_memory_capacity": "32 GB",
+    "host_storage_capacity": "467 GB",
+    "host_storage_type": "SSD",
+    "host_processor_interconnect": "-",
+    "host_networking": "-",
+    "host_networking_topology": "-",
+    
+    "accelerators_per_node": "1",
+    "accelerator_model_name": "Hailo8",
+    "accelerator_frequency": "-",
+    "accelerator_host_interconnect": "GBE",
+    "accelerator_interconnect": "-",
+    "accelerator_interconnect_topology": "-",
+    "accelerator_memory_capacity": "-",
+    "accelerator_memory_configuration": "-",
+    "accelerator_on-chip_memories": "-",
+    "cooling": "none",
+    "hw_notes": "none",
+
+    "framework": "Hailo SDK",
+    "operating_system": "Ubuntu 16.04",
+    "other_software_stack": "none",
+    "sw_notes": "none"
+}

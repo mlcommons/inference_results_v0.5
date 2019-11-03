@@ -1,0 +1,209 @@
+WARNING:main:closed/NVIDIA/results/Xavier/mobilenet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/Xavier/ssd-large/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/Xavier/ssd-small/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/Xavier/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/TitanRTXx4/mobilenet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/TitanRTXx4/ssd-large/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/TitanRTXx4/ssd-small/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/TitanRTXx4/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/TitanRTXx4/gnmt/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-large/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-small/Server/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-small/Server/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-small/Server/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-small/Server/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-small/Server/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-small/Server/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-small/Server/performance/run_4/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-small/Server/performance/run_4/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/ssd-small/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/resnet/Server/performance/run_3/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/resnet/Server/performance/run_3/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x20/gnmt/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x8/mobilenet/Server/performance/run_4/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x8/mobilenet/Server/performance/run_4/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x8/mobilenet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x8/ssd-large/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x8/ssd-small/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x8/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/NVIDIA/results/T4x8/gnmt/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/NVIDIA/results/Xavier/mobilenet/SingleStream OK
+INFO:main:closed/NVIDIA/results/Xavier/mobilenet/Offline OK
+INFO:main:closed/NVIDIA/results/Xavier/mobilenet/MultiStream OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-large/SingleStream OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-large/MultiStream OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-small/SingleStream OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-small/MultiStream OK
+INFO:main:closed/NVIDIA/results/Xavier/resnet/SingleStream OK
+INFO:main:closed/NVIDIA/results/Xavier/resnet/Offline OK
+INFO:main:closed/NVIDIA/results/Xavier/resnet/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/mobilenet/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/mobilenet/Offline OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/mobilenet/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-large/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-large/SingleStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-large/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-small/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-small/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/resnet/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/resnet/Offline OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/resnet/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/gnmt/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/gnmt/SingleStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/gnmt/Offline OK
+INFO:main:closed/NVIDIA/results/T4x20/ssd-large/Server OK
+INFO:main:closed/NVIDIA/results/T4x20/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/results/T4x20/ssd-small/Server OK
+INFO:main:closed/NVIDIA/results/T4x20/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/results/T4x20/resnet/Server OK
+INFO:main:closed/NVIDIA/results/T4x20/resnet/Offline OK
+INFO:main:closed/NVIDIA/results/T4x20/gnmt/Server OK
+INFO:main:closed/NVIDIA/results/T4x20/gnmt/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/mobilenet/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/mobilenet/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/mobilenet/MultiStream OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-large/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-large/SingleStream OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-large/MultiStream OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-small/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-small/MultiStream OK
+INFO:main:closed/NVIDIA/results/T4x8/resnet/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/resnet/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/resnet/MultiStream OK
+INFO:main:closed/NVIDIA/results/T4x8/gnmt/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/gnmt/SingleStream OK
+INFO:main:closed/NVIDIA/results/T4x8/gnmt/Offline OK
+WARNING:main:open/NVIDIA/results/Xavier/gnmt/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/NVIDIA/results/TitanRTXx4/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/NVIDIA/results/T4x20/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/NVIDIA/results/T4x8/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/NVIDIA/results/Xavier/mobilenet/SingleStream OK
+INFO:main:closed/NVIDIA/results/Xavier/mobilenet/Offline OK
+INFO:main:closed/NVIDIA/results/Xavier/mobilenet/MultiStream OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-large/SingleStream OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-large/MultiStream OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-small/SingleStream OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/results/Xavier/ssd-small/MultiStream OK
+INFO:main:closed/NVIDIA/results/Xavier/resnet/SingleStream OK
+INFO:main:closed/NVIDIA/results/Xavier/resnet/Offline OK
+INFO:main:closed/NVIDIA/results/Xavier/resnet/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/mobilenet/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/mobilenet/Offline OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/mobilenet/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-large/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-large/SingleStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-large/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-small/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/ssd-small/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/resnet/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/resnet/Offline OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/resnet/MultiStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/gnmt/Server OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/gnmt/SingleStream OK
+INFO:main:closed/NVIDIA/results/TitanRTXx4/gnmt/Offline OK
+INFO:main:closed/NVIDIA/results/T4x20/ssd-large/Server OK
+INFO:main:closed/NVIDIA/results/T4x20/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/results/T4x20/ssd-small/Server OK
+INFO:main:closed/NVIDIA/results/T4x20/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/results/T4x20/resnet/Server OK
+INFO:main:closed/NVIDIA/results/T4x20/resnet/Offline OK
+INFO:main:closed/NVIDIA/results/T4x20/gnmt/Server OK
+INFO:main:closed/NVIDIA/results/T4x20/gnmt/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/mobilenet/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/mobilenet/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/mobilenet/MultiStream OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-large/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-large/SingleStream OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-large/MultiStream OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-small/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/ssd-small/MultiStream OK
+INFO:main:closed/NVIDIA/results/T4x8/resnet/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/resnet/Offline OK
+INFO:main:closed/NVIDIA/results/T4x8/resnet/MultiStream OK
+INFO:main:closed/NVIDIA/results/T4x8/gnmt/Server OK
+INFO:main:closed/NVIDIA/results/T4x8/gnmt/SingleStream OK
+INFO:main:closed/NVIDIA/results/T4x8/gnmt/Offline OK
+INFO:main:open/NVIDIA/results/Xavier/gnmt/SingleStream OK
+INFO:main:open/NVIDIA/results/Xavier/gnmt/Offline OK
+INFO:main:open/NVIDIA/results/TitanRTXx4/resnet/Offline OK
+INFO:main:open/NVIDIA/results/T4x20/resnet/Offline OK
+INFO:main:open/NVIDIA/results/T4x8/resnet/Offline OK
+INFO:main:closed/NVIDIA/systems/Xavier.json OK
+INFO:main:closed/NVIDIA/systems/TitanRTXx4.json OK
+INFO:main:closed/NVIDIA/systems/T4x20.json OK
+INFO:main:closed/NVIDIA/systems/T4x8.json OK
+INFO:main:open/NVIDIA/systems/Xavier.json OK
+INFO:main:open/NVIDIA/systems/TitanRTXx4.json OK
+INFO:main:open/NVIDIA/systems/T4x20.json OK
+INFO:main:open/NVIDIA/systems/T4x8.json OK
+INFO:main:closed/NVIDIA/measurements/Xavier/mobilenet/SingleStream OK
+INFO:main:closed/NVIDIA/measurements/Xavier/mobilenet/Offline OK
+INFO:main:closed/NVIDIA/measurements/Xavier/mobilenet/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/Xavier/ssd-large/SingleStream OK
+INFO:main:closed/NVIDIA/measurements/Xavier/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/measurements/Xavier/ssd-large/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/Xavier/ssd-small/SingleStream OK
+INFO:main:closed/NVIDIA/measurements/Xavier/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/measurements/Xavier/ssd-small/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/Xavier/resnet/SingleStream OK
+INFO:main:closed/NVIDIA/measurements/Xavier/resnet/Offline OK
+INFO:main:closed/NVIDIA/measurements/Xavier/resnet/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/mobilenet/Server OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/mobilenet/Offline OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/mobilenet/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/ssd-large/Server OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/ssd-large/SingleStream OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/ssd-large/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/ssd-small/Server OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/ssd-small/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/resnet/Server OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/resnet/Offline OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/resnet/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/gnmt/Server OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/gnmt/SingleStream OK
+INFO:main:closed/NVIDIA/measurements/TitanRTXx4/gnmt/Offline OK
+INFO:main:closed/NVIDIA/measurements/T4x20/ssd-large/Server OK
+INFO:main:closed/NVIDIA/measurements/T4x20/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/measurements/T4x20/ssd-small/Server OK
+INFO:main:closed/NVIDIA/measurements/T4x20/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/measurements/T4x20/resnet/Server OK
+INFO:main:closed/NVIDIA/measurements/T4x20/resnet/Offline OK
+INFO:main:closed/NVIDIA/measurements/T4x20/gnmt/Server OK
+INFO:main:closed/NVIDIA/measurements/T4x20/gnmt/Offline OK
+INFO:main:closed/NVIDIA/measurements/T4x8/mobilenet/Server OK
+INFO:main:closed/NVIDIA/measurements/T4x8/mobilenet/Offline OK
+INFO:main:closed/NVIDIA/measurements/T4x8/mobilenet/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/T4x8/ssd-large/Server OK
+INFO:main:closed/NVIDIA/measurements/T4x8/ssd-large/SingleStream OK
+INFO:main:closed/NVIDIA/measurements/T4x8/ssd-large/Offline OK
+INFO:main:closed/NVIDIA/measurements/T4x8/ssd-large/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/T4x8/ssd-small/Server OK
+INFO:main:closed/NVIDIA/measurements/T4x8/ssd-small/Offline OK
+INFO:main:closed/NVIDIA/measurements/T4x8/ssd-small/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/T4x8/resnet/Server OK
+INFO:main:closed/NVIDIA/measurements/T4x8/resnet/Offline OK
+INFO:main:closed/NVIDIA/measurements/T4x8/resnet/MultiStream OK
+INFO:main:closed/NVIDIA/measurements/T4x8/gnmt/Server OK
+INFO:main:closed/NVIDIA/measurements/T4x8/gnmt/SingleStream OK
+INFO:main:closed/NVIDIA/measurements/T4x8/gnmt/Offline OK
+INFO:main:open/NVIDIA/measurements/Xavier/gnmt/SingleStream OK
+INFO:main:open/NVIDIA/measurements/Xavier/gnmt/Offline OK
+INFO:main:open/NVIDIA/measurements/TitanRTXx4/resnet/Offline OK
+INFO:main:open/NVIDIA/measurements/T4x20/resnet/Offline OK
+INFO:main:open/NVIDIA/measurements/T4x8/resnet/Offline OK
+INFO:main:SUMMARY: submission looks OK

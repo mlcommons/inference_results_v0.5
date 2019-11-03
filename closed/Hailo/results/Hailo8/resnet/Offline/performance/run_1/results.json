@@ -1,0 +1,22 @@
+{
+    "TestScenario.Offline": {
+        "count": 50000,
+        "good_items": 0,
+        "mean": 45.878993541847684,
+        "percentiles": {
+            "50.0": 45.873028454,
+            "80.0": 73.35733754480026,
+            "90.0": 82.530497746,
+            "95.0": 87.126997374,
+            "99.0": 90.757960634,
+            "99.9": 91.583455384
+        },
+        "qps": 545.2177792172587,
+        "took": 91.70647382736206,
+        "total_items": 50000
+    },
+    "cmdline": "Namespace(accuracy=False, backend='hailo', cache=0, config='../mlperf.conf', count=50000, data_format=None, dataset='imagenet', dataset_list='mlperf.dat', dataset_path='imagenet_val/', find_peak_performance=False, inputs=None, max_batchsize=32, max_latency=None, model='resnet50', model_name='resnet50', output='ro_p', outputs=None, profile='hailo', qps=None, samples_per_query=None, scenario='Offline', threads=1, time=None)",
+    "runtime": "hailo",
+    "time": 1572457861,
+    "version": "2.4.1"
+}

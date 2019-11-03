@@ -1,0 +1,22 @@
+{
+    "TestScenario.Offline": {
+        "count": 6600000,
+        "good_items": 5041256,
+        "mean": 78.77741447115906,
+        "percentiles": {
+            "50.0": 79.464350502,
+            "80.0": 123.058076196,
+            "90.0": 137.444249235,
+            "95.0": 145.242648166,
+            "99.0": 151.103697044,
+            "99.9": 152.14560416
+        },
+        "qps": 42944.790417381635,
+        "took": 153.68569588661194,
+        "total_items": 6600000
+    },
+    "cmdline": "Namespace(accuracy=False, backend='trt', cache=0, cache_path='/root/wsh/mlperf-data/preprocess', config='mlperf.conf', count=None, data_format='NCHW', dataset='imagenet', dataset_list=None, dataset_path='/root/wsh/mlperf-data/dataset-imagenet-ilsvrc2012-val', find_peak_performance=False, inputs=None, max_batchsize=None, max_latency=None, model_name='resnet50', model_path='/root/wsh/mlperf-trt-models-v6/resnet50_fp16_bs1024.trt', output='/root/wsh/', outputs=None, profile='resnet50-tf', qps=None, samples_per_query=None, scenario='Offline', schedule_config='/root/wsh/schedule-benchmark/schedule/mlperf_inference_schedule.prototxt', test_case='resnet50-tf-Offline', threads=96, time=None)",
+    "runtime": "TensorRT",
+    "time": 1570823849,
+    "version": "5.1.2"
+}

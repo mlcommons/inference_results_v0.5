@@ -1,0 +1,49 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : GNMT SERVER
+Scenario : Offline
+Mode     : Performance
+Samples per second: 340.088
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 1060712470
+Max latency (ns)                : 72263741455
+Mean latency (ns)               : 43791699429
+50.00 percentile latency (ns)   : 47287312732
+90.00 percentile latency (ns)   : 69145266276
+95.00 percentile latency (ns)   : 70876764151
+97.00 percentile latency (ns)   : 71591038831
+99.00 percentile latency (ns)   : 72169556842
+99.90 percentile latency (ns)   : 72263741455
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 24576
+target_qps : 340
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 3903900
+
+No warnings encountered during test.
+
+1 ERROR encountered. See detailed log.

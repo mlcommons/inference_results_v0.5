@@ -1,0 +1,10 @@
+audit/
+build/
+results/
+.pytest_cache/
+.vscode/
+@eaDir
+**/__pycache__
+bazel-*
+*.log
+.git/

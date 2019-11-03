@@ -1,0 +1,16 @@
+{
+    "benchmark": "ssd-large",
+    "config_name": "Xavier_ssd-large_SingleStream",
+    "scenario": "SingleStream",
+    "ssd-large": {
+        "gpu_batch_size": 1,
+        "gpu_single_stream_expected_latency_ns": 29478000,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_graphs": false
+    },
+    "system_id": "Xavier"
+}

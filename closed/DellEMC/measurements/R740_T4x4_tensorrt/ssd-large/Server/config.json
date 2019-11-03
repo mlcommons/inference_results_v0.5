@@ -1,0 +1,22 @@
+{
+    "benchmark": "ssd-large",
+    "config_name": "T4x4_ssd-large_Server",
+    "scenario": "Server",
+    "ssd-large": {
+        "active_sms": 100,
+        "deque_timeout_us": 30000,
+        "gpu_batch_size": 4,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 1,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 485,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDResNet34/int8_linear",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "system_id": "T4x4"
+}

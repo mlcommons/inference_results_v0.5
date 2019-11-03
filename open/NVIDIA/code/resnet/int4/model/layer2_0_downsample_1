@@ -1,0 +1,7 @@
+Quantize
+compute_mode=s32u16s8
+output_bits=7
+shift_bits=16
+max_requant=3641
+requant_factor=u16,4:1 512 1 1
+!model/npdata/layer2_0_downsample_1.requant_factor

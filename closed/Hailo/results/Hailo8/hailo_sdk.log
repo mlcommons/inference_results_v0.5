@@ -1,0 +1,6 @@
+2019-10-30 19:37:37,992 - INFO - udp_rate_limiter.py:218 - Resetting UDP rate for 10.0.0.100:32401
+2019-10-30 19:37:43,670 - INFO - udp_rate_limiter.py:236 - Setting UDP rate to 1000000.0 Kbits for 10.0.0.100:32401
+2019-10-30 19:41:57,163 - INFO - udp_rate_limiter.py:218 - Resetting UDP rate for 10.0.0.100:32401
+2019-10-30 19:41:59,246 - INFO - udp_rate_limiter.py:236 - Setting UDP rate to 870000.0 Kbits for 10.0.0.100:32401
+2019-10-30 20:18:31,240 - INFO - udp_rate_limiter.py:218 - Resetting UDP rate for 10.0.0.100:32401
+2019-10-30 20:18:35,889 - INFO - udp_rate_limiter.py:236 - Setting UDP rate to 1000000.0 Kbits for 10.0.0.100:32401

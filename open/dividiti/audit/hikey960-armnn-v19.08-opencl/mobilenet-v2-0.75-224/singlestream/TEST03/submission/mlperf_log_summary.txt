@@ -1,0 +1,52 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : ArmNN_TFLite_SUT
+Scenario : Single Stream
+Mode     : Submission
+90th percentile latency (ns) : 59891104
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 21.08
+QPS w/o loadgen overhead        : 21.10
+
+Min latency (ns)                : 30843749
+Max latency (ns)                : 82888886
+Mean latency (ns)               : 47400868
+50.00 percentile latency (ns)   : 45688785
+90.00 percentile latency (ns)   : 59891104
+95.00 percentile latency (ns)   : 65027660
+97.00 percentile latency (ns)   : 67377178
+99.00 percentile latency (ns)   : 72601743
+99.90 percentile latency (ns)   : 79689883
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 200
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1024
+max_query_count : 0
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 1024
+
+No warnings encountered during test.
+
+No errors encountered during test.

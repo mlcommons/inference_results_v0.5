@@ -1,0 +1,49 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : 
+Scenario : Offline
+Mode     : Performance
+Samples per second: 69306.6
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 36138239
+Max latency (ns)                : 65708059266
+Mean latency (ns)               : 32872736822
+50.00 percentile latency (ns)   : 32879933123
+90.00 percentile latency (ns)   : 59147406022
+95.00 percentile latency (ns)   : 62423840838
+97.00 percentile latency (ns)   : 63740886389
+99.00 percentile latency (ns)   : 65058643407
+99.90 percentile latency (ns)   : 65660673606
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 4554000
+target_qps : 69000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 1600
+
+3 warnings encountered. See detailed log.
+
+1 ERROR encountered. See detailed log.

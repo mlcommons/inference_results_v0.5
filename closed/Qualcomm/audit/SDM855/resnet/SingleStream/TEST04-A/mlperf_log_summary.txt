@@ -1,0 +1,56 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : 
+Scenario : Single Stream
+Mode     : Performance
+90th percentile latency (ns) : 9464010
+Result is : INVALID
+  Min duration satisfied : NO
+  Min queries satisfied : NO
+Recommendations:
+ * Decrease the expected latency so the loadgen pre-generates more queries.
+ * The test exited early, before enough queries were issued.
+   See the detailed log for why this may have occurred.
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 106.17
+QPS w/o loadgen overhead        : 106.54
+
+Min latency (ns)                : 9152813
+Max latency (ns)                : 9580938
+Mean latency (ns)               : 9385980
+50.00 percentile latency (ns)   : 9391406
+90.00 percentile latency (ns)   : 9464010
+95.00 percentile latency (ns)   : 9499791
+97.00 percentile latency (ns)   : 9580938
+99.00 percentile latency (ns)   : 9580938
+99.90 percentile latency (ns)   : 9580938
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 2000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 10000
+max_duration (ms): 0
+min_query_count : 100
+max_query_count : 0
+qsl_rng_seed : 0
+sample_index_rng_seed : 0
+schedule_rng_seed : 0
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : true
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 24
+
+No warnings encountered during test.
+
+1 ERROR encountered. See detailed log.

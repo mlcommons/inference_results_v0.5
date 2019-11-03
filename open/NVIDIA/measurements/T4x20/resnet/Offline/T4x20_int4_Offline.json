@@ -1,0 +1,7 @@
+{
+    "input_data_types": "int8", 
+    "retraining": "Y", 
+    "starting_weights_filename": "model/npdata/*", 
+    "weight_data_types": "int8,int4", 
+    "weight_transformations": "quantization, affine fusion, fine-tuning"
+}

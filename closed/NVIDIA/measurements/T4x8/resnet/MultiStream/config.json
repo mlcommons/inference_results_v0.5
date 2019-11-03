@@ -1,0 +1,18 @@
+{
+    "benchmark": "resnet",
+    "config_name": "T4x8_resnet_MultiStream",
+    "resnet": {
+        "deque_timeout_us": 50,
+        "gpu_batch_size": 60,
+        "gpu_multi_stream_samples_per_query": 1920,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_batcher_thread_per_device": true,
+        "use_graphs": false
+    },
+    "scenario": "MultiStream",
+    "system_id": "T4x8"
+}

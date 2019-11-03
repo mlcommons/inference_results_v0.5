@@ -1,0 +1,37 @@
+{
+    "division": "closed",
+    "submitter": "FuriosaAI",
+    "status": "RDI",
+    "system_name": "furiosa-renegade",
+
+    "number_of_nodes": "1",
+    "host_processor_model_name": "Intel(R) Xeon(R) CPU E5-2620 v4",
+    "host_processors_per_node": "2",
+    "host_processor_core_count": "16",
+    "host_processor_frequency": "2.1GHz",
+    "host_processor_caches": "L1I 256KiB 8x32KiB, L1D 256KiB 8x32KiB, L2 2MiB 8x256KiB, L3 20MiB 8x2.5MiB",
+    "host_memory_configuration": "3 x 8GB DDR4",
+    "host_memory_capacity": "24GB",
+    "host_storage_capacity": "1TB",
+    "host_storage_type": "HDD",
+    "host_processor_interconnect": "QPI",
+    "host_networking": "N/A",
+    "host_networking_topology": "N/A",
+
+    "accelerators_per_node": "7",
+    "accelerator_model_name": "Furiosa Renegade",
+    "accelerator_frequency": "340MHz",
+    "accelerator_host_interconnect": "PCIe 3.0 x16",
+    "accelerator_interconnect": "N/A",
+    "accelerator_interconnect_topology": "N/A",
+    "accelerator_memory_capacity": "64GB",
+    "accelerator_memory_configuration": "DDR4",
+    "accelerator_on-chip_memories": "54 MB",
+    "cooling": "Air Cooling",
+    "hw_notes": "Xilinx Alveo U250 Data Center Accelerator Card",
+
+    "framework": "TensorFlow commit hash = 527d3e2d3afbd2a432b2eab56e12880aabbdb107",
+    "operating_system": "Ubuntu 18.04.3 LTS",
+    "other_software_stack": "rustc 1.38.0",
+    "sw_notes": ""
+}

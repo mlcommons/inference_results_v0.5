@@ -1,0 +1,3 @@
+
+BLOCKED FILE ALERTA file has been blocked due to the 'Intel Email File Filtering Policy' rule.Context: 'ssdmobilenet_int8_offline.sh'Disallowed due to filenameTicket Number: '0ef4-5da0-0830-0001'
+See your system administrator for further information. Copyright 1999-2011 McAfee, Inc.All Rights Reserved.http://www.mcafee.com

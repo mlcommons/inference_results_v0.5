@@ -1,0 +1,1 @@
+accuracy=70.774%, good=35387, total=50000

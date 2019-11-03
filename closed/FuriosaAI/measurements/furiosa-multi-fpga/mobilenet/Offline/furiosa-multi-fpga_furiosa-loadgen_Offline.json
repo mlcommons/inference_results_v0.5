@@ -1,0 +1,7 @@
+{
+    "input_data_types": "uint8",
+    "retraining": "No",
+    "starting_weights_filename": "https://zenodo.org/record/2269307/files/mobilenet_v1_1.0_224_quant.tgz",
+    "weight_data_types": "uint8",
+    "weight_transformations": "No"
+}

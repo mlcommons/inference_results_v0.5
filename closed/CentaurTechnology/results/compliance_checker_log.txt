@@ -1,0 +1,35 @@
+WARNING:main:closed/CentaurTechnology/results/1/gnmt/Offline/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/1/gnmt/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/1/gnmt/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/ssd-small/SingleStream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/ssd-small/SingleStream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/ssd-small/Offline/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/ssd-small/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/ssd-small/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/mobilenet/Offline/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/mobilenet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/mobilenet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/mobilenet/SingleStream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/mobilenet/SingleStream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/resnet/Offline/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/resnet/SingleStream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/CentaurTechnology/results/0/resnet/SingleStream/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/CentaurTechnology/results/1/gnmt/Offline OK
+INFO:main:closed/CentaurTechnology/results/0/ssd-small/SingleStream OK
+INFO:main:closed/CentaurTechnology/results/0/ssd-small/Offline OK
+INFO:main:closed/CentaurTechnology/results/0/mobilenet/Offline OK
+INFO:main:closed/CentaurTechnology/results/0/mobilenet/SingleStream OK
+INFO:main:closed/CentaurTechnology/results/0/resnet/Offline OK
+INFO:main:closed/CentaurTechnology/results/0/resnet/SingleStream OK
+INFO:main:closed/CentaurTechnology/systems/1.json OK
+INFO:main:closed/CentaurTechnology/systems/0.json OK
+INFO:main:closed/CentaurTechnology/measurements/1/gnmt/Offline OK
+INFO:main:closed/CentaurTechnology/measurements/0/ssd-small/SingleStream OK
+INFO:main:closed/CentaurTechnology/measurements/0/ssd-small/Offline OK
+INFO:main:closed/CentaurTechnology/measurements/0/mobilenet/Offline OK
+INFO:main:closed/CentaurTechnology/measurements/0/mobilenet/SingleStream OK
+INFO:main:closed/CentaurTechnology/measurements/0/resnet/Offline OK
+INFO:main:closed/CentaurTechnology/measurements/0/resnet/SingleStream OK
+INFO:main:SUMMARY: submission looks OK

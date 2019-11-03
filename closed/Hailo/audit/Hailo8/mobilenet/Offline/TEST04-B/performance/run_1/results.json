@@ -1,0 +1,22 @@
+{
+    "TestScenario.Offline": {
+        "count": 1024,
+        "good_items": 0,
+        "mean": 0.8215520364374997,
+        "percentiles": {
+            "50.0": 0.8230476785,
+            "80.0": 1.281549729,
+            "90.0": 1.42580866,
+            "95.0": 1.523382542,
+            "99.0": 1.5708545,
+            "99.9": 1.5708545
+        },
+        "qps": 640.4578430140131,
+        "took": 1.5988562107086182,
+        "total_items": 1024
+    },
+    "cmdline": "Namespace(accuracy=False, backend='hailo', cache=0, config='../mlperf.conf', count=50000, data_format=None, dataset='imagenet_mobilenet', dataset_list='mlperf.dat', dataset_path='imagenet_val/', find_peak_performance=False, inputs=None, max_batchsize=32, max_latency=None, model='mobilenet', model_name='mobilenet', output='mo_p4b', outputs=None, profile='hailo', qps=None, samples_per_query=None, scenario='Offline', threads=1, time=None)",
+    "runtime": "hailo",
+    "time": 1572621841,
+    "version": "2.4.1"
+}

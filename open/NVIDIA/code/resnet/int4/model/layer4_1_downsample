@@ -1,0 +1,7 @@
+Quantize
+compute_mode=u4u16u31
+output_bits=31
+shift_bits=1
+max_requant=161
+requant_factor=u16,4:1 2048 1 1
+!model/npdata/layer4_1_downsample.requant_factor

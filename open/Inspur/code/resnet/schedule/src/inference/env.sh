@@ -1,0 +1,1 @@
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/zhuh/miniconda3/envs/tensorflow/lib/:/media/sunhy/inference-master-test/inference-master/v0.5/classification_and_detection/:/home/zhuh/miniconda3/envs/tensorflow/lib/python3.6/site-packages/:/media/sunhy/inference-master-test/inference-master/v0.5/classification_and_detection/C_inference/cnpy-master/:/usr/local/lib

@@ -1,0 +1,37 @@
+{
+    "division": "closed",
+    "submitter": "Intel_Corp",
+    "status": "available",
+    "system_name": "ICL i3 1005G1",
+
+    "number_of_nodes": "1",
+    "host_processor_model_name": "Intel(R) i3-1005G1 CPU @ 1.20 GHz",
+    "host_processors_per_node": "1",
+    "host_processor_core_count": "2",
+    "host_processor_frequency": "",
+    "host_processor_caches": "",
+    "host_memory_configuration": "",
+    "host_memory_capacity": "4GB",
+    "host_storage_capacity": "256G",
+    "host_storage_type": "NVMe",
+    "host_processor_interconnect": "",
+    "host_networking": "",
+    "host_networking_topology": "",
+
+    "accelerators_per_node": "1",
+    "accelerator_model_name": "Intel® UHD Graphics",
+    "accelerator_frequency": "300 MHz",
+    "accelerator_host_interconnect": "",
+    "accelerator_interconnect": "",
+    "accelerator_interconnect_topology": "",
+    "accelerator_memory_capacity": "shared with host",
+    "accelerator_memory_configuration": "",
+    "accelerator_on-chip_memories": "NA",
+    "cooling": "NA",
+    "hw_notes": "",
+
+    "framework": "OpenVino",
+    "operating_system": "Windows 10 Home",
+    "other_software_stack": "MKL-DNN; Version 0.19; URL: github.com/intel/mkl-dnn",
+    "sw_notes": ""
+}

@@ -1,0 +1,16 @@
+{
+    "benchmark": "resnet",
+    "config_name": "Xavier_resnet_SingleStream",
+    "resnet": {
+        "gpu_batch_size": 1,
+        "gpu_single_stream_expected_latency_ns": 2273000,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "scenario": "SingleStream",
+    "system_id": "Xavier"
+}

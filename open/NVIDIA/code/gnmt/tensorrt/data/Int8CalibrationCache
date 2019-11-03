@@ -1,0 +1,54 @@
+TRT-6001-MinMaxCalibration
+Query Embedding Indices: 43810204
+Attention shuffled: 3ca1a7b9
+hidd_l0: 3c78ba28
+cell_l0: 3f67686b
+Encoder Output: 3cce69a0
+Encoder Key Transform: 3e59b367
+Input Sequence Lengths: 3f69d3a7
+hidd_l1: 3c45e5e9
+hidd_l2: 3c0e6cb8
+hidd_l3: 3c2a4a58
+cell_l1: 3e3162c6
+cell_l2: 3ed1a347
+cell_l3: 3f20741b
+Scorer_parentLogProbs: 3ea839ed
+Length_Penalty: 3c1acf38
+(Unnamed Layer* 0) [Constant]_output: 3bdc20ee
+(Unnamed Layer* 4) [Constant]_output: 3dbf9369
+(Unnamed Layer* 5) [Constant]_output: 3d8e26df
+(Unnamed Layer* 6) [Constant]_output: 3c01788c
+(Unnamed Layer* 1) [Gather]_output: 3ca1a7b9
+(Unnamed Layer* 2) [Concatenation]_output: 3ca1a7b9
+Query_output: 3cb92ea6
+hidd_l0_out: 3c392ea6
+cell_l0_out: 3eef7718
+(Unnamed Layer* 7) [Matrix Multiply]_output: 3e497e88
+(Unnamed Layer* 8) [PluginV2Ext]_output_0: 3e937994
+(Unnamed Layer* 9) [Shuffle]_output: 3e937994
+(Unnamed Layer* 10) [Ragged SoftMax]_output: 3c5d0ce4
+(Unnamed Layer* 11) [Shuffle]_output: 3c5d0ce4
+Attention_output: 3c81f602
+(Unnamed Layer* 13) [Concatenation]_output: 3cb92ea6
+(Unnamed Layer* 14) [RNN]_output_1: 3c78a720
+hidd_l1_out: 3c78a720
+cell_l1_out: 3e2ed3c5
+(Unnamed Layer* 15) [Concatenation]_output: 3c78a720
+(Unnamed Layer* 16) [RNN]_output_1: 3c120a74
+hidd_l2_out: 3c120a74
+cell_l2_out: 3ec793f4
+Decoder_l2_out: 3c81f602
+(Unnamed Layer* 18) [Concatenation]_output: 3c81f602
+(Unnamed Layer* 19) [RNN]_output_1: 3c315352
+hidd_l3_out: 3c315352
+cell_l3_out: 3f186afb
+Decoder_l3_out: 3d0971dc
+(Unnamed Layer* 21) [Shuffle]_output: 3d0971dc
+(Unnamed Layer* 22) [Convolution]_output: 7f800000
+(Unnamed Layer* 23) [Shuffle]_output: 7f800000
+(Unnamed Layer* 24) [Softmax]_output: 3c0660b4
+(Unnamed Layer* 25) [Unary]_output: 7f800000
+(Unnamed Layer* 26) [TopK]_output_1: 3e27160f
+(Unnamed Layer* 26) [TopK]_output_2: 43b060c2
+logProbsCombined: 3ea85213
+Scorer_beamIndices: 43b060c2

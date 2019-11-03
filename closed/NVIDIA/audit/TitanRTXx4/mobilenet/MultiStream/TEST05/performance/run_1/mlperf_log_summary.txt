@@ -1,0 +1,67 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : LWIS_Server
+Scenario : Multi Stream
+Mode     : Performance
+Samples per query : 8704
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Intervals between each IssueQuery:  "qps" : 20, "ms" : 50
+50.00 percentile : 1
+90.00 percentile : 1
+95.00 percentile : 1
+97.00 percentile : 1
+99.00 percentile : 1
+99.90 percentile : 2
+
+Per-query latency:  "target_ns" : 50000000, "target_ms" : 50
+50.00 percentile latency (ns)   : 46406367
+90.00 percentile latency (ns)   : 46563366
+95.00 percentile latency (ns)   : 46621946
+97.00 percentile latency (ns)   : 46726424
+99.00 percentile latency (ns)   : 47965180
+99.90 percentile latency (ns)   : 50801310
+
+Per-sample latency:
+Min latency (ns)                : 2579327
+Max latency (ns)                : 52995516
+Mean latency (ns)               : 24629424
+50.00 percentile latency (ns)   : 24874251
+90.00 percentile latency (ns)   : 42359860
+95.00 percentile latency (ns)   : 44816663
+97.00 percentile latency (ns)   : 45645865
+99.00 percentile latency (ns)   : 46336979
+99.90 percentile latency (ns)   : 46718040
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 8704
+target_qps : 20
+target_latency (ns): 50000000
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 24000
+max_query_count : 0
+qsl_rng_seed : 195
+sample_index_rng_seed : 235
+schedule_rng_seed : 634
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 1024
+
+No warnings encountered during test.
+
+No errors encountered during test.

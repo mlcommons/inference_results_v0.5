@@ -1,0 +1,38 @@
+models:
+  - name: ResNet_v1.5_50
+    launchers:
+      - framework: dlsdk
+        device: CPU
+        tf_model: </path/to/resnet50_v1.pb>
+        adapter: classification
+        mo_params:
+          data_type: FP32 (or FP16)
+          input_shape: (1, 224, 224, 3)
+          output: softmax_tensor
+        cpu_extensions: AUTO
+    datasets:
+      - name: ImageNet2012_bkgr
+        data_source: </path/to/dataset-imagenet-ilsvrc2012-val>
+        annotation: </path/to/mlperf_list_1/imagenet.pickle>
+        dataset_meta: </path/to/mlperf_list_1/imagenet.json>
+        annotation_conversion:
+          converter: imagenet
+          annotation_file: ./annotations_mlperf/converted_mlperf_list.txt
+          labels_file: ./annotations_mlperf/synset_words.txt
+          has_background: True
+        subsample_size: 500
+        preprocessing:
+          - type: resize
+            size: 256
+            aspect_ratio_scale: greater
+          - type: crop
+            size: 224
+          - type: normalization
+            mean: 123, 117, 104
+        metrics:
+          - name: accuracy @ top1
+            type: accuracy
+            top_k: 1
+          - name: accuracy @ top5
+            type: accuracy
+            top_k: 5

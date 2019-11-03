@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program":"${env:MLPERF_INSTALL_DIR}/app/Debug/HABANA_benchmark_app",
+            "args": ["resnet_offline_submissionrun.ini"],
+            "stopAtEntry": false,
+            "cwd": "${env:MLPERF_INSTALL_DIR}/app/Debug/",
+            //"environment": [{"name":"LD_LIBRARY_PATH","value":"/usr/lib/habanalabs"}],
+            "environment": [{"name":"LD_LIBRARY_PATH","value":"/usr/lib/habanalabs"},
+                {"name":"ENABLE_CONSOLE","value":"true"},
+                {"name":"LOG_LEVEL_ALL","value":"3"}],
+
+            "externalConsole": false, //set to true to see output in cmd instead
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

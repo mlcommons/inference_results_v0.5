@@ -1,0 +1,22 @@
+{
+    "benchmark": "ssd-small",
+    "config_name": "T4x4_ssd-small_Server",
+    "scenario": "Server",
+    "ssd-small": {
+        "active_sms": 100,
+        "deque_timeout_us": 2000,
+        "gpu_batch_size": 32,
+        "gpu_copy_streams": 8,
+        "gpu_inference_streams": 1,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "server_target_qps": 28250,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDMobileNet/int8_chw4",
+        "use_cuda_thread_per_device": true,
+        "use_deque_limit": true,
+        "use_graphs": false
+    },
+    "system_id": "T4x4"
+}

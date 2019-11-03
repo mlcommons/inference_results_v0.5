@@ -1,0 +1,28 @@
+{
+    "benchmark": "gnmt",
+    "config_name": "TitanRTXx4_gnmt_Server",
+    "gnmt": {
+        "active_sms": 100,
+        "batch_size_inc": 1,
+        "batch_sizes": [
+            1,
+            8,
+            64,
+            128
+        ],
+        "beam_size": 10,
+        "concurrency": 4,
+        "enable_int8_generator": true,
+        "homogeneous_cluster": true,
+        "input_file_accuracy": "${PREPROCESSED_DATA_DIR}/nmt/GNMT/newstest2014.tok.bpe.32000.en",
+        "input_file_performance": "${PREPROCESSED_DATA_DIR}/nmt/GNMT/newstest2014.tok.bpe.32000.en.large",
+        "max_persistent_bs": 4,
+        "min_batch_size": 1,
+        "min_query_count": 3001,
+        "precision": "fp16",
+        "server_target_qps": 2579,
+        "timeout": 30000
+    },
+    "scenario": "Server",
+    "system_id": "TitanRTXx4"
+}

@@ -1,0 +1,7 @@
+{
+  "input_data_types": "bfloat16",
+  "retraining": "None",
+  "starting_weights_filename": "https://zenodo.org/record/2535873/files/resnet50_v1.pb",
+  "weight_data_types": "bfloat16",
+  "weight_transformations": "Transpose the weight of the first convolution layer"
+}

@@ -1,0 +1,1180 @@
+WARNING:main:closed/dividiti/results/rpi4-armnn-v19.08-neon/resnet/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/dividiti/results/rpi4-armnn-v19.08-neon/resnet/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/dividiti/results/rpi4-tflite-v1.15/resnet/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/dividiti/results/rpi4-tflite-v1.15/mobilenet/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/dividiti/results/mate10pro-armnn-v19.08-opencl/resnet/singlestream OK
+INFO:main:closed/dividiti/results/mate10pro-armnn-v19.08-opencl/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-armnn-v19.08-opencl/resnet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/mate10pro-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/results/mate10pro-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-armnn-v19.08-opencl/resnet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-tflite-v1.15/mobilenet/singlestream OK
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssdlite-mobilenet-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssdlite-mobilenet-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-resnet50-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-resnet50-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-quantized-mlperf/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-quantized-mlperf/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-inception-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-inception-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/yolo-v3/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/yolo-v3/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-resnet101-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-resnet101-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-non-quantized-mlperf/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-non-quantized-mlperf/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-resnet50-fpn/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-resnet50-fpn/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-inception-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-inception-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-nas-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-nas-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-fpn/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-fpn/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-inception-resnet-v2-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-inception-resnet-v2-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssdlite-mobilenet-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssdlite-mobilenet-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-resnet50-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-resnet50-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-quantized-mlperf/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-quantized-mlperf/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-inception-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-inception-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/yolo-v3/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/yolo-v3/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-resnet101-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-resnet101-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-non-quantized-mlperf/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-non-quantized-mlperf/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-resnet50-fpn/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-resnet50-fpn/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-inception-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-inception-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-nas-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-nas-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-fpn/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-fpn/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-inception-resnet-v2-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-inception-resnet-v2-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssdlite-mobilenet-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssdlite-mobilenet-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-resnet50-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-resnet50-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-quantized-mlperf/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-quantized-mlperf/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-inception-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-inception-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/yolo-v3/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/yolo-v3/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-resnet101-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-resnet101-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-non-quantized-mlperf/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-non-quantized-mlperf/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-resnet50-fpn/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-resnet50-fpn/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-inception-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-inception-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-nas-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-nas-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-fpn/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-fpn/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-inception-resnet-v2-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-inception-resnet-v2-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssdlite-mobilenet-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssdlite-mobilenet-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-resnet50-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-resnet50-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-quantized-mlperf/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-quantized-mlperf/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-inception-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-inception-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/yolo-v3/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/yolo-v3/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-resnet101-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-resnet101-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-non-quantized-mlperf/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-non-quantized-mlperf/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-resnet50-fpn/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-resnet50-fpn/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-inception-v2/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-inception-v2/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-nas-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-nas-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-fpn/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-fpn/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-inception-resnet-v2-lowproposals/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-inception-resnet-v2-lowproposals/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.4-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.4-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-96/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-96/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.3-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.3-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-96/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-96/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-96/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-96/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-96/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-96/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-192-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-192-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-224-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-224-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-224/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.4-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-160-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-160-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-128-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-128-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-96/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-96/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-224-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-224-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-192-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-192-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-224-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-224-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-224-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-224-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.3-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-160-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-160-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-160/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-160/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-96/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-128/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-192/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-224/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-192-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-192-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-160-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-160-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-96/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-96/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-128/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-128-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-128-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-128-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-128-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-160-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-160-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-96/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-96/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-192/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-192-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-192-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-128-quantized/singlestream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-128-quantized/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/dividiti/results/mate10pro-armnn-v19.08-opencl/resnet/singlestream OK
+INFO:main:closed/dividiti/results/mate10pro-armnn-v19.08-opencl/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-armnn-v19.08-opencl/resnet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/mate10pro-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/results/mate10pro-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-armnn-v19.08-opencl/resnet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssdlite-mobilenet-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-resnet50-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-inception-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/yolo-v3/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-resnet101-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-non-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-resnet50-fpn/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-inception-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-nas-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-fpn/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt/rcnn-inception-resnet-v2-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssdlite-mobilenet-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-resnet50-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-inception-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/yolo-v3/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-resnet101-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-non-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-resnet50-fpn/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-inception-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-nas-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-fpn/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cpu/rcnn-inception-resnet-v2-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-opencl/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-neon/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssdlite-mobilenet-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-resnet50-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-inception-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/yolo-v3/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-resnet101-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-non-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-resnet50-fpn/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-inception-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-nas-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-fpn/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-cuda/rcnn-inception-resnet-v2-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssdlite-mobilenet-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-resnet50-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-inception-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/yolo-v3/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-resnet101-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-non-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-resnet50-fpn/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-inception-v2/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-nas-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-fpn/singlestream OK
+INFO:main:open/dividiti/results/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-inception-resnet-v2-lowproposals/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-1.0-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.75-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-1.0-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.75-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-1.0-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.5-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.5-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.25-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.75-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.25-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.25-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.5-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.25-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.5-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-0.75-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-tflite-v1.15/mobilenet-v1-1.0-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/results/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-1.0-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.75-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-1.0-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.75-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-1.0-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.5-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.5-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.25-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.75-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.25-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.25-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.5-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.25-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.5-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-0.75-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/hikey960-tflite-v1.15/mobilenet-v1-1.0-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/results/firefly-armnn-v19.08-neon/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-1.0-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.75-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-1.0-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.75-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-1.0-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.5-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.5-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.25-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.75-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.25-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.25-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.5-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.25-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.5-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-0.75-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/mate10pro-tflite-v1.13/mobilenet-v1-1.0-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-224-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-128-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-160-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-0.75-192-quantized/singlestream OK
+INFO:main:open/dividiti/results/rpi4-tflite-v1.15/mobilenet-v1-1.0-128-quantized/singlestream OK
+INFO:main:closed/dividiti/systems/mate10pro-armnn-v19.08-opencl.json OK
+INFO:main:closed/dividiti/systems/firefly-armnn-v19.08-opencl.json OK
+INFO:main:closed/dividiti/systems/hikey960-armnn-v19.08-neon.json OK
+INFO:main:closed/dividiti/systems/mate10pro-armnn-v19.08-neon.json OK
+INFO:main:closed/dividiti/systems/firefly-tflite-v1.15.json OK
+INFO:main:closed/dividiti/systems/hikey960-armnn-v19.08-opencl.json OK
+INFO:main:closed/dividiti/systems/rpi4-armnn-v19.08-neon.json OK
+INFO:main:closed/dividiti/systems/hikey960-tflite-v1.15.json OK
+INFO:main:closed/dividiti/systems/firefly-armnn-v19.08-neon.json OK
+INFO:main:closed/dividiti/systems/rpi4-tflite-v1.15.json OK
+INFO:main:open/dividiti/systems/velociti-tensorflow-v1.14-tensorrt.json OK
+INFO:main:open/dividiti/systems/velociti-tensorflow-v1.14-cpu.json OK
+INFO:main:open/dividiti/systems/firefly-armnn-v19.08-opencl.json OK
+INFO:main:open/dividiti/systems/hikey960-armnn-v19.08-neon.json OK
+INFO:main:open/dividiti/systems/velociti-tensorflow-v1.14-cuda.json OK
+INFO:main:open/dividiti/systems/velociti-tensorflow-v1.14-tensorrt-dynamic.json OK
+INFO:main:open/dividiti/systems/firefly-tflite-v1.15.json OK
+INFO:main:open/dividiti/systems/hikey960-armnn-v19.08-opencl.json OK
+INFO:main:open/dividiti/systems/rpi4-armnn-v19.08-neon.json OK
+INFO:main:open/dividiti/systems/hikey960-tflite-v1.15.json OK
+INFO:main:open/dividiti/systems/firefly-armnn-v19.08-neon.json OK
+INFO:main:open/dividiti/systems/mate10pro-tflite-v1.13.json OK
+INFO:main:open/dividiti/systems/rpi4-tflite-v1.15.json OK
+INFO:main:closed/dividiti/measurements/mate10pro-armnn-v19.08-opencl/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/mate10pro-armnn-v19.08-opencl/mobilenet/singlestream OK
+INFO:main:closed/dividiti/measurements/firefly-armnn-v19.08-opencl/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet/singlestream OK
+INFO:main:closed/dividiti/measurements/hikey960-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/measurements/mate10pro-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/mate10pro-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/measurements/firefly-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/firefly-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/measurements/hikey960-armnn-v19.08-opencl/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet/singlestream OK
+INFO:main:closed/dividiti/measurements/rpi4-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/measurements/hikey960-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/hikey960-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/measurements/firefly-armnn-v19.08-neon/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet/singlestream OK
+INFO:main:closed/dividiti/measurements/rpi4-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/rpi4-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/ssdlite-mobilenet-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/rcnn-resnet50-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/rcnn-inception-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/yolo-v3/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/rcnn-resnet101-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-non-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/ssd-resnet50-fpn/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/ssd-inception-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/rcnn-nas-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/ssd-mobilenet-v1-fpn/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt/rcnn-inception-resnet-v2-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/ssdlite-mobilenet-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/rcnn-resnet50-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/rcnn-inception-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/yolo-v3/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/rcnn-resnet101-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-non-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/ssd-resnet50-fpn/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/ssd-inception-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/rcnn-nas-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/ssd-mobilenet-v1-fpn/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cpu/rcnn-inception-resnet-v2-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-opencl/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-neon/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/ssdlite-mobilenet-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/rcnn-resnet50-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/rcnn-inception-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/yolo-v3/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/rcnn-resnet101-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-non-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/ssd-resnet50-fpn/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/ssd-inception-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/rcnn-nas-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/ssd-mobilenet-v1-fpn/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-cuda/rcnn-inception-resnet-v2-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/ssdlite-mobilenet-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-resnet50-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-inception-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/yolo-v3/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-resnet101-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-non-quantized-mlperf/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-resnet50-fpn/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-inception-v2/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-nas-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/ssd-mobilenet-v1-fpn/singlestream OK
+INFO:main:open/dividiti/measurements/velociti-tensorflow-v1.14-tensorrt-dynamic/rcnn-inception-resnet-v2-lowproposals/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-1.0-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.75-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-1.0-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.75-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-1.0-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.5-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.5-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.25-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.75-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.25-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.25-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.5-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.25-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.5-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-0.75-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-tflite-v1.15/mobilenet-v1-1.0-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-armnn-v19.08-opencl/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-armnn-v19.08-neon/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-1.0-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.75-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-1.0-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.75-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-1.0-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.5-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.5-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.25-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.75-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.25-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.25-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.5-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.25-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.5-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-0.75-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/hikey960-tflite-v1.15/mobilenet-v1-1.0-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/measurements/firefly-armnn-v19.08-neon/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-1.0-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.75-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-1.0-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.75-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-1.0-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.5-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.5-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.25-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.75-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.25-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.25-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.5-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.25-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.5-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-0.75-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/mate10pro-tflite-v1.13/mobilenet-v1-1.0-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-1.0-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.75-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.35-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.35-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-1.4-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-1.0-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.75-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.35-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.5-96/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-1.0-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.5-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.5-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.35-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.25-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.5-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.25-224-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-1.3-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.5-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.5-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.25-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.75-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.75-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-1.0-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-1.0-160/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.75-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-1.0-96/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-1.0-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.75-224/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.25-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.25-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.75-96/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.25-128/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.5-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.25-128-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.5-160-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-1.0-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.5-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.75-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v2-0.35-96/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.25-192/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-0.75-192-quantized/singlestream OK
+INFO:main:open/dividiti/measurements/rpi4-tflite-v1.15/mobilenet-v1-1.0-128-quantized/singlestream OK
+INFO:main:SUMMARY: submission looks OK

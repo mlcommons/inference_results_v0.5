@@ -1,0 +1,17 @@
+In our Xavier non-SingleStream tests, the SUT utilizes both the GPU and DLA to
+perform inferences. These are two different accelerators with two different 
+numerical properties and as such, an inference performed on one accelerator 
+can result in a different answer from that performed on the other. Reported 
+test failure is due to a sample being run on one accelerator in accuracy mode 
+and on the other in performance mode. To provide assurances that both 
+accelerators return satisfactory accuracy, we use 
+https://github.com/mlperf/inference/blob/master/v0.5/audit/nvidia/TEST01/gnmt/create_accuracy_baseline.sh 
+to isolate the samples in the accuracy mode log that correspond to the samples 
+found in the performance mode log. The accuracy metric calculation script can 
+then be run on this subset of accuracy mode results in order to make a 
+meaningful apples-to-apples comparison with the performance mode results. 
+For example:
+closed/NVIDIA/audit/Xavier/mobilenet/Offline/TEST01/accuracy/input_accuracy
+closed/NVIDIA/audit/Xavier/mobilenet/Offline/TEST01/accuracy/baseline_accuracy
+
+As shown in our logs, for every run, the two logs differ by no more than 0.4%.

@@ -1,0 +1,20 @@
+{
+  "submitter": "Google",
+  "division": "closed",
+  "status": "rdi",
+  "system_name": "tpu-v3.8",
+  "number_of_nodes": 1,
+  "host_processors_per_node": 1,
+  "host_processor_model_name": "Intel Skylake",
+  "host_processor_core_count": 112,
+  "host_memory_capacity": "383 GB",
+  "host_storage_type": "HDD",
+  "host_storage_capacity": "21.42 GB",
+  "accelerators_per_node": 8,
+  "accelerator_model_name": "tpu-v3.8",
+  "accelerator_memory_configuration": "HBM",
+  "accelerator_memory_capacity": "16 GB per accelerator",
+  "framework": "TF at the internal CL listed in the code dir",
+  "other_software_stack": "TF",
+  "operating_system": "gLinux"
+}

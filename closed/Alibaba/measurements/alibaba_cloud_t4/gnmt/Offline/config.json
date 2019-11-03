@@ -1,0 +1,16 @@
+{
+    "benchmark": "gnmt",
+    "config_name": "T4_gnmt_Offline",
+    "gnmt": {
+        "beam_size": 10,
+        "enable_int8_generator": true,
+        "gpu_batch_size": 128,
+        "gpu_offline_expected_qps": 340,
+        "input_file_accuracy": "${PREPROCESSED_DATA_DIR}/nmt/GNMT/newstest2014.tok.bpe.32000.en",
+        "input_file_performance": "${PREPROCESSED_DATA_DIR}/nmt/GNMT/newstest2014.tok.bpe.32000.en.large",
+        "precision": "fp16",
+        "seq_len_slots": 4
+    },
+    "scenario": "Offline",
+    "system_id": "T4"
+}

@@ -1,0 +1,13 @@
+ONNX Post-Training Quantization
+----------------------------------------
+
+This ONNX-based post-training quantization requires a dynamic range for each weight and 
+activation tensor. At present, we use GEMMLOWP/SYMLOWP 8-bit representation for both.
+
+Resnet50 Quantization
+---------------------
+We assume a Gaussian distribution and use this knowlege to restrict the quantization range to a width of 3.92
+standard deviations from the mean. A lot of research has shown that the Gaussian assumption is a common approximation (e.g., Soudry, D., Hubara, I., and Meir, R.
+Expectation backpropagation: Parameter-free training of multilayer neural networks with continuous or discrete weights. In Advances in Neural Information Processing Systems, pp. 963–971, 2014), 
+based on the fact that the neural input x(d) is a sum of many inputs, 
+so we expect it to be approximately Gaussian from the central limit theorem.

@@ -1,0 +1,51 @@
+{
+    "hw": {
+        "accelerator_frequency": "",
+        "accelerator_host_interconnect": "",
+        "accelerator_interconnect": "",
+        "accelerator_interconnect_topology": "",
+        "accelerator_memory_capacity": "16GB",
+        "accelerator_memory_configuration": "",
+        "accelerator_model_name": "Goya",
+        "accelerator_on-chip_memories": "",
+        "accelerators_per_node": "1",
+        "cooling": "",
+        "host_memory_capacity": "64GB",
+        "host_memory_configuration": "",
+        "host_networking": "",
+        "host_networking_topology": "",
+        "host_processor_caches": "",
+        "host_processor_core_count": "40",
+        "host_processor_frequency": "2.20GHz",
+        "host_processor_interconnect": "",
+        "host_processor_model_name": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "host_processors_per_node": "40",
+        "host_storage_capacity": "1TB",
+        "host_storage_type": "SSD",
+        "hw_notes": "",
+        "number_of_nodes": "1",
+        "system_name": "H-102-Goya PCI-board"
+    },
+    "implementation": {
+        "input_data_types": "INT8",
+        "retraining": "NO",
+        "starting_weights_filename": "ONNX",
+        "weight_data_types": "INT8",
+        "weight_transformations": "Calibration and quantization as described the the write up"
+    },
+    "submission": {
+        "division": "closed",
+        "status": "available",
+        "submitter": "Habana"
+    },
+    "supplementary_result_info": {
+        "result_info_power": "",
+        "result_info_quality": ""
+    },
+    "sw": {
+        "framework": "Synapse-V0.2.0",
+        "operating_system": "ubuntu-16.04",
+        "other_software_stack": "Synapse-V0.2.0",
+        "sw_notes": ""
+    }
+}

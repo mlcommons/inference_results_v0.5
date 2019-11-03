@@ -1,0 +1,4 @@
+Verifying performance.
+reference score = 2028304
+test score = 2025803
+TEST PASS

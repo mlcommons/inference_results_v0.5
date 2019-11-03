@@ -1,0 +1,129 @@
+"pid": 23178, "tid": 23178, "ts": 8750ns : LoadgenVersionInfo:
+"pid": 23178, "tid": 23178, "ts": 8750ns : version : .5a1 @ 61220457de
+"pid": 23178, "tid": 23178, "ts": 8750ns : build_date_local : 2019-10-05T14:53:01.923407
+"pid": 23178, "tid": 23178, "ts": 8750ns : build_date_utc   : 2019-10-05T14:53:01.923471
+"pid": 23178, "tid": 23178, "ts": 8750ns : git_commit_date  : 2019-10-01T10:39:03-07:00
+"pid": 23178, "tid": 23178, "ts": 8750ns : git_log :
+
+61220457dec221ed1984c62bd9d382698bd71bc6 loadgen: re-apply fix for msvc (#459)
+5684c11e3987b614aae830390fa0e92f56b7e800 Update the broken txt url link (#456)
+55c0ea4e772634107f3e67a6d0da61e6a2ca390d https://github.com/mlperf/inference/issues/450 logging per-sample info regardless of scenario (#454)
+d31c18fbd9854a4f1c489ca1bc4cd818e48f2bc5 Adding a flag to accuracy-coco script which fixes issue with preprocessing that removes 48 empty images (#453)
+1d0e06e54a7d763cf228bdfd8b1e987976e4222f Implement LogSettings::enable_trace (#466)
+d9c4b77ed961c20bdff2b2a4c7d0904a91408882 Merge pull request #467 from guschmue/gs/config-fix
+62eddd5fa123c0ed7f230868cf7e6d08f49f697c there was a dot missing when parsing items from config file
+5c4c571583ebf9703daeadd5a5f90f6bd0253852  Offline scenario PerformanceOnly mode should generate 1 instead of 2 queries (#461)
+6019b1b6154f6fe399519743cd59394554d80d26 Update README.md
+2e9a1f7c164ec715a6cbd014eea805d69b4b14a4 Merge pull request #427 from nvmbreughe/master
+ace74c303888e575826d2a8be8460608d156efae Merge pull request #406 from guschmue/gs/fix-no-results
+52699022d32271a00c7ec840acb77180a8c5d061 Split on any whitespace in val_map.txt, not just tab. (#458)
+5a4803e37b990c0f294c8a7caa6029fb6f201573 On MacOS/LLVM thread_ids are not auto-convertible to uint64_t and have to be converted manually (#439)
+94e7f492ff936e02a626c49918fd8b17d076fe7e Merge pull request #449 from guschmue/gs/fix-docker
+2dd8318b3f7a6ffea49d88716b96cb3172e66834 fix output path in docker image
+4df4601374cfc2c2c6d25b8aef08585614a8f5cd Merge pull request #432 from guschmue/gs/fix-target-qps
+
+"pid": 23178, "tid": 23178, "ts": 8750ns : git_status :
+
+
+
+"pid": 23178, "tid": 23178, "ts": 8750ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+a3355ff8f163cabbf26adb86d3aa0e5da72900c7 /BUILD.gn
+25ddf9bbe1429de0d036f073497c1e90cb419519 /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+fa2add871dc7440cbda1f8c7a69e96eb6499951a /bindings/c_api.cc
+8fdaa27778cf3ee2eb85d5b7040e8ddfcab68108 /bindings/c_api.h
+9c778599614f2a42cb95ad662213cde5fcf791ec /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+19242fc8e0f9e3eaf8bec9964ba33d760eeade96 /loadgen.cc
+5526ae8ce9547a95f10e1ac465056bfba2fccb47 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+a69511f0c916eb2100b7f665605ff6ffdf0546be /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+922acb63aa734d36e3fa34d87ff0f361052e0c51 /query_sample_library.h
+369f4320e027fc276d2519021696c7d1027b7320 /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+ad3fa5b4e0395e77cd5e00ebae2d0a0eb538969d /test_settings.h
+2f6e9b9506486cd0de01b8d8f5f0dfe8a8878773 /test_settings_internal.cc
+1c15731be5abc26a6c90356720146862da7c22b4 /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+
+"pid": 23178, "tid": 23178, "ts": 47542ns : Date + time of test: 2019-10-11T14:40:27Z
+"pid": 23178, "tid": 23178, "ts": 47542ns : System Under Test (SUT) name: ArmNN_TFLite_SUT
+"pid": 23178, "tid": 23178, "ts": 47542ns : Query Sample Library (QSL) name: ArmNN_TFLite_QSL
+"pid": 23178, "tid": 23178, "ts": 47542ns : QSL total size: 1024
+"pid": 23178, "tid": 23178, "ts": 47542ns : QSL performance size*: 1024
+"pid": 23178, "tid": 23178, "ts": 47542ns : *TestSettings (performance_sample_count_override) can override
+"pid": 23178, "tid": 23178, "ts": 47542ns : *Refer to Effective Settings for actual value
+"pid": 23178, "tid": 23178, "ts": 68833ns : 
+"pid": 23178, "tid": 23178, "ts": 68833ns : Effective Settings:
+"pid": 23178, "tid": 23178, "ts": 68833ns : Scenario : Single Stream
+"pid": 23178, "tid": 23178, "ts": 68833ns : Test mode : Performance
+"pid": 23178, "tid": 23178, "ts": 68833ns : samples_per_query : 1
+"pid": 23178, "tid": 23178, "ts": 68833ns : target_qps : 100
+"pid": 23178, "tid": 23178, "ts": 68833ns : target_latency (ns): 0
+"pid": 23178, "tid": 23178, "ts": 68833ns : target_latency_percentile : 0.9
+"pid": 23178, "tid": 23178, "ts": 68833ns : max_async_queries : 1
+"pid": 23178, "tid": 23178, "ts": 68833ns : target_duration (ms): 60000
+"pid": 23178, "tid": 23178, "ts": 68833ns : min_duration (ms): 60000
+"pid": 23178, "tid": 23178, "ts": 68833ns : max_duration (ms): 0
+"pid": 23178, "tid": 23178, "ts": 68833ns : min_query_count : 1024
+"pid": 23178, "tid": 23178, "ts": 68833ns : max_query_count : 0
+"pid": 23178, "tid": 23178, "ts": 68833ns : min_sample_count : 1024
+"pid": 23178, "tid": 23178, "ts": 68833ns : qsl_rng_seed : 3133965575612453542
+"pid": 23178, "tid": 23178, "ts": 68833ns : sample_index_rng_seed : 665484352860916858
+"pid": 23178, "tid": 23178, "ts": 68833ns : schedule_rng_seed : 3622009729038561421
+"pid": 23178, "tid": 23178, "ts": 68833ns : accuracy_log_rng_seed : 0
+"pid": 23178, "tid": 23178, "ts": 68833ns : accuracy_log_probability : 0
+"pid": 23178, "tid": 23178, "ts": 68833ns : print_timestamps : false
+"pid": 23178, "tid": 23178, "ts": 68833ns : performance_issue_unique : false
+"pid": 23178, "tid": 23178, "ts": 68833ns : performance_issue_same : false
+"pid": 23178, "tid": 23178, "ts": 68833ns : performance_issue_same_index : 0
+"pid": 23178, "tid": 23178, "ts": 68833ns : performance_sample_count : 1024
+"pid": 23178, "tid": 23178, "ts": 69708ns : 
+"pid": 23178, "tid": 23178, "ts": 69708ns : Requested Settings:
+"pid": 23178, "tid": 23178, "ts": 69708ns : Scenario : Single Stream
+"pid": 23178, "tid": 23178, "ts": 69708ns : Test mode : Performance
+"pid": 23178, "tid": 23178, "ts": 69708ns : single_stream_expected_latency_ns : 10000000
+"pid": 23178, "tid": 23178, "ts": 69708ns : single_stream_target_latency_percentile : 0.9
+"pid": 23178, "tid": 23178, "ts": 69708ns : min_duration_ms : 60000
+"pid": 23178, "tid": 23178, "ts": 69708ns : max_duration_ms : 0
+"pid": 23178, "tid": 23178, "ts": 69708ns : min_query_count : 1024
+"pid": 23178, "tid": 23178, "ts": 69708ns : max_query_count : 0
+"pid": 23178, "tid": 23178, "ts": 69708ns : qsl_rng_seed : 3133965575612453542
+"pid": 23178, "tid": 23178, "ts": 69708ns : sample_index_rng_seed : 665484352860916858
+"pid": 23178, "tid": 23178, "ts": 69708ns : schedule_rng_seed : 3622009729038561421
+"pid": 23178, "tid": 23178, "ts": 69708ns : accuracy_log_rng_seed : 0
+"pid": 23178, "tid": 23178, "ts": 69708ns : accuracy_log_probability : 0
+"pid": 23178, "tid": 23178, "ts": 69708ns : print_timestamps : false
+"pid": 23178, "tid": 23178, "ts": 69708ns : performance_issue_unique : false
+"pid": 23178, "tid": 23178, "ts": 69708ns : performance_issue_same : false
+"pid": 23178, "tid": 23178, "ts": 69708ns : performance_issue_same_index : 0
+"pid": 23178, "tid": 23178, "ts": 69708ns : performance_sample_count_override : 0
+"pid": 23178, "tid": 23178, "ts": 69708ns : 
+"pid": 23178, "tid": 23178, "ts": 99167ns : Starting performance mode:
+"pid": 23178, "tid": 23178, "ts": 133584ns : Loading QSL : "set" : "[961,348,364,445,952,574,900,362,473,115,303,471,52,243,216,240,420,595,505,936,117,790,143,959,102,534,717,665,475,323,683,777,170,937,736,580,699,331,906,744,161,259,389,573,697,174,885,61,175,482,520,789,690,376,857,36,758,421,945,453,964,541,874,861,689,455,847,514,263,916,743,807,943,53,816,865,486,823,698,288,355,845,127,859,954,427,299,1000,962,876,472,687,1018,951,456,975,826,570,599,587,613,136,59,449,1020,533,617,462,128,484,379,978,272,478,169,502,799,800,836,78,44,661,675,895,57,742,702,118,490,671,657,708,205,899,467,42,627,301,577,688,316,330,853,237,47,483,837,279,966,806,568,187,268,592,991,325,298,632,748,393,722,788,22,63,332,101,97,972,179,46,633,417,1010,95,909,822,883,191,282,18,193,608,56,158,989,351,710,377,798,278,183,739,381,380,69,436,602,339,155,831,89,925,399,307,84,575,911,314,965,768,848,596,11,554,403,711,494,264,233,983,365,969,992,636,296,803,443,17,5,489,99,1,849,144,180,926,100,516,757,353,224,499,728,785,897,792,112,222,808,591,236,696,447,81,598,747,552,571,538,726,252,24,623,560,867,149,732,515,852,96,979,132,725,271,150,506,137,756,276,424,3,537,880,469,9,206,394,386,733,875,905,253,753,834,306,986,204,416,830,468,387,546,818,463,995,812,309,108,955,556,241,588,20,220,223,40,529,692,347,891,290,701,868,413,600,14,582,405,426,153,273,228,397,33,123,706,973,480,190,542,662,67,122,791,435,977,466,157,277,680,607,437,1009,302,378,586,68,562,45,919,526,62,682,551,863,4,423,31,147,676,908,458,304,213,154,695,928,391,66,677,767,51,960,245,414,700,459,1016,801,653,357,974,814,524,49,327,734,593,765,877,176,121,572,949,828,341,511,890,933,930,200,1021,769,1011,827,513,498,610,407,601,643,619,248,503,754,383,536,370,527,373,651,0,113,125,907,199,23,655,382,15,60,146,745,444,111,257,265,635,659,902,134,879,621,492,1012,712,267,457,1015,530,476,508,507,866,106,239,578,438,48,219,795,762,356,746,862,124,215,90,549,838,956,308,163,776,368,884,559,418,55,349,167,177,970,622,851,779,460,184,392,522,126,921,208,129,409,160,41,408,470,454,846,491,780,71,181,434,641,465,755,198,820,815,620,93,637,440,982,709,510,305,2,284,352,401,766,539,545,932,1002,260,448,678,21,35,666,333,192,246,43,173,938,664,315,730,750,821,939,412,214,618,783,133,366,673,994,550,334,644,141,843,13,731,321,152,369,674,878,589,8,1001,519,131,287,171,30,999,741,735,297,663,721,235,672,544,26,707,817,903,164,244,496,547,881,581,787,75,518,404,148,1023,162,898,987,300,390,346,324,971,819,749,385,603,1013,805,189,997,912,764,274,139,73,650,858,262,226,103,738,642,809,944,479,32,481,771,135,946,186,452,326,359,844,1007,540,1003,151,337,563,652,232,230,286,410,929,19,781,645,896,624,178,104,654,1019,763,646,947,850,567,311,775,579,251,691,258,310,1022,188,322,727,778,968,338,656,229,639,329,869,156,892,76,110,25,422,509,631,626,354,261,12,864,285,172,109,813,584,625,28,50,280,74,948,793,441,609,474,182,37,668,557,873,796,988,493,1006,165,107,872,993,915,116,882,451,29,281,531,250,714,65,647,829,770,740,634,918,985,442,145,419,841,1014,649,201,166,835,523,98,130,612,893,411,914,291,871,114,283,681,703,605,590,963,388,254,395,924,500,319,958,432,429,384,950,553,833,888,658,202,402,83,694,87,119,528,720,313,80,367,249,604,344,64,934,729,10,782,810,751,231,318,212,91,294,6,168,227,77,941,289,842,840,525,517,693,360,16,328,561,980,431,685,825,275,497,343,629,597,984,159,1005,247,940,439,317,832,342,58,433,270,504,194,207,521,255,917,953,548,488,927,923,737,105,718,723,660,242,430,203,786,1008,910,86,398,724,679,555,811,855,340,704,195,719,464,839,998,336,140,39,886,889,981,34,532,209,363,566,564,976,185,887,375,669,784,558,804,996,374,406,569,27,82,238,312,638,501,667,197,85,120,797,759,585,92,345,684,922,630,802,935,487,616,461,7,583,293,371,611,234,218,485,942,715,670,292,256,70,221,543,774,396,713,142,72,372,512,217,856,931,79,705,225,535,320,450,425,361,269,904,628,773,640,901,295,54,495,990,576,88,477,94,210,957,400,211,196,772,752,894,615,760,594,761,266,335,860,358,686,350,716,138,446,1004,428,870,854,38,920,606,794,648,415,1017,967,913,824,565,614]"
+"pid": 23178, "tid": 23178, "ts": 218979856ns : GeneratedQueries: "queries" : 12001, "samples per query" : 1, "duration" : 120010000000
+"pid": 23178, "tid": 23178, "ts": 60229942810ns : Ending naturally: Minimum query count and test duration met.
+"pid": 23178, "tid": 23178, "ts": 60232065854ns : Log Contention Counters:
+"pid": 23178, "tid": 23178, "ts": 60232065854ns : 0 : swap_request_slots_retry_count
+"pid": 23178, "tid": 23178, "ts": 60232065854ns : 0 : swap_request_slots_retry_retry_count
+"pid": 23178, "tid": 23178, "ts": 60232065854ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 23178, "tid": 23178, "ts": 60232065854ns : 0 : start_reading_entries_retry_count
+"pid": 23178, "tid": 23178, "ts": 60232065854ns : 0 : tls_total_log_cas_fail_count
+"pid": 23178, "tid": 23178, "ts": 60232065854ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 23178, "tid": 23178, "ts": 60232067604ns : POWER_BEGIN: "mode" : Performance, "time" : 10-11-2019 14:40:27.563
+"pid": 23178, "tid": 23178, "ts": 60232067604ns : POWER_END: "mode" : Performance, "time" : 10-11-2019 14:41:27.573

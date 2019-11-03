@@ -1,0 +1,4 @@
+Verifying performance.
+TEST04-A score = 58523243
+TEST04-B score = 44727059
+TEST FAIL: Test score invalid

@@ -1,0 +1,7 @@
+{
+   "input_data_types": "INT8",
+   "retraining": "No",
+   "starting_weights_filename": "onnx-model from zenado",
+   "weight_data_types": "INT8",
+   "weight_transformations": "Asymmetric Quantization"
+}

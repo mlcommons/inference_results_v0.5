@@ -1,0 +1,7 @@
+{
+    "input_data_types": "int8", 
+    "retraining": "N", 
+    "starting_weights_filename": "mobilenet_sym_no_bn.onnx", 
+    "weight_data_types": "int8", 
+    "weight_transformations": "quantization, affine fusion"
+}

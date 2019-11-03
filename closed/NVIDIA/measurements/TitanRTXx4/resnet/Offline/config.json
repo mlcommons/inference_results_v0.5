@@ -1,0 +1,19 @@
+{
+    "benchmark": "resnet",
+    "config_name": "TitanRTXx4_resnet_Offline",
+    "resnet": {
+        "gpu_batch_size": 1024,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 65166,
+        "input_dtype": "int8",
+        "input_format": "linear",
+        "map_path": "data_maps/imagenet/val_map.txt",
+        "precision": "int8",
+        "run_infer_on_copy_streams": true,
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/imagenet/ResNet50/int8_linear",
+        "use_graphs": false
+    },
+    "scenario": "Offline",
+    "system_id": "TitanRTXx4"
+}

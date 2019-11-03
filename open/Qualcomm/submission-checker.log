@@ -1,0 +1,14 @@
+WARNING:main:closed/mlperf-org/results/snpe-dsp/mobilenet/SingleStream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/mlperf-org/results/snpe-dsp/mobilenet/SingleStream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/mlperf-org/results/snpe-dsp/mobilenet/MultiStream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/mlperf-org/results/snpe-dsp/mobilenet/MultiStream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/mlperf-org/results/snpe-dsp/resnet/SingleStream/accuracy/mlperf_log_detail.txt contains errors
+WARNING:main:closed/mlperf-org/results/snpe-dsp/resnet/SingleStream/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/mlperf-org/results/snpe-dsp/mobilenet/SingleStream OK
+INFO:main:closed/mlperf-org/results/snpe-dsp/mobilenet/MultiStream OK
+INFO:main:closed/mlperf-org/results/snpe-dsp/resnet/SingleStream OK
+INFO:main:closed/mlperf-org/systems/snpe-dsp.json OK
+INFO:main:closed/mlperf-org/measurements/snpe-dsp/mobilenet/SingleStream OK
+INFO:main:closed/mlperf-org/measurements/snpe-dsp/mobilenet/MultiStream OK
+INFO:main:closed/mlperf-org/measurements/snpe-dsp/resnet/SingleStream OK
+INFO:main:SUMMARY: submission looks OK

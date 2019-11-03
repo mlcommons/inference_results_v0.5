@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include/c++/5.4.0",
+                "/usr/lib/habanalabs/include",
+                "${MLPERF_LOADGEN_PATH}",
+                "${MLPERF_LOADGEN_PATH}/bindings",
+                "${workspaceRoot}/benchmark_app/headers",
+                "${workspaceRoot}/global_headers",
+                "${workspaceRoot}/runner/headers"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "path": [
+                    "/usr/include/c++/5.4.0",
+                    "/usr/lib/habanalabs/include",
+                    "${MLPERF_LOADGEN_PATH}",
+                    "${MLPERF_LOADGEN_PATH}/bindings",
+                    "${workspaceRoot}/benchmark_app/headers",
+                    "${workspaceRoot}/global_headers",
+                    "${workspaceRoot}/runner/headers"
+                ]
+            },
+            "cStandard": "c11",
+            "configurationProvider": "go2sh.cmake-integration"
+        }
+    ],
+    "version": 4
+}

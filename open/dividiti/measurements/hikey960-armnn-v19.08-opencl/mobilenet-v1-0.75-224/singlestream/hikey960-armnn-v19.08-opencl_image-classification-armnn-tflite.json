@@ -1,0 +1,7 @@
+{
+  "input_data_types": "fp32",
+  "weight_data_types": "fp32",
+  "retraining": "no",
+  "starting_weights_filename": "https://zenodo.org/record/2269307/files/mobilenet_v1_0.75_224.tgz",
+  "weight_transformations": "TFLite -> ArmNN"
+}

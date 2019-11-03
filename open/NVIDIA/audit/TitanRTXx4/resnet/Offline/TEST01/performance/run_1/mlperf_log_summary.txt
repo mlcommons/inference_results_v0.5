@@ -1,0 +1,49 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : Int4_Server
+Scenario : Offline
+Mode     : Performance
+Samples per second: 101033
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 262434568
+Max latency (ns)                : 71857457625
+Mean latency (ns)               : 36025354184
+50.00 percentile latency (ns)   : 35988913507
+90.00 percentile latency (ns)   : 64704674680
+95.00 percentile latency (ns)   : 68312426677
+97.00 percentile latency (ns)   : 69743888424
+99.00 percentile latency (ns)   : 71156486419
+99.90 percentile latency (ns)   : 71796343787
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 7260000
+target_qps : 110000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 456
+accuracy_log_probability : 0.01
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 1024
+
+16 warnings encountered. See detailed log.
+
+1 ERROR encountered. See detailed log.

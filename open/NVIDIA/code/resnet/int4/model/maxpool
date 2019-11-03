@@ -1,0 +1,8 @@
+MaxPool2d
+compute_mode=u4u4
+kernel_size=3
+stride=2
+padding=1
+dilation=1
+return_indices=False
+ceil_mode=False

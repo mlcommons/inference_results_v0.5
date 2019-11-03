@@ -1,0 +1,52 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : CSUT
+Scenario : Server
+Mode     : Performance
+Scheduled samples per second : 27244.81
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Completed samples per second    : 27243.19
+
+Min latency (ns)                : 3349988
+Max latency (ns)                : 18894878
+Mean latency (ns)               : 3947146
+50.00 percentile latency (ns)   : 3845732
+90.00 percentile latency (ns)   : 4214630
+95.00 percentile latency (ns)   : 4522859
+97.00 percentile latency (ns)   : 4833432
+99.00 percentile latency (ns)   : 5802070
+99.90 percentile latency (ns)   : 12470570
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 27200
+target_latency (ns): 10000000
+max_async_queries : 0
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 270336
+max_query_count : 0
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 50000
+
+1 warning encountered. See detailed log.
+
+1 ERROR encountered. See detailed log.

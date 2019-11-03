@@ -1,0 +1,16 @@
+{
+    "benchmark": "ssd-small",
+    "config_name": "TitanRTXx4_ssd-small_MultiStream",
+    "scenario": "MultiStream",
+    "ssd-small": {
+        "gpu_batch_size": 70,
+        "gpu_multi_stream_samples_per_query": 3640,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDMobileNet/int8_chw4",
+        "use_graphs": false
+    },
+    "system_id": "TitanRTXx4"
+}

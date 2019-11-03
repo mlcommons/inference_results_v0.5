@@ -1,0 +1,2 @@
+ResNetQuantized
+compute_mode=s8f32

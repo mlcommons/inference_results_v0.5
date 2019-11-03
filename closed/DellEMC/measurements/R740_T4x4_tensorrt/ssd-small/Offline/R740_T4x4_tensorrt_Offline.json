@@ -1,0 +1,8 @@
+{
+    "input_data_types": "int8", 
+    "retraining": "N", 
+    "starting_weights_filename": "frozen_inference_graph.pb", 
+    "weight_data_types": "int8", 
+    "weight_transformations": "quantization, affine fusion"
+}
+

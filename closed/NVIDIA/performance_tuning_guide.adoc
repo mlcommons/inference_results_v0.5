@@ -1,0 +1,59 @@
+The NVIDIA MLPerf Inference System Under Test implementation has many different parameters which can be tuned to achieve the best performance under the various MLPerf scenarios on a particular system.  
+
+However, if starting from a good baseline set of parameters, only a small number of settings will need to be adjusted to achieve good performance.
+
+All settings can be adjusted using the configuration file.  Additionally, for interactive experiments, the settings can be adjusted on the command line.
+
+For example: 
+
+ make run RUN_ARGS="--benchmarks=ResNet50 --scenarios=offline --gpu_batch_size=128 "
+
+will run ResNet50 in the offline scenario, overriding the batch size to 128.  To use that batch size for submission, the _gpu_batch_size_ setting will need to be changed in the json config file.
+
+== Offline Scenario
+
+In the offline scenario, the default settings should provide good performance.  The only setting likely to need adjustment is "gpu_offline_expected_qps," which LoadGen will use to generate enough queries to meet the minimum runtime of 60s.  The correct value for this setting can be determined by just running offline mode and using the reported throughput value:
+
+ make run RUN_ARGS="--benchmarks=<target benchmark> --scenarios=offline --test_mode=PerformanceOnly"
+
+In the output, look for:
+
+ ======================= Perf harness results: =======================
+
+ T4_offline:
+     SSDResNet34: Samples per second: 1234 and Result is : VALID
+
+
+== Server Scenario 
+
+Server scenario tuning can be a bit more involved.  The goal is to increase server_target_qps to the maximum value that can still satisfy the latency requirements specified by https://github.com/mlperf/inference/blob/master/v0.5/mlperf.conf
+
+This is typically an iterative process:
+ 1) Increase server_target_qps to the maximum value that still meets the latency constraints with the current settings
+ 2) Sweep across many variations of the existing settings
+ 3) Replace the current settings with those providing the lowest latency at the target percentile, with the current server_target_qps setting
+ 4) Goto 1
+
+The server implementations are different for GNMT and the image-based (ResNet50, MobileNet, SSD-ResNet34 and MobileNet) benchmarks, and have different settings available. 
+
+For image-based benchmarks, the server implementation will accumulate queries from loadgen until either: 
+ a) A number of queries equivalent to _gpu_batch_size_ are available
+ b) deque_timeout_us has elapsed
+
+At which point the batcher will submit the accumulated queries to a GPU if there are resources available.
+
+Resource availability is determined by _gpu_inference _streams_, which controls the amount of parallelism in inference on the GPU.  For example, _gpu_inference_streams=2_ means that two inferences may run concurrently on the GPU.  This may increase throughput by improving utilization of GPU resources, but it will also increase latency of batches that are competing for those resources.
+
+
+For GNMT, it is recommended to just use the default settings and move server_target_qps to the maximum value that still meets the latency requirements.  However, batch_size is analogous to _gpu_batch_size_ in the image-based server settings.
+
+Note that since GNMT performance is sequence-length aware, any tuning of parameters may inadvertently incorporate knowledge about the test set into the implementation.  Consequently, manipulation of these parameters (aside from _server_target_qps_) must be done when using the calibration set as the dataset rather than the test set.  
+
+== Multistream scenario
+
+The multistream scenario is conceptually simpler than the server scenario, but the tuning process is similar.  The goal is to increase _gpu_multi_stream_samples_per_query_ to the largest value that still satisfies the latency constraints.
+
+To start, set _gpu_batch_size_ to be equal to _gpu_multi_stream_samples_per_query_ and then increase the values to the maximum point where the latency constraint is still met.
+
+Since all samples belonging to a query arrive at the same time, use of a single batch to process the entire query will lead to serialization between the data copies between the host and device and the inference.  This can be mitigated by splitting the query into multiple batches, reducing the amount of data that must be transferred before inference can begin on the device.  If _gpu_batch_size_ is less than _gpu_multi_stream_samples_per_query_, the samples will be divided into ceil(_gpu_multi_stream_samples_per_query_/_gpu_batch_size_) batches.  The data transfers can then be pipelined against computation, reducing overall latency.
+

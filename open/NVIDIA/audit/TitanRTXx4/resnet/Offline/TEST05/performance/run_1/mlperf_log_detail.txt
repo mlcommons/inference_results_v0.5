@@ -1,0 +1,147 @@
+"pid": 388, "tid": 388, "ts": 12500ns : LoadgenVersionInfo:
+"pid": 388, "tid": 388, "ts": 12500ns : version : .5a1 @ 61220457de
+"pid": 388, "tid": 388, "ts": 12500ns : build_date_local : 2019-10-15T05:37:18.982265
+"pid": 388, "tid": 388, "ts": 12500ns : build_date_utc   : 2019-10-15T05:37:18.982274
+"pid": 388, "tid": 388, "ts": 12500ns : git_commit_date  : 2019-10-01T10:39:03-07:00
+"pid": 388, "tid": 388, "ts": 12500ns : git_log :
+
+61220457dec221ed1984c62bd9d382698bd71bc6 loadgen: re-apply fix for msvc (#459)
+5684c11e3987b614aae830390fa0e92f56b7e800 Update the broken txt url link (#456)
+55c0ea4e772634107f3e67a6d0da61e6a2ca390d https://github.com/mlperf/inference/issues/450 logging per-sample info regardless of scenario (#454)
+d31c18fbd9854a4f1c489ca1bc4cd818e48f2bc5 Adding a flag to accuracy-coco script which fixes issue with preprocessing that removes 48 empty images (#453)
+1d0e06e54a7d763cf228bdfd8b1e987976e4222f Implement LogSettings::enable_trace (#466)
+d9c4b77ed961c20bdff2b2a4c7d0904a91408882 Merge pull request #467 from guschmue/gs/config-fix
+62eddd5fa123c0ed7f230868cf7e6d08f49f697c there was a dot missing when parsing items from config file
+5c4c571583ebf9703daeadd5a5f90f6bd0253852  Offline scenario PerformanceOnly mode should generate 1 instead of 2 queries (#461)
+6019b1b6154f6fe399519743cd59394554d80d26 Update README.md
+2e9a1f7c164ec715a6cbd014eea805d69b4b14a4 Merge pull request #427 from nvmbreughe/master
+ace74c303888e575826d2a8be8460608d156efae Merge pull request #406 from guschmue/gs/fix-no-results
+52699022d32271a00c7ec840acb77180a8c5d061 Split on any whitespace in val_map.txt, not just tab. (#458)
+5a4803e37b990c0f294c8a7caa6029fb6f201573 On MacOS/LLVM thread_ids are not auto-convertible to uint64_t and have to be converted manually (#439)
+94e7f492ff936e02a626c49918fd8b17d076fe7e Merge pull request #449 from guschmue/gs/fix-docker
+2dd8318b3f7a6ffea49d88716b96cb3172e66834 fix output path in docker image
+4df4601374cfc2c2c6d25b8aef08585614a8f5cd Merge pull request #432 from guschmue/gs/fix-target-qps
+
+"pid": 388, "tid": 388, "ts": 12500ns : git_status :
+
+
+
+"pid": 388, "tid": 388, "ts": 12500ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+a3355ff8f163cabbf26adb86d3aa0e5da72900c7 /BUILD.gn
+25ddf9bbe1429de0d036f073497c1e90cb419519 /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+fa2add871dc7440cbda1f8c7a69e96eb6499951a /bindings/c_api.cc
+8fdaa27778cf3ee2eb85d5b7040e8ddfcab68108 /bindings/c_api.h
+9c778599614f2a42cb95ad662213cde5fcf791ec /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+19242fc8e0f9e3eaf8bec9964ba33d760eeade96 /loadgen.cc
+5526ae8ce9547a95f10e1ac465056bfba2fccb47 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+a69511f0c916eb2100b7f665605ff6ffdf0546be /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+922acb63aa734d36e3fa34d87ff0f361052e0c51 /query_sample_library.h
+369f4320e027fc276d2519021696c7d1027b7320 /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+ad3fa5b4e0395e77cd5e00ebae2d0a0eb538969d /test_settings.h
+2f6e9b9506486cd0de01b8d8f5f0dfe8a8878773 /test_settings_internal.cc
+1c15731be5abc26a6c90356720146862da7c22b4 /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+980cb26d014c1210cc4ec916c67bbad8f8e2d531 /version_generator.pyc
+
+"pid": 388, "tid": 388, "ts": 29978ns : Date + time of test: 2019-10-18T18:51:37Z
+"pid": 388, "tid": 388, "ts": 29978ns : System Under Test (SUT) name: Int4_Server
+"pid": 388, "tid": 388, "ts": 29978ns : Query Sample Library (QSL) name: Int4_SampleLibrary
+"pid": 388, "tid": 388, "ts": 29978ns : QSL total size: 50000
+"pid": 388, "tid": 388, "ts": 29978ns : QSL performance size*: 1024
+"pid": 388, "tid": 388, "ts": 29978ns : *TestSettings (performance_sample_count_override) can override
+"pid": 388, "tid": 388, "ts": 29978ns : *Refer to Effective Settings for actual value
+"pid": 388, "tid": 388, "ts": 40077ns : Found Audit Config file (audit.config). Overriding TestSettings from audit.config file.
+"pid": 388, "tid": 388, "ts": 89553ns : 
+"pid": 388, "tid": 388, "ts": 89553ns : Effective Settings:
+"pid": 388, "tid": 388, "ts": 89553ns : Scenario : Offline
+"pid": 388, "tid": 388, "ts": 89553ns : Test mode : Performance
+"pid": 388, "tid": 388, "ts": 89553ns : samples_per_query : 7260000
+"pid": 388, "tid": 388, "ts": 89553ns : target_qps : 110000
+"pid": 388, "tid": 388, "ts": 89553ns : target_latency (ns): 0
+"pid": 388, "tid": 388, "ts": 89553ns : target_latency_percentile : 6.9416e-310
+"pid": 388, "tid": 388, "ts": 89553ns : max_async_queries : 1
+"pid": 388, "tid": 388, "ts": 89553ns : target_duration (ms): 0
+"pid": 388, "tid": 388, "ts": 89553ns : min_duration (ms): 60000
+"pid": 388, "tid": 388, "ts": 89553ns : max_duration (ms): 0
+"pid": 388, "tid": 388, "ts": 89553ns : min_query_count : 1
+"pid": 388, "tid": 388, "ts": 89553ns : max_query_count : 0
+"pid": 388, "tid": 388, "ts": 89553ns : min_sample_count : 7260000
+"pid": 388, "tid": 388, "ts": 89553ns : qsl_rng_seed : 195
+"pid": 388, "tid": 388, "ts": 89553ns : sample_index_rng_seed : 235
+"pid": 388, "tid": 388, "ts": 89553ns : schedule_rng_seed : 634
+"pid": 388, "tid": 388, "ts": 89553ns : accuracy_log_rng_seed : 0
+"pid": 388, "tid": 388, "ts": 89553ns : accuracy_log_probability : 0
+"pid": 388, "tid": 388, "ts": 89553ns : print_timestamps : false
+"pid": 388, "tid": 388, "ts": 89553ns : performance_issue_unique : false
+"pid": 388, "tid": 388, "ts": 89553ns : performance_issue_same : false
+"pid": 388, "tid": 388, "ts": 89553ns : performance_issue_same_index : 0
+"pid": 388, "tid": 388, "ts": 89553ns : performance_sample_count : 1024
+"pid": 388, "tid": 388, "ts": 89986ns : 
+"pid": 388, "tid": 388, "ts": 89986ns : Requested Settings:
+"pid": 388, "tid": 388, "ts": 89986ns : Scenario : Offline
+"pid": 388, "tid": 388, "ts": 89986ns : Test mode : Performance
+"pid": 388, "tid": 388, "ts": 89986ns : offline_expected_qps : 110000
+"pid": 388, "tid": 388, "ts": 89986ns : min_duration_ms : 60000
+"pid": 388, "tid": 388, "ts": 89986ns : max_duration_ms : 0
+"pid": 388, "tid": 388, "ts": 89986ns : min_query_count : 1
+"pid": 388, "tid": 388, "ts": 89986ns : max_query_count : 0
+"pid": 388, "tid": 388, "ts": 89986ns : qsl_rng_seed : 195
+"pid": 388, "tid": 388, "ts": 89986ns : sample_index_rng_seed : 235
+"pid": 388, "tid": 388, "ts": 89986ns : schedule_rng_seed : 634
+"pid": 388, "tid": 388, "ts": 89986ns : accuracy_log_rng_seed : 0
+"pid": 388, "tid": 388, "ts": 89986ns : accuracy_log_probability : 0
+"pid": 388, "tid": 388, "ts": 89986ns : print_timestamps : false
+"pid": 388, "tid": 388, "ts": 89986ns : performance_issue_unique : false
+"pid": 388, "tid": 388, "ts": 89986ns : performance_issue_same : false
+"pid": 388, "tid": 388, "ts": 89986ns : performance_issue_same_index : 0
+"pid": 388, "tid": 388, "ts": 89986ns : performance_sample_count_override : 0
+"pid": 388, "tid": 388, "ts": 89986ns : 
+"pid": 388, "tid": 388, "ts": 91430ns : Starting performance mode:
+"pid": 388, "tid": 388, "ts": 1138300ns : Loading QSL : "set" : "[30354,36557,33681,48073,27569,6371,35795,2918,42778,11094,43443,20891,24390,36426,9788,14086,2372,1798,25804,48287,41010,29973,9260,19843,23334,24222,9644,27512,46039,35032,23871,3005,3311,45767,37500,15376,24727,44298,40120,47470,22777,33200,49401,8075,49414,21117,17222,43875,22043,35218,40147,4009,23033,42982,13788,42112,35238,19845,39407,45237,4618,38313,36691,14652,45315,21733,46515,10847,40376,31971,39874,4852,19548,24595,14092,48716,45635,27584,14005,47802,20646,48914,14032,44010,34511,34008,44139,2426,6949,19383,25354,14720,45231,35879,12382,45674,46299,34802,6616,21999,1966,389,28091,38080,44728,43318,46077,34740,42427,21887,42802,12771,16358,48338,14243,24378,38662,40296,28365,2606,25403,20561,36458,17439,13582,35871,28111,24806,39213,49098,27931,44867,2971,41275,1110,5990,43258,27332,46276,20478,1663,11700,43510,4463,42627,36403,35409,21480,39194,37247,34396,29426,24048,135,22392,27321,28185,28508,3876,38517,32886,18151,15815,6531,40409,39784,14814,14071,28499,10493,2808,35730,33229,23817,34332,19729,11871,33202,23096,26268,35762,18294,38342,40822,35297,42288,1992,8127,23560,25906,4050,20732,6912,30365,8507,41488,12615,11525,4227,27617,36720,30530,29143,19797,20103,40349,18925,45225,37937,23045,939,21435,23362,44774,42792,22444,16592,7574,12614,31232,45622,19881,46593,11777,37728,44203,23749,33968,48053,31312,2332,38433,7948,27147,1419,46342,25671,47667,49816,5495,12833,40395,2886,15930,40691,42138,30271,14615,35213,47626,39485,7734,43733,42491,39827,33375,5227,7565,32674,22998,37206,14220,5463,42373,17622,34397,37570,43382,47234,36369,40340,30641,6577,30916,5493,4012,16399,36025,6622,5053,37011,17166,28315,16446,360,49467,39673,25937,30607,44715,3534,17259,45501,30844,45956,20822,19450,43145,18126,44392,36627,25828,6848,138,24916,33933,30167,45138,27228,43115,17826,49879,39291,12100,31305,37623,34199,26406,36655,24189,26315,33393,44708,10083,3954,7350,24188,13165,46813,48147,49057,33675,5465,29605,21830,25778,18512,38049,1832,45505,9049,27001,30182,31454,6539,25169,40665,16130,2158,3207,43893,10948,14745,36873,5008,11927,45986,43958,8438,36798,17163,23174,14303,21558,41228,45725,48707,13682,35219,18909,29165,30679,28666,39052,44500,9372,39362,13433,40319,40916,40146,27135,48584,40968,49086,30130,42006,39345,23519,22017,20659,31084,18372,4238,11905,29016,37217,10808,40437,43185,38152,12512,17966,1580,24580,30892,5217,21264,19532,36131,31159,18963,40611,38702,31003,26365,23090,25554,49667,622,18546,39084,35980,35300,37555,40977,12389,43524,4281,44611,38654,42939,36781,41466,43194,5959,41506,23723,13891,24870,20202,5024,32404,33859,14407,29985,3538,38867,39902,12103,13676,37007,30179,27726,11578,2770,13144,19016,10404,510,33887,49976,5595,12373,9572,42921,3161,23747,13371,12897,43017,4415,14277,17409,18499,46068,8782,4343,32676,9634,42954,7459,25664,7603,23092,10021,19029,4522,14262,37602,36246,12153,45411,46097,26584,46567,46885,24094,1026,14030,46775,32990,42993,7714,29004,24334,42010,47548,38581,48767,3805,24101,21678,4691,10023,34871,23265,34071,11933,22324,22979,12825,16110,25383,12973,451,43680,12490,17867,45974,44570,16369,2698,39499,22083,22664,7629,43226,39046,9754,17315,18076,23959,3211,14562,17967,22927,15183,28178,348,3950,38991,13464,28175,18087,34515,16680,38735,46315,18592,5895,32232,12817,13847,13593,20565,48711,629,6642,25155,3825,7547,18526,49296,41972,1362,26390,2032,44373,28043,28919,7688,23337,27925,23212,21762,33206,16750,27816,20683,41261,34669,35482,8736,29587,25846,48004,37904,27618,11314,45731,2389,22158,14349,19447,28316,42754,34059,22785,40631,15933,42884,1253,13997,36921,6295,9480,47672,28228,33565,49081,45545,43359,44315,21461,796,33644,30705,16025,32224,46543,36522,31279,32825,31476,49408,31068,49805,8380,12412,9203,5937,32053,45762,44880,23428,7924,11598,10250,9929,20844,44754,30623,38765,1058,47577,35367,27211,45587,20846,17281,28858,43267,22480,26928,47022,7227,23961,17880,12331,37690,40101,14088,25463,47904,22247,12297,31182,39839,16692,47609,9042,10046,34751,805,24064,16355,43774,34188,4234,29275,32869,24543,18449,46819,24243,1361,12279,46902,33914,35562,30470,7194,39126,41218,4037,690,22225,12679,32777,7647,31668,48594,40375,39965,21547,1658,2735,17760,45538,10714,13860,28431,14404,42186,13356,22896,46667,36650,10914,1525,5563,12852,3668,30330,16465,37023,12188,13998,21326,24150,26442,44331,42290,49661,30409,37278,15741,36135,11263,19213,49343,43112,1473,41637,2911,26936,6617,44390,1000,8132,40924,47600,34220,45076,18211,19648,2431,39353,45973,3432,2745,12930,39400,3511,38455,18074,15074,22095,24578,17688,44226,22235,37341,45208,1054,19206,25593,11012,40119,45948,2527,46303,47787,2383,27958,44683,20611,26591,22222,35044,37167,19877,49996,38252,15242,3863,30549,38350,20347,12327,23138,32131,32059,26223,22495,8188,47951,17679,7404,32482,21300,12413,31749,16673,16196,17566,39662,9869,8785,25893,38643,36970,15447,14155,31021,28824,39856,5598,32693,33218,41382,27548,38632,35484,49370,38599,27547,47745,5763,25835,30807,39649,44351,30173,27885,9782,40799,10899,35460,11497,1805,27251,47715,18877,46020,13241,14392,29363,12807,28482,40842,3289,25468,26123,12640,8553,9443,49305,41294,47459,4244,33673,49921,714,3448,47593,19245,9204,31803,38378,48780,26370,31589,7643,9202,35190,4253,26778,13908,36839,27731,31011,16253,1320,30234,15636,15477,8800,41188,32628,46589,2884,5324,45038,538,3884,31591,39934,42208,22436,7143,9127,30515,46009,31031,48326,25651,4302,18308,13631,6814,12572,18060,22297,36550,47591,46182,4334,17600,16930,47621,37114,36109,27174,27460,9080,38390,5298,37312,15357,28065,38529,45708,38214,44129,1194,22215,46806,22638,29186,47027,35685,31625,49874,1444,33890,11161,2499,38969,11708,48718,26022,22179,39132,40439,41043,18496,45575,4952,34819,25865,11010,10033,37605,33994,19095,36586,33108,2152,15651,34912,34615,15834,45758,47335,18930,33600,11015,22484,26620,35495,9538,2364,41305,5743,26580,4437,44456,30391,29242,37890,48109,12496,1250,23524,48455,3771,45298,11228,25867,37104,5107,3205]"
+"pid": 388, "tid": 388, "ts": 370819568ns : GeneratedQueries: "queries" : 1, "samples per query" : 7260000, "duration" : 9090
+"pid": 388, "tid": 388, "ts": 72199151078ns : ERROR : Ending early: Ran out of generated queries to issue before the minimum query count and test duration were reached.
+"pid": 388, "tid": 388, "ts": 72199151078ns : Please update the relevant expected latency or target qps in the TestSettings so they are more accurate.
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 401, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 405, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 398, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 409, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 402, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 403, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 397, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 400, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 406, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 412, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 407, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 411, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 408, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 404, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 399, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : WARNING : Logging allocation detected: "tid" : 410, "reserved_entries" : 1024, "max_entries" : 1025
+"pid": 388, "tid": 388, "ts": 72218478167ns : Log Contention Counters:
+"pid": 388, "tid": 388, "ts": 72218478167ns : 0 : swap_request_slots_retry_count
+"pid": 388, "tid": 388, "ts": 72218478167ns : 0 : swap_request_slots_retry_retry_count
+"pid": 388, "tid": 388, "ts": 72218478167ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 388, "tid": 388, "ts": 72218478167ns : 0 : start_reading_entries_retry_count
+"pid": 388, "tid": 388, "ts": 72218478167ns : 0 : tls_total_log_cas_fail_count
+"pid": 388, "tid": 388, "ts": 72218478167ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 388, "tid": 388, "ts": 72218480356ns : POWER_BEGIN: "mode" : Performance, "time" : 10-18-2019 18:51:37.500
+"pid": 388, "tid": 388, "ts": 72218480356ns : POWER_END: "mode" : Performance, "time" : 10-18-2019 18:52:49.320

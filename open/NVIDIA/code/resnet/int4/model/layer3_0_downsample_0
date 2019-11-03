@@ -1,0 +1,13 @@
+Conv2d
+compute_mode=u4s4s32
+in_channels=512
+out_channels=1024
+kernel_size=2:1 1
+stride=2:2 2
+padding=2:0 0
+dilation=2:1 1
+groups=1
+bias=s16,1:1024
+!model/npdata/layer3_0_downsample_0.bias
+weight=s4,4:1024 512 1 1
+!model/npdata/layer3_0_downsample_0.weight

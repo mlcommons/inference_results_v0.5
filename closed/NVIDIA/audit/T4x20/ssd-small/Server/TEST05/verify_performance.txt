@@ -1,0 +1,5 @@
+Verifying performance.
+WARNING: 6 ERROR reported in reference results
+reference score = 129056.78
+test score = 117424.24
+TEST PASS

@@ -1,0 +1,18 @@
+WARNING:main:closed/Alibaba/results/alibaba_cloud_t4/resnet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/Alibaba/results/alibaba_cloud_t4/gnmt/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/Alibaba/results/alibaba_cloud_t4/ssd-small/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/Alibaba/results/alibaba_cloud_t4/mobilenet/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/Alibaba/results/alibaba_cloud_t4/ssd-large/Offline/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/Alibaba/results/alibaba_cloud_t4/resnet/Offline OK
+INFO:main:closed/Alibaba/results/alibaba_cloud_t4/gnmt/Offline OK
+INFO:main:closed/Alibaba/results/alibaba_cloud_t4/ssd-small/Offline OK
+INFO:main:closed/Alibaba/results/alibaba_cloud_t4/mobilenet/Offline OK
+INFO:main:closed/Alibaba/results/alibaba_cloud_t4/ssd-large/Offline OK
+ERROR:main:closed/Alibaba/systems/alibaba_cloud_t4.json field host_processor_core_count missing
+ERROR:main:closed/Alibaba/systems/alibaba_cloud_t4.json has unknwon field host_processor_vcpu_count
+INFO:main:closed/Alibaba/measurements/alibaba_cloud_t4/resnet/Offline OK
+INFO:main:closed/Alibaba/measurements/alibaba_cloud_t4/gnmt/Offline OK
+INFO:main:closed/Alibaba/measurements/alibaba_cloud_t4/ssd-small/Offline OK
+INFO:main:closed/Alibaba/measurements/alibaba_cloud_t4/mobilenet/Offline OK
+INFO:main:closed/Alibaba/measurements/alibaba_cloud_t4/ssd-large/Offline OK
+ERROR:main:SUMMARY: there are errros in the submission

@@ -1,0 +1,22 @@
+{
+    "benchmark": "ssd-small",
+    "config_name": "Xavier_ssd-small_Offline",
+    "scenario": "Offline",
+    "ssd-small": {
+        "concurrent_offline_expected_qps": 2478,
+        "dla_batch_size": 32,
+        "dla_core": 0,
+        "dla_inference_streams": 1,
+        "dla_offline_expected_qps": 325,
+        "gpu_batch_size": 128,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 2116.8,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDMobileNet/int8_chw4",
+        "use_graphs": false
+    },
+    "system_id": "Xavier"
+}

@@ -1,0 +1,7 @@
+{
+ "input_data_types": "int8",
+ "retraining": "none",
+ "starting_weights_filename": "https://zenodo.org/record/2535873/files/resnet50_v1.pb",
+ "weight_data_types": "int8",
+ "weight_transformations": "TF-Lite v1.14"
+}

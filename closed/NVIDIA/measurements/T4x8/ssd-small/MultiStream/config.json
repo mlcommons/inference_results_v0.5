@@ -1,0 +1,18 @@
+{
+    "benchmark": "ssd-small",
+    "config_name": "T4x8_ssd-small_MultiStream",
+    "scenario": "MultiStream",
+    "ssd-small": {
+        "deque_timeout_us": 50,
+        "gpu_batch_size": 41,
+        "gpu_multi_stream_samples_per_query": 2624,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDMobileNet/int8_chw4",
+        "use_batcher_thread_per_device": true,
+        "use_graphs": false
+    },
+    "system_id": "T4x8"
+}

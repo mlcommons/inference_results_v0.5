@@ -1,0 +1,67 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : LWIS_Server
+Scenario : Multi Stream
+Mode     : Performance
+Samples per query : 2624
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+Intervals between each IssueQuery:  "qps" : 20, "ms" : 50
+50.00 percentile : 1
+90.00 percentile : 1
+95.00 percentile : 1
+97.00 percentile : 1
+99.00 percentile : 1
+99.90 percentile : 1
+
+Per-query latency:  "target_ns" : 50000000, "target_ms" : 50
+50.00 percentile latency (ns)   : 44944971
+90.00 percentile latency (ns)   : 45916370
+95.00 percentile latency (ns)   : 46117039
+97.00 percentile latency (ns)   : 46249642
+99.00 percentile latency (ns)   : 46681233
+99.90 percentile latency (ns)   : 47650139
+
+Per-sample latency:
+Min latency (ns)                : 6244404
+Max latency (ns)                : 55074627
+Mean latency (ns)               : 25616074
+50.00 percentile latency (ns)   : 25799516
+90.00 percentile latency (ns)   : 42096960
+95.00 percentile latency (ns)   : 43445138
+97.00 percentile latency (ns)   : 44041334
+99.00 percentile latency (ns)   : 44941130
+99.90 percentile latency (ns)   : 46061622
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 2624
+target_qps : 20
+target_latency (ns): 50000000
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 270336
+max_query_count : 0
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 256
+
+No warnings encountered during test.
+
+No errors encountered during test.

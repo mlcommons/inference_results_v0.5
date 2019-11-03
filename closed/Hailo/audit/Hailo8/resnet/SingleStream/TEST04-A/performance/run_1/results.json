@@ -1,0 +1,22 @@
+{
+    "TestScenario.SingleStream": {
+        "count": 1024,
+        "good_items": 0,
+        "mean": 0.011157422891601562,
+        "percentiles": {
+            "50.0": 0.011134399,
+            "80.0": 0.0113400446,
+            "90.0": 0.0114767598,
+            "95.0": 0.011659834899999999,
+            "99.0": 0.01209474069,
+            "99.9": 0.013848198184000104
+        },
+        "qps": 89.16327273097932,
+        "took": 11.484549283981323,
+        "total_items": 1024
+    },
+    "cmdline": "Namespace(accuracy=False, backend='hailo', cache=0, config='../mlperf.conf', count=50000, data_format=None, dataset='imagenet', dataset_list='mlperf.dat', dataset_path='imagenet_val/', find_peak_performance=False, inputs=None, max_batchsize=32, max_latency=None, model='resnet50', model_name='resnet50', output='rs_p4a', outputs=None, profile='hailo', qps=None, samples_per_query=None, scenario='SingleStream', threads=1, time=None)",
+    "runtime": "hailo",
+    "time": 1572617920,
+    "version": "2.4.1"
+}

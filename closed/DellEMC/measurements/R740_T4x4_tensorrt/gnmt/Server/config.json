@@ -1,0 +1,39 @@
+{
+    "benchmark": "gnmt",
+    "config_name": "T4x4_gnmt_Server",
+    "gnmt": {
+        "active_sms": 84,
+        "batch_size_inc": 1,
+        "batch_sizes": [
+            1,
+            8,
+            16,
+            32,
+            64,
+            128
+        ],
+        "beamSize": 10,
+        "concurrency": 4,
+        "disableScorerPlugin": false,
+        "enable_int8_generator": true,
+        "encoderMaxSeqLen": 128,
+        "input_file_accuracy": "${PREPROCESSED_DATA_DIR}/nmt/GNMT/newstest2014.tok.bpe.32000.en",
+        "input_file_performance": "${PREPROCESSED_DATA_DIR}/nmt/GNMT/newstest2014.tok.bpe.32000.en.large",
+        "latency": 250000,
+        "max_persistent_bs": 1,
+        "min_batch_size": 1,
+        "min_query_count": 90112,
+        "percentile": 97,
+        "precision": "fp16",
+        "seed": 0,
+        "seq_len_slots": 4,
+        "server_target_latency_percentile": 0.97,
+        "server_target_qps": 825,
+        "timeout": 30000,
+        "use_graphs": false,
+        "vocabFile": "${PREPROCESSED_DATA_DIR}/nmt/GNMT/vocab.bpe.32000.en",
+        "vocabularySize": 32316
+    },
+    "scenario": "Server",
+    "system_id": "T4x4"
+}

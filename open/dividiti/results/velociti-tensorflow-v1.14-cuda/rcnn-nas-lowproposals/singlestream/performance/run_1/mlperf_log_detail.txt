@@ -1,0 +1,129 @@
+"pid": 282, "tid": 282, "ts": 6205ns : LoadgenVersionInfo:
+"pid": 282, "tid": 282, "ts": 6205ns : version : .5a1 @ 413dbabcb3
+"pid": 282, "tid": 282, "ts": 6205ns : build_date_local : 2019-10-11T18:04:19.942573
+"pid": 282, "tid": 282, "ts": 6205ns : build_date_utc   : 2019-10-11T18:04:19.942583
+"pid": 282, "tid": 282, "ts": 6205ns : git_commit_date  : 2019-10-09T11:02:56-07:00
+"pid": 282, "tid": 282, "ts": 6205ns : git_log :
+
+413dbabcb30dc2ee1fe42e7b8090b37e8144617d Merge pull request #489 from guschmue/gs/seeds_to_config
+168255031dd893fdc1fe94c63c950d0c07478bb3 fix for 490 (#496)
+c807d3025c7f796fd8b0d429a7bf196e0e3609f4 dot missing in ssd-resnet34 line
+71940a7a4c39ab3e099d93bdcf60763fbb52587a Merge pull request #473 from guschmue/gs/submission
+157173e8fefe9faca9266a2f69c6b4549e76680e fix sample_index_rng_seed
+d3814314be893a3a7e14230292ea00a603a365db add performance_sample_count_override and seeds to config
+ba7baa0f68f37b6b693ea64961024cdd0fb11009 add the official names to perf sample count
+2d3ba0b95a641a22b7ab7b52771e792c01b2f88f fix perf sample count for gnmt
+7bc9a1f07048e09061f6c611e5ec95f367e0762c check performance_sample_count
+bdc8d66d92417772031b54ea40c0c97a22dd0dac add filter for submitter
+4384c31ab6485132554b5f7a4cea066093319f55 more checkers for submitters and division
+448a89831f56e16da20f476b49d80db3662ef2af address review feedback
+d4b930cefe17861188c356597582c69277e5dc6b Merge branch 'master' into gs/submission
+61220457dec221ed1984c62bd9d382698bd71bc6 loadgen: re-apply fix for msvc (#459)
+ab19825ca48a9f6f2faa208cf1d5135598f1d8c6 check for ERROR in detailed logs
+5684c11e3987b614aae830390fa0e92f56b7e800 Update the broken txt url link (#456)
+
+"pid": 282, "tid": 282, "ts": 6205ns : git_status :
+
+
+
+"pid": 282, "tid": 282, "ts": 6205ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+a3355ff8f163cabbf26adb86d3aa0e5da72900c7 /BUILD.gn
+25ddf9bbe1429de0d036f073497c1e90cb419519 /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+fa2add871dc7440cbda1f8c7a69e96eb6499951a /bindings/c_api.cc
+8fdaa27778cf3ee2eb85d5b7040e8ddfcab68108 /bindings/c_api.h
+9c778599614f2a42cb95ad662213cde5fcf791ec /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+19242fc8e0f9e3eaf8bec9964ba33d760eeade96 /loadgen.cc
+5526ae8ce9547a95f10e1ac465056bfba2fccb47 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+a69511f0c916eb2100b7f665605ff6ffdf0546be /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+922acb63aa734d36e3fa34d87ff0f361052e0c51 /query_sample_library.h
+369f4320e027fc276d2519021696c7d1027b7320 /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+ad3fa5b4e0395e77cd5e00ebae2d0a0eb538969d /test_settings.h
+56a654a4bd7e5f5faef94189c21ddcbfba3f7008 /test_settings_internal.cc
+1c15731be5abc26a6c90356720146862da7c22b4 /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+
+"pid": 282, "tid": 282, "ts": 21088ns : Date + time of test: 2019-10-18T07:22:56Z
+"pid": 282, "tid": 282, "ts": 21088ns : System Under Test (SUT) name: PySUT
+"pid": 282, "tid": 282, "ts": 21088ns : Query Sample Library (QSL) name: PyQSL
+"pid": 282, "tid": 282, "ts": 21088ns : QSL total size: 5000
+"pid": 282, "tid": 282, "ts": 21088ns : QSL performance size*: 500
+"pid": 282, "tid": 282, "ts": 21088ns : *TestSettings (performance_sample_count_override) can override
+"pid": 282, "tid": 282, "ts": 21088ns : *Refer to Effective Settings for actual value
+"pid": 282, "tid": 282, "ts": 39645ns : 
+"pid": 282, "tid": 282, "ts": 39645ns : Effective Settings:
+"pid": 282, "tid": 282, "ts": 39645ns : Scenario : Single Stream
+"pid": 282, "tid": 282, "ts": 39645ns : Test mode : Performance
+"pid": 282, "tid": 282, "ts": 39645ns : samples_per_query : 1
+"pid": 282, "tid": 282, "ts": 39645ns : target_qps : 100
+"pid": 282, "tid": 282, "ts": 39645ns : target_latency (ns): 0
+"pid": 282, "tid": 282, "ts": 39645ns : target_latency_percentile : 0.9
+"pid": 282, "tid": 282, "ts": 39645ns : max_async_queries : 1
+"pid": 282, "tid": 282, "ts": 39645ns : target_duration (ms): 60000
+"pid": 282, "tid": 282, "ts": 39645ns : min_duration (ms): 60000
+"pid": 282, "tid": 282, "ts": 39645ns : max_duration (ms): 0
+"pid": 282, "tid": 282, "ts": 39645ns : min_query_count : 1024
+"pid": 282, "tid": 282, "ts": 39645ns : max_query_count : 0
+"pid": 282, "tid": 282, "ts": 39645ns : min_sample_count : 1024
+"pid": 282, "tid": 282, "ts": 39645ns : qsl_rng_seed : 3133965575612453542
+"pid": 282, "tid": 282, "ts": 39645ns : sample_index_rng_seed : 665484352860916858
+"pid": 282, "tid": 282, "ts": 39645ns : schedule_rng_seed : 3622009729038561421
+"pid": 282, "tid": 282, "ts": 39645ns : accuracy_log_rng_seed : 0
+"pid": 282, "tid": 282, "ts": 39645ns : accuracy_log_probability : 0
+"pid": 282, "tid": 282, "ts": 39645ns : print_timestamps : false
+"pid": 282, "tid": 282, "ts": 39645ns : performance_issue_unique : false
+"pid": 282, "tid": 282, "ts": 39645ns : performance_issue_same : false
+"pid": 282, "tid": 282, "ts": 39645ns : performance_issue_same_index : 0
+"pid": 282, "tid": 282, "ts": 39645ns : performance_sample_count : 256
+"pid": 282, "tid": 282, "ts": 40453ns : 
+"pid": 282, "tid": 282, "ts": 40453ns : Requested Settings:
+"pid": 282, "tid": 282, "ts": 40453ns : Scenario : Single Stream
+"pid": 282, "tid": 282, "ts": 40453ns : Test mode : Performance
+"pid": 282, "tid": 282, "ts": 40453ns : single_stream_expected_latency_ns : 10000000
+"pid": 282, "tid": 282, "ts": 40453ns : single_stream_target_latency_percentile : 0.9
+"pid": 282, "tid": 282, "ts": 40453ns : min_duration_ms : 60000
+"pid": 282, "tid": 282, "ts": 40453ns : max_duration_ms : 0
+"pid": 282, "tid": 282, "ts": 40453ns : min_query_count : 1024
+"pid": 282, "tid": 282, "ts": 40453ns : max_query_count : 0
+"pid": 282, "tid": 282, "ts": 40453ns : qsl_rng_seed : 3133965575612453542
+"pid": 282, "tid": 282, "ts": 40453ns : sample_index_rng_seed : 665484352860916858
+"pid": 282, "tid": 282, "ts": 40453ns : schedule_rng_seed : 3622009729038561421
+"pid": 282, "tid": 282, "ts": 40453ns : accuracy_log_rng_seed : 0
+"pid": 282, "tid": 282, "ts": 40453ns : accuracy_log_probability : 0
+"pid": 282, "tid": 282, "ts": 40453ns : print_timestamps : false
+"pid": 282, "tid": 282, "ts": 40453ns : performance_issue_unique : false
+"pid": 282, "tid": 282, "ts": 40453ns : performance_issue_same : false
+"pid": 282, "tid": 282, "ts": 40453ns : performance_issue_same_index : 0
+"pid": 282, "tid": 282, "ts": 40453ns : performance_sample_count_override : 256
+"pid": 282, "tid": 282, "ts": 40453ns : 
+"pid": 282, "tid": 282, "ts": 56515ns : Starting performance mode:
+"pid": 282, "tid": 282, "ts": 353599ns : Loading QSL : "set" : "[4927,3740,3179,4579,952,3046,2067,2039,3434,115,3229,471,52,3167,4250,4726,4107,1857,505,2320,4749,790,3505,3053,1601,1994,717,665,1775,323,3278,4004,1147,1907,736,2865,2377,1694,2344,3414,1986,1893,1609,4413,697,1817,4207,3992,1525,1059,520,789,1384,3266,857,4224,2673,421,945,2126,964,541,874,2759,3701,455,4099,1566,2454,1659,1157,1462,3132,2676,816,4955,486,2754,698,3211,2919,4760,1616,4863,4319,427,1688,2382,4428,4774,1997,3361,1445,1274,1403,975,826,1266,2198,587,3324,1090,2871,449,3344,3646,617,462,128,484,3452,3845,4733,3863,1063,1945,2228,1983,836,1734,44,661,3996,2937,2027,1912,1816,2236,1430,4618,3638,4564,3123,3877,4028,42,4009,2571,2150,3339,4147,3943,853,237,2267,4331,4293,3169,966,2989,4346,4898,2506,3430,2747,2351,1716,4003,3702,1415,3517,3082,4685,3074,1950,101,2461,3187,2757,46,633,3621,1010,2834,3426,822,4324,3634,4545,18,2657,1977,2028,3252,1490,2181,710,1138,4458,1113,3357,2186,4956,4533,4688,1913,3299,2105,4435,831,4722,925,1537,2866,1038,4261,911,1980,2343,4558,4272,2614,11,2804,1381,1953,2457,4729,1241,3836,4140,1285,2065,4759,1627,3402,443,3696,4521,3916,3054,2085,2258,4334,3670,4608,3319,1660,3404,1626,4339,1040,3560,2875,3440,4067,4742,3553,2684,1373,4707,2398,2241,3043,1558,3283]"
+"pid": 282, "tid": 282, "ts": 2607101756ns : GeneratedQueries: "queries" : 12001, "samples per query" : 1, "duration" : 120010000000
+"pid": 282, "tid": 282, "ts": 419665013338ns : Ending naturally: Minimum query count and test duration met.
+"pid": 282, "tid": 282, "ts": 419667738465ns : Log Contention Counters:
+"pid": 282, "tid": 282, "ts": 419667738465ns : 0 : swap_request_slots_retry_count
+"pid": 282, "tid": 282, "ts": 419667738465ns : 0 : swap_request_slots_retry_retry_count
+"pid": 282, "tid": 282, "ts": 419667738465ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 282, "tid": 282, "ts": 419667738465ns : 0 : start_reading_entries_retry_count
+"pid": 282, "tid": 282, "ts": 419667738465ns : 0 : tls_total_log_cas_fail_count
+"pid": 282, "tid": 282, "ts": 419667738465ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 282, "tid": 282, "ts": 419667739359ns : POWER_BEGIN: "mode" : Performance, "time" : 10-18-2019 07:22:58.723
+"pid": 282, "tid": 282, "ts": 419667739359ns : POWER_END: "mode" : Performance, "time" : 10-18-2019 07:29:55.781

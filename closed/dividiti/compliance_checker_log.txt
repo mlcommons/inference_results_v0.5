@@ -1,0 +1,28 @@
+WARNING:main:closed/dividiti/results/rpi4-tflite-v1.15/resnet/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+WARNING:main:closed/dividiti/results/rpi4-tflite-v1.15/mobilenet/singlestream/performance/run_1/mlperf_log_detail.txt contains errors
+INFO:main:closed/dividiti/results/rpi4-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/rpi4-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/systems/rpi4-tflite-v1.15.json OK
+INFO:main:closed/dividiti/measurements/rpi4-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/rpi4-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:SUMMARY: submission looks OK
+--
+INFO:main:closed/dividiti/results/hikey960-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/hikey960-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/systems/hikey960-tflite-v1.15.json OK
+INFO:main:closed/dividiti/measurements/hikey960-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/hikey960-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:SUMMARY: submission looks OK
+--
+INFO:main:closed/dividiti/results/firefly-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/results/firefly-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:closed/dividiti/systems/firefly-tflite-v1.15.json OK
+INFO:main:closed/dividiti/measurements/firefly-tflite-v1.15/resnet/singlestream OK
+INFO:main:closed/dividiti/measurements/firefly-tflite-v1.15/mobilenet/singlestream OK
+INFO:main:SUMMARY: submission looks OK

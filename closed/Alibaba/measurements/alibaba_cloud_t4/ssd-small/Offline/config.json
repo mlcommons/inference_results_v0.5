@@ -1,0 +1,18 @@
+{
+    "benchmark": "ssd-small",
+    "config_name": "T4_ssd-small_Offline",
+    "scenario": "Offline",
+    "ssd-small": {
+        "gpu_batch_size": 128,
+        "gpu_copy_streams": 4,
+        "gpu_inference_streams": 1,
+        "gpu_offline_expected_qps": 7463,
+        "input_dtype": "int8",
+        "input_format": "chw4",
+        "map_path": "data_maps/coco/val_map.txt",
+        "precision": "int8",
+        "tensor_path": "${PREPROCESSED_DATA_DIR}/coco/val2017/SSDMobileNet/int8_chw4",
+        "use_graphs": false
+    },
+    "system_id": "T4"
+}

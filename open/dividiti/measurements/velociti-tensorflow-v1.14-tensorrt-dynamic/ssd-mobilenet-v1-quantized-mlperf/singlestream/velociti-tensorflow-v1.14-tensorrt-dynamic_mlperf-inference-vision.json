@@ -1,0 +1,7 @@
+{
+  "input_data_types": "fp32",
+  "weight_data_types": "fp32",
+  "retraining": "no",
+  "starting_weights_filename": "https://zenodo.org/record/3361502/files/ssd_mobilenet_v1_coco_2018_01_28.tar.gz",
+  "weight_transformations": "None (TensorFlow)"
+}
