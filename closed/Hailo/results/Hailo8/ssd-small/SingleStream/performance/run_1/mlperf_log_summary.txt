@@ -1,0 +1,52 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : PySUT
+Scenario : Single Stream
+Mode     : Performance
+90th percentile latency (ns) : 13305953
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 80.53
+QPS w/o loadgen overhead        : 80.62
+
+Min latency (ns)                : 11316322
+Max latency (ns)                : 17394389
+Mean latency (ns)               : 12404029
+50.00 percentile latency (ns)   : 12238411
+90.00 percentile latency (ns)   : 13305953
+95.00 percentile latency (ns)   : 13575568
+97.00 percentile latency (ns)   : 13790428
+99.00 percentile latency (ns)   : 14878993
+99.90 percentile latency (ns)   : 17017304
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 100
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 5000
+max_query_count : 5000
+qsl_rng_seed : 3133965575612453542
+sample_index_rng_seed : 665484352860916858
+schedule_rng_seed : 3622009729038561421
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+print_timestamps : false
+performance_issue_unique : false
+performance_issue_same : false
+performance_issue_same_index : 0
+performance_sample_count : 500
+
+No warnings encountered during test.
+
+No errors encountered during test.

@@ -1,0 +1,8 @@
+{
+    "input_data_types": "int8", 
+    "retraining": "N", 
+    "starting_weights_filename": "ssd-mobilenet 300x300.ckpt", 
+    "weight_data_types": "int8", 
+    "weight_transformations": "quantization"
+}
+
