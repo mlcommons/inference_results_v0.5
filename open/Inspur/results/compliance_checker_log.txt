@@ -1,4 +1,4 @@
-INFO:main:open/Inspur/results/NF5888M5-1gpu/resnet/Offline OK
-INFO:main:open/Inspur/systems/NF5888M5-1gpu.json OK
-INFO:main:open/Inspur/measurements/NF5888M5-1gpu/resnet/Offline OK
+INFO:main:open/Inspur/results/NF5888M5-1GPU/resnet/Offline OK
+INFO:main:open/Inspur/systems/NF5888M5-1GPU.json OK
+INFO:main:open/Inspur/measurements/NF5888M5-1GPU/resnet/Offline OK
 INFO:main:SUMMARY: submission looks OK
