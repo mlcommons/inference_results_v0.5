@@ -1,0 +1,22 @@
+{
+    "TestScenario.Offline": {
+        "count": 500,
+        "good_items": 0,
+        "mean": 0.7135395436399999,
+        "percentiles": {
+            "50.0": 0.687532051,
+            "80.0": 1.112359042,
+            "90.0": 1.282177639,
+            "95.0": 1.282177639,
+            "99.0": 1.338796423,
+            "99.9": 1.338796423
+        },
+        "qps": 365.8132282919016,
+        "took": 1.3668177127838135,
+        "total_items": 500
+    },
+    "cmdline": "Namespace(accuracy=False, backend='hailo', cache=0, config='../mlperf.conf', count=5000, data_format=None, dataset='coco-300', dataset_list=None, dataset_path='coco/', find_peak_performance=False, inputs=None, max_batchsize=32, max_latency=None, model='ssd', model_name='ssd', output='so_p4-A', outputs=None, profile='hailo', qps=None, samples_per_query=None, scenario='Offline', threads=1, time=None)",
+    "runtime": "hailo",
+    "time": 1572958364,
+    "version": "2.4.1"
+}

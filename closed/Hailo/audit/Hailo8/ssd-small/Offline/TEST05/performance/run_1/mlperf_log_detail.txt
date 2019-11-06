@@ -1,0 +1,135 @@
+"pid": 14872, "tid": 14872, "ts": 5118ns : LoadgenVersionInfo:
+"pid": 14872, "tid": 14872, "ts": 5118ns : version : .5a1 @ 1b1cabc04b
+"pid": 14872, "tid": 14872, "ts": 5118ns : build_date_local : 2019-10-10T17:52:21.985694
+"pid": 14872, "tid": 14872, "ts": 5118ns : build_date_utc   : 2019-10-10T14:52:21.985701
+"pid": 14872, "tid": 14872, "ts": 5118ns : git_commit_date  : 2019-10-10T17:21:50+03:00
+"pid": 14872, "tid": 14872, "ts": 5118ns : git_log :
+
+1b1cabc04b50cdfef07706bc3a201d5e24d517e9 Merge remote-tracking branch 'origin/master' into hailo
+e62c0f4866de9ba7e40454a2d196a46cbf7d1b29 Ready Hailo version
+413dbabcb30dc2ee1fe42e7b8090b37e8144617d Merge pull request #489 from guschmue/gs/seeds_to_config
+168255031dd893fdc1fe94c63c950d0c07478bb3 fix for 490 (#496)
+c807d3025c7f796fd8b0d429a7bf196e0e3609f4 dot missing in ssd-resnet34 line
+71940a7a4c39ab3e099d93bdcf60763fbb52587a Merge pull request #473 from guschmue/gs/submission
+157173e8fefe9faca9266a2f69c6b4549e76680e fix sample_index_rng_seed
+d3814314be893a3a7e14230292ea00a603a365db add performance_sample_count_override and seeds to config
+ba7baa0f68f37b6b693ea64961024cdd0fb11009 add the official names to perf sample count
+2d3ba0b95a641a22b7ab7b52771e792c01b2f88f fix perf sample count for gnmt
+7bc9a1f07048e09061f6c611e5ec95f367e0762c check performance_sample_count
+591b40f6333aa6e00bd0f597c4d10c3402c701d2 Merge remote-tracking branch 'origin/master' into hailo
+bdc8d66d92417772031b54ea40c0c97a22dd0dac add filter for submitter
+4384c31ab6485132554b5f7a4cea066093319f55 more checkers for submitters and division
+448a89831f56e16da20f476b49d80db3662ef2af address review feedback
+d4b930cefe17861188c356597582c69277e5dc6b Merge branch 'master' into gs/submission
+
+"pid": 14872, "tid": 14872, "ts": 5118ns : git_status :
+
+
+
+"pid": 14872, "tid": 14872, "ts": 5118ns : SHA1 of files :
+
+012aad77e5206c89d50718c46c119d1f3cb056b2 /.clang-format
+a3355ff8f163cabbf26adb86d3aa0e5da72900c7 /BUILD.gn
+25ddf9bbe1429de0d036f073497c1e90cb419519 /CMakeLists.txt
+79fbce4843967690e0750fd7ffc021f4f1e4c5c4 /README.md
+34b89a712a0ca1691b89715fe2ce459a676d0f77 /README_BUILD.md
+f75741b91085a20ebb23de1ce03d45a56d3457fe /README_FAQ.md
+fa2add871dc7440cbda1f8c7a69e96eb6499951a /bindings/c_api.cc
+8fdaa27778cf3ee2eb85d5b7040e8ddfcab68108 /bindings/c_api.h
+9c778599614f2a42cb95ad662213cde5fcf791ec /bindings/python_api.cc
+4b68d3399b31e14e554cff678a0db9b4d1299e23 /demos/BUILD.gn
+07d85ea5fefade8d3d66ca832b783bf90e5bce7d /demos/py_demo_multi_stream.py
+2f941e949770a2ea9ad6d6eea2f33fc19150edcd /demos/py_demo_multi_stream_free.py
+73c60cf12cfb69619249e637f9bcad18a47cda6c /demos/py_demo_offline.py
+02a6ddbe8b51bde2cfed32abeccdb7fdd9cfe4e7 /demos/py_demo_server.py
+3e7d786882099ac784bf878f1cde9dd3db2f6d9f /demos/py_demo_single_stream.py
+da39a3ee5e6b4b0d3255bfef95601890afd80709 /hailo_sdk.log
+19242fc8e0f9e3eaf8bec9964ba33d760eeade96 /loadgen.cc
+5526ae8ce9547a95f10e1ac465056bfba2fccb47 /loadgen.h
+47f748307536f80cfc606947b440dd732afc2637 /loadgen_integration_diagram.svg
+a69511f0c916eb2100b7f665605ff6ffdf0546be /logging.cc
+fdb61b8a2e2593bab4ae5bf9758434cf6a60e218 /logging.h
+2797f5d76dec6e6840128952d20ea4953d7e12a0 /mlperf_log_accuracy.json
+f49cd9b38a04a367426e2b20483a2c5191e75571 /mlperf_log_detail.txt
+da39a3ee5e6b4b0d3255bfef95601890afd80709 /mlperf_log_summary.txt
+67641ddcca50e507b77bf7f5d2b891b70890df99 /mlperf_log_trace.json
+a879f127c4bb64d131056942734ea1a6ba9c3033 /query_sample.h
+922acb63aa734d36e3fa34d87ff0f361052e0c51 /query_sample_library.h
+369f4320e027fc276d2519021696c7d1027b7320 /setup.py
+744482c84336420adbbe31ef8c2b39612c6ca3f8 /system_under_test.h
+ad3fa5b4e0395e77cd5e00ebae2d0a0eb538969d /test_settings.h
+56a654a4bd7e5f5faef94189c21ddcbfba3f7008 /test_settings_internal.cc
+1c15731be5abc26a6c90356720146862da7c22b4 /test_settings_internal.h
+86fc4c8035e7b73132c56d1781aca647b6bd6916 /utils.cc
+5395a04f82e90288f52bf918d7b1d6027bfe0964 /utils.h
+e1c46896da912ff2a0187276c3a8ba4eec057a17 /version.cc
+9d574baa64424e9c708fcfedd3dbb0b518a65fcc /version.h
+07dbee77c9707efdb95def65477c288fe6667e92 /version_generator.py
+597c0ed1708d4d1e7285e5fdf516dc595b69683f /version_generator.pyc
+
+"pid": 14872, "tid": 14872, "ts": 42876ns : Date + time of test: 2019-11-05T14:53:46Z
+"pid": 14872, "tid": 14872, "ts": 42876ns : System Under Test (SUT) name: PySUT
+"pid": 14872, "tid": 14872, "ts": 42876ns : Query Sample Library (QSL) name: PyQSL
+"pid": 14872, "tid": 14872, "ts": 42876ns : QSL total size: 5000
+"pid": 14872, "tid": 14872, "ts": 42876ns : QSL performance size*: 500
+"pid": 14872, "tid": 14872, "ts": 42876ns : *TestSettings (performance_sample_count_override) can override
+"pid": 14872, "tid": 14872, "ts": 42876ns : *Refer to Effective Settings for actual value
+"pid": 14872, "tid": 14872, "ts": 64805ns : 
+"pid": 14872, "tid": 14872, "ts": 64805ns : Effective Settings:
+"pid": 14872, "tid": 14872, "ts": 64805ns : Scenario : Offline
+"pid": 14872, "tid": 14872, "ts": 64805ns : Test mode : Performance
+"pid": 14872, "tid": 14872, "ts": 64805ns : samples_per_query : 26400
+"pid": 14872, "tid": 14872, "ts": 64805ns : target_qps : 400
+"pid": 14872, "tid": 14872, "ts": 64805ns : target_latency (ns): 0
+"pid": 14872, "tid": 14872, "ts": 64805ns : target_latency_percentile : 4.04739e-320
+"pid": 14872, "tid": 14872, "ts": 64805ns : max_async_queries : 1
+"pid": 14872, "tid": 14872, "ts": 64805ns : target_duration (ms): 0
+"pid": 14872, "tid": 14872, "ts": 64805ns : min_duration (ms): 60000
+"pid": 14872, "tid": 14872, "ts": 64805ns : max_duration (ms): 0
+"pid": 14872, "tid": 14872, "ts": 64805ns : min_query_count : 1
+"pid": 14872, "tid": 14872, "ts": 64805ns : max_query_count : 5000
+"pid": 14872, "tid": 14872, "ts": 64805ns : min_sample_count : 26400
+"pid": 14872, "tid": 14872, "ts": 64805ns : qsl_rng_seed : 195
+"pid": 14872, "tid": 14872, "ts": 64805ns : sample_index_rng_seed : 235
+"pid": 14872, "tid": 14872, "ts": 64805ns : schedule_rng_seed : 634
+"pid": 14872, "tid": 14872, "ts": 64805ns : accuracy_log_rng_seed : 0
+"pid": 14872, "tid": 14872, "ts": 64805ns : accuracy_log_probability : 0
+"pid": 14872, "tid": 14872, "ts": 64805ns : print_timestamps : false
+"pid": 14872, "tid": 14872, "ts": 64805ns : performance_issue_unique : false
+"pid": 14872, "tid": 14872, "ts": 64805ns : performance_issue_same : false
+"pid": 14872, "tid": 14872, "ts": 64805ns : performance_issue_same_index : 0
+"pid": 14872, "tid": 14872, "ts": 64805ns : performance_sample_count : 500
+"pid": 14872, "tid": 14872, "ts": 68407ns : 
+"pid": 14872, "tid": 14872, "ts": 68407ns : Requested Settings:
+"pid": 14872, "tid": 14872, "ts": 68407ns : Scenario : Offline
+"pid": 14872, "tid": 14872, "ts": 68407ns : Test mode : Performance
+"pid": 14872, "tid": 14872, "ts": 68407ns : offline_expected_qps : 400
+"pid": 14872, "tid": 14872, "ts": 68407ns : min_duration_ms : 60000
+"pid": 14872, "tid": 14872, "ts": 68407ns : max_duration_ms : 0
+"pid": 14872, "tid": 14872, "ts": 68407ns : min_query_count : 5000
+"pid": 14872, "tid": 14872, "ts": 68407ns : max_query_count : 5000
+"pid": 14872, "tid": 14872, "ts": 68407ns : qsl_rng_seed : 195
+"pid": 14872, "tid": 14872, "ts": 68407ns : sample_index_rng_seed : 235
+"pid": 14872, "tid": 14872, "ts": 68407ns : schedule_rng_seed : 634
+"pid": 14872, "tid": 14872, "ts": 68407ns : accuracy_log_rng_seed : 0
+"pid": 14872, "tid": 14872, "ts": 68407ns : accuracy_log_probability : 0
+"pid": 14872, "tid": 14872, "ts": 68407ns : print_timestamps : false
+"pid": 14872, "tid": 14872, "ts": 68407ns : performance_issue_unique : false
+"pid": 14872, "tid": 14872, "ts": 68407ns : performance_issue_same : false
+"pid": 14872, "tid": 14872, "ts": 68407ns : performance_issue_same_index : 0
+"pid": 14872, "tid": 14872, "ts": 68407ns : performance_sample_count_override : 0
+"pid": 14872, "tid": 14872, "ts": 68407ns : 
+"pid": 14872, "tid": 14872, "ts": 75239ns : Starting performance mode:
+"pid": 14872, "tid": 14872, "ts": 267777ns : Loading QSL : "set" : "[1624,4986,2488,1460,1888,1348,1114,4916,1187,1673,3104,4650,4680,4844,2188,2634,147,2678,4035,3899,2030,3284,2084,4495,4296,3353,2969,2060,2473,2234,3570,4609,976,4727,4729,2825,869,4431,2912,2815,4292,692,1630,1214,4049,4426,2629,1127,2628,3315,984,4430,3475,1951,3061,2984,720,1354,1144,1304,3415,732,3282,1340,977,1336,40,3001,2742,3299,4069,4743,4246,4125,1611,1669,321,1092,2505,3874,2025,1990,558,116,3592,4724,2859,871,638,703,2746,3607,4668,997,2026,3463,2375,4190,1368,146,3134,132,4926,2796,1209,87,1346,1083,3796,3667,966,918,3754,546,3983,1167,3958,400,1603,3139,994,1444,2687,2391,4068,674,3297,3627,3544,2874,1513,1523,4515,710,1020,2518,576,2007,3318,1334,1518,2704,4920,3640,2427,1184,3114,2903,3774,2062,3431,179,1213,3417,2623,4215,384,2189,3133,128,3110,3684,2604,1947,1937,2455,967,3362,4166,917,1779,4325,1347,1248,1132,3259,57,4052,4231,3706,4859,2359,1023,73,512,4707,2197,4072,894,4146,1326,2858,1761,1287,1744,1533,2121,1433,828,1062,3098,752,2421,3510,1171,2113,3879,4459,2564,2132,2857,1773,1775,1154,819,3910,4984,928,4232,1227,2868,2158,1770,609,3519,1046,3423,3778,4808,3326,1498,3290,102,190,833,884,4406,3472,1079,4839,2238,4120,4856,2783,1082,2516,840,2919,2574,3025,2852,3866,574,3758,1660,877,2307,855,296,1303,4008,3480,1681,4907,2264,1025,4339,1403,2992,1441,4899,72,2386,1581,93,4271,1491,2739,980,3059,3968,1713,1311,3328,2318,2480,4009,1858,2677,3853,3928,2892,1842,955,1997,654,4383,3772,1569,3940,749,136,3234,1313,4762,1302,3652,3656,3260,1419,3621,68,3128,249,777,1950,4538,1509,1095,4202,970,1451,3971,1065,3147,4389,2342,4960,3591,2625,3885,2134,4644,1110,2338,3468,1985,643,4539,2407,2878,3123,8,450,2119,881,460,3604,3807,3764,4860,1926,3769,2640,346,2086,4362,3374,67,1126,1822,263,2583,618,4486,1835,1678,1746,4340,2436,4900,1734,3179,1723,3685,4076,431,3562,4641,754,3395,200,1004,1125,69,4412,1117,1859,1002,1964,2872,3749,4041,3926,539,599,2586,1288,2720,4424,4568,1198,2594,1989,1266,897,2590,2324,4310,4105,4909,2212,521,4546,2215,2163,2390,3566,4444,3454,3536,4913,3995,4576,373,4036,4807,4532,4048,3317,708,2566,120,1320,1337,533,225,2242,2636,3437,4622,1725,7,4621,65,2193,3026,3872,3848,4002,1019,3944,4416,661,2854,3961,3355,2765,927,2314,2450,986,3599,1855,3414,2240,4425,4863,2169,525,849,4714,2653,506,4558,962,545,367,388,3248,4127,3759,2545,867,235,1448,2932,1390,306,4116,4563,1602,704,2333,1641,3629,2128,1709,3276,2777]"
+"pid": 14872, "tid": 14872, "ts": 157014149ns : GeneratedQueries: "queries" : 1, "samples per query" : 26400, "duration" : 2500000
+"pid": 14872, "tid": 14872, "ts": 70422116487ns : ERROR : Ending early: Ran out of generated queries to issue before the minimum query count and test duration were reached.
+"pid": 14872, "tid": 14872, "ts": 70422116487ns : Please update the relevant expected latency or target qps in the TestSettings so they are more accurate.
+"pid": 14872, "tid": 14872, "ts": 70848711466ns : Log Contention Counters:
+"pid": 14872, "tid": 14872, "ts": 70848711466ns : 0 : swap_request_slots_retry_count
+"pid": 14872, "tid": 14872, "ts": 70848711466ns : 0 : swap_request_slots_retry_retry_count
+"pid": 14872, "tid": 14872, "ts": 70848711466ns : 0 : swap_request_slots_retry_reencounter_count
+"pid": 14872, "tid": 14872, "ts": 70848711466ns : 0 : start_reading_entries_retry_count
+"pid": 14872, "tid": 14872, "ts": 70848711466ns : 0 : tls_total_log_cas_fail_count
+"pid": 14872, "tid": 14872, "ts": 70848711466ns : 0 : tls_total_swap_buffers_slot_retry_count
+"pid": 14872, "tid": 14872, "ts": 70848712272ns : POWER_BEGIN: "mode" : Performance, "time" : 11-05-2019 14:53:46.411
+"pid": 14872, "tid": 14872, "ts": 70848712272ns : POWER_END: "mode" : Performance, "time" : 11-05-2019 14:54:57.097

@@ -1,0 +1,22 @@
+{
+    "TestScenario.SingleStream": {
+        "count": 5000,
+        "good_items": 0,
+        "mean": 0.012404029061,
+        "percentiles": {
+            "50.0": 0.012237897,
+            "80.0": 0.013000773399999999,
+            "90.0": 0.0133053401,
+            "95.0": 0.013575422650000002,
+            "99.0": 0.01487756938,
+            "99.9": 0.016790120411000045
+        },
+        "qps": 80.4932323032891,
+        "took": 62.11702346801758,
+        "total_items": 5000
+    },
+    "cmdline": "Namespace(accuracy=False, backend='hailo', cache=0, config='../mlperf.conf', count=5000, data_format=None, dataset='coco-300', dataset_list=None, dataset_path='coco/', find_peak_performance=False, inputs=None, max_batchsize=32, max_latency=None, model='ssd', model_name='ssd', output='.', outputs=None, profile='hailo', qps=None, samples_per_query=None, scenario='SingleStream', threads=1, time=None)",
+    "runtime": "hailo",
+    "time": 1572459710,
+    "version": "2.4.1"
+}
