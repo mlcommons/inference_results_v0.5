@@ -6,6 +6,18 @@
 + cmake (Tested with 3.10.2)
 + Python (Tested with 3.6)
 + [OpenCV 4.1.2](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html)
++ Boost:
+Instructions to build Boost. For updated versions and instructions check [here](https://www.boost.org/) 
+```
+     wget -O boost_1_70_0.tar.bz2 https://sourceforge.net/projects/boost/files/boost/1.70.0/boost_1_70_0.tar.gz/download
+     tar xzvf boost_1_70_0.tar.bz2 
+     cd boost_1_70_0
+     sudo apt-get update
+     sudo apt-get install build-essential g++ python-dev autotools-dev libicu-dev build-essential libbz2-dev libboost-all-dev
+     ./bootstrap.sh --prefix=/usr/local/
+     ./b2
+     sudo ./b2 install
+```
 
 ## Build MLPerf Loadgen library from mlperf 
 
@@ -64,7 +76,7 @@ https://github.com/opencv/dldt/tree/2019/inference-engine#build-on-linux-systems
 
 mkdir build && cd build
 
-cmake ..
+cmake -DLOADGEN_DIR=</path/to>/loadgen/ -DBOOST_SYSTEM_LIB=</path/to>/libboost_system.so -DOpenCV_DIR=</path/to>/opencv/build -DInferenceEngine_DIR=</path/to>/dldt/inference-engine/build ..
 
 make 
 
