@@ -7,12 +7,14 @@ if(NOT LG_PATH)
   message( FATAL_ERROR "LG_PATH is not defined" )
 endif()
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -D_GLIBCXX_USE_CXX11_ABI=0")
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -mavx2 -msse2 -msse4 -D_GLIBCXX_USE_CXX11_ABI=0")
+
 add_subdirectory(${LG_PATH} loadgen)
 
 find_package(OpenCV REQUIRED)
 set(TF_PATH $ENV{TF_PATH})
-set(CMAKE_CXX_FLAGS "-Wl,--no-undefined -fPIC -std=c++11 -fopenmp -D_GLIBCXX_USE_CXX11_ABI=1")
-set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -mavx2 -msse2 -msse4")
+set(CMAKE_CXX_FLAGS "-Wl,--no-undefined -fPIC -std=c++11 -fopenmp -D_GLIBCXX_USE_CXX11_ABI=0")
 execute_process(COMMAND bash "-c" "${PROJECT_SOURCE_DIR}/tf_version.sh" OUTPUT_VARIABLE TF_VERSION OUTPUT_STRIP_TRAILING_WHITESPACE)
 execute_process(COMMAND bash "-c" "${PROJECT_SOURCE_DIR}/python_site.sh" OUTPUT_VARIABLE PYTHON_SITE_PATH OUTPUT_STRIP_TRAILING_WHITESPACE)
 
