@@ -150,7 +150,7 @@ RUN wget https://github.com/bazelbuild/bazel/releases/download/$BAZEL_VERSION/ba
 # Install dependencies of TensorRT-Laboratory
 RUN python3 -m pip install click==6.7 \
  && python3 -m pip install Jinja2==2.10 \
- && python3 -m pip install MarkupSafe==1.0 \
+ && python3 -m pip install MarkupSafe==1.1.1 \
  && python3 -m pip install grpcio==1.16.1 \
  && python3 -m pip install matplotlib==3.0.2 \
  && python3 -m pip install onnx==1.3.0 \
