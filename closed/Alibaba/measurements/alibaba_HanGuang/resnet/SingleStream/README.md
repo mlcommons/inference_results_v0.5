@@ -44,7 +44,7 @@ Click [here](https://github.com/tensorflow/tensorflow/archive/v1.13.1.tar.gz) to
    ```shell
    cd tensorflow-1.13.1
    ./configure
-   bazel build -c opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow/tools/pip_package:build_pip_package
+   bazel build -c opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma --copt=-D_GLIBCXX_USE_CXX11_ABI=0 //tensorflow/tools/pip_package:build_pip_package
    bazel-bin/tensorflow/tools/pip_package/build_pip_package ../
    pip install ../tensorflow-1.13.1-cp35-cp35m-linux_x86_64.whl
    ```
@@ -52,7 +52,7 @@ Click [here](https://github.com/tensorflow/tensorflow/archive/v1.13.1.tar.gz) to
 #### Build Tensorflow CC
 
    ```shell
-   $ bazel build -c opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma //tensorflow:libtensorflow_cc.so
+   $ bazel build -c opt --copt=-msse4.2 --copt=-mavx2 --copt=-mfma --copt=-D_GLIBCXX_USE_CXX11_ABI=0 //tensorflow:libtensorflow_cc.so
    ```
 
 ### MLPerf Inference
