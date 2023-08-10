@@ -49,12 +49,14 @@ ENV LANG=C.UTF-8
 
 ### Install necessary python 2 modules
 RUN python2 -m pip install --upgrade pip \
+ && python2 -m pip install setuptools \
  && python2 -m pip install --upgrade setuptools wheel virtualenv \
  && python2 -m pip install ez_setup==0.9 \
  && python2 -m pip install numpy \
  && python2 -m pip install absl-py==0.7.1
 
 RUN python3 -m pip install --upgrade pip \
+ && python3 -m pip install setuptools \
  && python3 -m pip install --upgrade setuptools wheel virtualenv \
  && python3 -m pip install cmake==3.11.0 \
  && python3 -m pip install pillow==6.0.0 \
