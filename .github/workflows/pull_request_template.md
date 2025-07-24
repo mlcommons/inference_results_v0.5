@@ -1,4 +1,4 @@
-## ✅ PR Checklist – Previous Submission Round repo (v5.0)
+## ✅ PR Checklist – Previous Submission Round repo (v0.5)
 
 This repository contains finalized and published results for a previous submission round. Before submitting changes, please confirm the following:
 
